@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* ------------------------------------------
+* Filename: main.css
+* Description: SBS 메인
+* Author: Fu:z
+------------------------------------------ */
+
+.sbs_main .promotion, body.sbs_main div[class^='section']{float:left}
+.sbs_main .promotion{position:relative; padding:0 35px 0 0; width:570px}
+.sbs_main [class^='section']{position:relative; padding:30px 40px 0 0; width:510px}
+
+.sbs_main ul.module_box{width:520px; overflow:hidden; +margin:0 0 10px}
+.sbs_main ul.module_box li.module_cell{float:left; margin:0 10px 10px 0}
+.sbs_main .section01 ul.module_box:after, .sbs_main .section04 ul.module_box:after{display:block; content:""; clear:both}
+
+/* 프로모션 */
+.sbs_main .promotion .prom_list{position:relative; width:240px; padding:0 0 0 330px; text-align:center}
+.sbs_main .promotion .prom_list > li{display:inline}
+.sbs_main .promotion .prom_list li .inside{display:none; position:absolute; top:0; left:0; text-align:left}
+.sbs_main .promotion .prom_list li.on .inside{display:block}
+.sbs_main .promotion .img_prom{text-align:center}
+.sbs_main .promotion .img_prom img{width:100%}
+.sbs_main .promotion .info_prom{position:absolute; top:0; bottom:0; right:0; width:180px; padding:40px 30px; border-left:1px solid #f3f2f3; font-size:13px; color:#000; background:url('http://image.sbs.co.kr/sbs/common/bg_opacity03.png') 0 0 repeat}
+.sbs_main .info_prom .notification dt{margin:30px 0; font-size:24px; line-height:29px; color:#2b2b2d}
+.sbs_main .info_prom .notification dt span{display:block}
+.sbs_main .info_prom .notification dd{text-align:center; font-family:verdana; color:#6dabf8; font-weight:bold}
+.sbs_main .info_prom .notification dd strong{display:block; font-size:100px}
+.sbs_main .info_prom .notification dd span{margin:0 50px 0 20px}
+
+.sbs_main .promotion .list_paging_dot{position:absolute; bottom:40px; right:35px; width:240px; height:10px; text-align:center}
+.sbs_main .promotion .btn_page{position:relative; z-index:2; display:inline-block; width:11px; height:10px; line-height:100px; overflow:hidden; background:url('http://image.sbs.co.kr/sbs/main/dot_paging.png') -39px 0 no-repeat; +margin:0 2px; +display:inline}
+.sbs_main .promotion li.on .btn_page{width:36px; background-position:0 0}
+
+/* 드라마/예능/교양 */
+.sbs_main .section01{}
+
+/* SBS뉴스/티브이잡스 */
+.sbs_main .section02{}
+.sbs_main .section02 ul.module_box{float:left; width:250px; overflow:hidden}
+.sbs_main .section02 ul.module_box.first{margin:0 10px 0 0}
+.sbs_main .section02 ul.module_box li.module_cell{margin:0 0 10px}
+.sbs_main .section02 .module_type_c{clear:both}
+
+.sbs_main #wrap.small .section02 ul.module_box{width:520px; overflow:hidden}
+
+
+/* SBS그룹/사회공헌/전략서비스 */
+.sbs_main .section03{}
+
+/* 연예/스포츠 뉴스 */
+.sbs_main .section04{}
+
+
+/* resize 
+------------------------------------------ */
+/* 높이 < 810px */ 
+.sbs_main #wrap.small .moudle_ban_group{display:none}
+
+.sbs_main #wrap.small .promotion{width:256px; height:523px}
+.sbs_main #wrap.small .promotion .btn_page{top:495px}
+.sbs_main #wrap.small .promotion .prom_list{width:256px; padding:0}
+.sbs_main #wrap.small .promotion .img_prom{height:324px; overflow:hidden}
+.sbs_main #wrap.small .promotion .info_prom{position:static; width:200px; height:184px; padding:16px 28px 0}
+.sbs_main #wrap.small .promotion .info_prom p{display:none}
+.sbs_main #wrap.small .info_prom .notification dt{margin:0 0 8px; font-size:20px; line-height:24px}
+.sbs_main #wrap.small .info_prom .notification dt span{display:inline}
+.sbs_main #wrap.small .info_prom .notification dd img{width:70%}
+
+.sbs_main #wrap.small .module_type_b{margin:0 0 10px}
+.sbs_main #wrap.small .module_type_d{margin:0 0 0 10px}
+.sbs_main #wrap.small .tab_type03{height:208px}
+.sbs_main #wrap.small .tab_type03 h3{float:left; width:124px; padding:0}
+.sbs_main #wrap.small .tab_type03 h3 .tab{width:124px} 
+.sbs_main #wrap.small .tab_type03 .tab_cont{+top:40px}
+
+.sbs_main #wrap.small .module_type_a a.thumbnail{display:block; width:248px; height:208px; overflow:hidden}
+
+
+/* 810px =< 높이 < 1006px */
+.sbs_main #wrap.normal .moudle_ban_group a.ban01,
+.sbs_main #wrap.normal .moudle_ban_group a.ban02{display:none !important}
+.sbs_main #wrap.normal .moudle_ban_group{display:block}
+.sbs_main #wrap.normal .promotion{height:758px}
+.sbs_main #wrap.normal .promotion .btn_page{top:700px}
+
+/* 높이 >= 1006px */
+.sbs_main #wrap.big .moudle_ban_group{display:block}
+.sbs_main #wrap.big .promotion{height:954px}
+.sbs_main #wrap.big .promotion .btn_page{top:900px}

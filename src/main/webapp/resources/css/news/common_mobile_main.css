@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+body,p,div,h1,h2,h3,h4,h5,h6,ul,ol,dl,dt,dd,table,caption,form,fieldset,legend,input,a{margin:0; padding:0;}
+li{list-style-type:none;}
+fieldset,img{border:0;}
+li img, li a, dd img, img, a img{vertical-align:top;}
+.hdd{font-size:0; width:0; height:0; line-height:0; visibility:hidden; position:absolute;}
+legend,caption{font-size:0; width:0; height:0; line-height:0; visibility:hidden; position:absolute;}
+body, input, textarea, select, button, table {color:#000; font-size:11px; font-family:droidSans, AppleGothic, '애플고딕', dotum, '돋움';}
+
+body{letter-spacing:-1px}
+
+#wrap{position:relative; width:100%; overflow:hidden}
+
+.header{width:100%}
+.youtube{width:100%; padding:10px 0; text-align:center; background:#d7f3ff}
+.youtube a img{width:215px; height:42px}
+.logo{position:relative; width:100%; height:47px; background:url(http://image.sbs.co.kr/mobile/news/common/logo.png) no-repeat center center #fff; background-size:68px 29px}
+.logo.politics{background:url(http://image.sbs.co.kr/mobile/news/common/politics.png) no-repeat center center #fff; background-size:37px 20px}
+.logo.news{background:url(http://image.sbs.co.kr/mobile/news/common/tit_news.png) no-repeat center center #fff; background-size:84px 20px}
+.logo > a{position:absolute; left:3.6%; top:50%; margin:-14px 0 0}
+.logo > a.uarr{right:3.6%; left:auto}
+.logo > a img{width:27px; height:27px}
+
+.logo.font{overflow:hidden; background:none}
+.logo.font h1{margin-top:11px; font-size:1.9em; text-align:center}
+.logo.font h1 a{text-decoration:none; color:#000}
+.logo.font h1 a.has_lnb{padding-right:15px; background:url(http://image.sbs.co.kr/mobile/news/common/bg_has.png) no-repeat right center; background-size:11px 6px}
+
+.logo.title{background:none;}
+.title h1{display:none;}
+.logo h2{position:absolute; top:12px; width:100%; text-align:center; font-size:20px; color:#111}
+
+.gnb{position:fixed; left:-85%; top:0; width:85%; height:100%; overflow-y:auto}
+.gnb .log{position:relative; width:100%; border-bottom:1px solid #1250a5; background:#306dc1}
+.gnb .log:after{content:''; display:block; clear:both}
+.gnb .log > div{float:left}
+.gnb .log > div.photo{width:30px; height:30px; margin:8px 0 0 20px; border:1px solid #b7c2d8}
+.gnb .log > div.photo img{width:100%}
+.gnb .log > div.name{margin:8px 0 0 10px; font-size:1.3em; line-height:30px}
+.gnb .log > div.name a{color:#fff}
+.gnb .log > a{float:right; display:block; width:50px; height:48px}
+.gnb .log > a img{width:100%}
+.gnb .icons{width:100%; border-top:1px solid #4180d7; border-bottom:1px solid #1250a5; background:#306dc1}
+.gnb .icons:after{content:''; display:block; clear:both}
+.gnb .icons a{float:left; display:block}
+.gnb .icons a:first-child{width:28%}
+.gnb .icons a:first-child + a{width:24%}
+.gnb .icons a:first-child + a + a{width:22%}
+.gnb .icons a:first-child + a + a + a{width:26%}
+.gnb .icons a img{width:100%}
+.gnb .menu{width:100%}
+.gnb .menu dt{padding:11px 0 11px 4%; font-size:1.25em; font-weight:bold; color:#fff; border-top:1px solid #777; background:#98a5b5}
+.gnb .menu dd{border-top:1px solid #fff; border-bottom:1px solid #c9d0d6; background:url(http://image.sbs.co.kr/mobile/news/common/bg_go.png) no-repeat 95% center #edf0f3; background-size:8px 14px}
+.gnb .menu dd.on{background:url(http://image.sbs.co.kr/mobile/news/common/bg_go_on.png) no-repeat 95% center #fff; background-size:8px 14px}
+.gnb .menu dd a{display:block; padding:13px 0 13px 4%; font-size:1.3em; font-weight:bold; text-decoration:none; color:#000}
+.gnb .menu dd.on a{color:#306dc1}
+.gnb .setup{display:block; padding:15px 0; border-top:1px solid #fff; text-align:center; background:#edf0f3}
+.gnb .setup img{width:80px; height:20px}
+
+.lnb{display:none; background:url(http://image.sbs.co.kr/mobile/news/common/bg_lnb_shadow.pn) repeat-x top left #727b87}
+.lnb li{border-top:1px solid #838c97; border-bottom:1px solid #59626e; background:url(http://image.sbs.co.kr/mobile/news/common/bg_go.png) no-repeat 95% center; background-size:8px 14px}
+.lnb li.on{border-top:1px solid #599af0; border-bottom:1px solid #225aa7; background:url(http://image.sbs.co.kr/mobile/news/common/bg_go_on_lnb.png) no-repeat 95% center #3d8cf7; background-size:8px 14px}
+.lnb li a{display:block; padding:10px 0 10px 3.6%; font-size:1.5em; color:#fff; text-decoration:none}
+.lnb li.on a{font-weight:bold}
+
+.container{width:100%; padding:13px 0; background:#dadee4}
+
+.mt10{margin-top:10px}
+
+.footer{font-size:1.25em; background:#5e6773}
+.footer .btns{width:100%; border-bottom:1px solid #4d5663}
+.footer .btns:after{content:''; display:block; clear:both}
+.footer .btns a{float:left; display:block; width:33%; padding:13px 0; text-align:center; text-decoration:none; color:#fff}
+.footer .btns a span{position:relative; top:-2px; margin-right:3px; font-size:0.625em}
+.footer .btns a:first-child + a{width:34%}
+.footer .btns a:first-child + a,
+.footer .btns a:first-child + a + a{background:url(http://image.sbs.co.kr/mobile/news/common/bg_line.png) repeat-y left top}
+
+.footer .copy{width:100%; padding-bottom:25px; border-top:1px solid #6c747e; text-align:center; color:#cbcdcf}
+.footer .copy ul{width:300px; margin:25px auto 15px}
+.footer .copy ul:after{content:''; display:block; clear:both}
+.footer .copy ul li{float:left}
+.footer .copy ul li a{margin:0 10px; text-decoration:none; color:#cbcdcf}
+.footer .copy span{font-size:0.938em}

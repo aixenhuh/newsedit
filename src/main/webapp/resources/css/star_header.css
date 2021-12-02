@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* 헤더 공통영역 */
+#header {background:url(http://img.sbs.co.kr/sw11/news/news2013/images/common/bg_header.gif) repeat-x 0 0;}
+#wrap_header {width:990px; margin:0 auto; font-size:11px; position:relative;}
+#wrap_header .nav_top {height:27px; overflow:hidden;}
+#wrap_header .nav_top .connect_menu {float:left; border-right:1px solid #e5e6e7;}
+#wrap_header .nav_top .connect_menu li {float:left; border-left:1px solid #e5e6e7;}
+#wrap_header .nav_top .connect_menu li a {display:block; height:26px; padding:0 15px; line-height:2.3; color:#686868;}
+#wrap_header .nav_top .connect_menu li a:hover {text-decoration:none;}
+#wrap_header .nav_top .connect_menu li.on {background:#fff;}
+#wrap_header .nav_top .connect_menu li.on a {height:27px; color:#353535;}
+
+#wrap_header .nav_top .mpp {float:right; height:22px; padding:3px 0 2px 0;}
+#wrap_header .nav_top .mpp>li {float:left; padding:0 6px 0 7px; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/common/bu_vertical1.gif) no-repeat 0 7px;}
+#wrap_header .nav_top .mpp>li:first-child {background:none;}
+#wrap_header .nav_top .mpp>li a {display:block; height:22px; color:#686868; line-height:2.2;}
+#wrap_header .nav_top .mpp>li a:hover {color:#686868 !important;}
+#wrap_header .nav_top .mpp li.quick_link>a {padding-right:6px; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/common/bu_arrow1.gif) no-repeat 100% 8px;}
+#wrap_header .nav_top .mpp>li.app_news a {padding-right:23px; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/common/ico_app.gif) no-repeat 100% 0px;}
+#wrap_header .nav_top .mpp>li.quick_link ul {width:85px; background:#fff; border:1px solid #d7d8da; border-top:0; position:absolute; top:26px; right:45px; z-index:250;}
+#wrap_header .nav_top .mpp>li.quick_link ul li {height:20px; border-top:1px solid #d7d8da; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/common/bu_arrow3.gif) no-repeat 90% 9px;}
+#wrap_header .nav_top .mpp>li.quick_link ul li a {display:block; letter-spacing:-1px; line-height:2; padding-left:9px;}
+
+#wrap_header .identity_area {height:62px; position:relative; overflow:hidden;}
+#wrap_header .identity_area .logo {margin:18px 0 0 10px; float:left;}
+#wrap_header .identity_area .logo img {vertical-align:middle; margin-right:10px;}
+#wrap_header .identity_area .connect_menu {float:left; margin-top:28px;}
+#wrap_header .identity_area .connect_menu li {float:left; padding:0 11px; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/common/bu_vertical1.gif) no-repeat 0px 2px; background-size:1px 13px;}
+#wrap_header .identity_area .connect_menu li:first-child {background:none;}
+
+#wrap_header .identity_area .idtt_etc {position:absolute; top:29px; right:0px; overflow:hidden;}
+#wrap_header .identity_area .idtt_etc .hotnews {float:left; margin:5px 15px 0 0; font-size:12px;}
+#wrap_header .identity_area .idtt_etc .hotnews a {color:#5a5a5a;}
+#wrap_header .identity_area .idtt_etc .hotnews a:hover {color:#5a5a5a !important; text-decoration:none;}
+#wrap_header .identity_area .idtt_etc .hotnews a strong {font-size:11px; padding-right:7px; margin-right:8px; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/common/bu_arrow2.gif) no-repeat 100% 2px;}
+#wrap_header .identity_area .idtt_etc .hotnews a:hover span {text-decoration:underline;}
+#wrap_header .identity_area .idtt_etc>.weather {float:left; margin:5px 15px 0 0; font-size:12px;}
+#wrap_header .identity_area .idtt_etc>.weather span {font-size:11px; font-family:Verdana, Geneva, dotum, '돋움', sans-serif;}
+#wrap_header .identity_area .idtt_etc>.weather span:first-child {color:#929292;}
+#wrap_header .identity_area .idtt_etc>.weather span strong {color:#535353;}
+#wrap_header .identity_area .idtt_etc>.weather span em {font-style:normal; color:#f67d07;}
+#wrap_header .identity_area .idtt_etc>.weather span img {vertical-align:middle; margin-top:-2px;}
+#wrap_header .identity_area .idtt_etc>.search {float:left; border:2px solid #bcc0c2;}
+#wrap_header .identity_area .idtt_etc>.search fieldset {border:0;}
+#wrap_header .identity_area .idtt_etc>.search fieldset legend {position:absolute; top:-2000em; left:-2000em; text-indent:-2000em; display:block; width:1px; height:1px;}
+#wrap_header .identity_area .idtt_etc>.search fieldset input {vertical-align:middle; border:0;}
+#wrap_header .identity_area .idtt_etc>.search fieldset .input_search {width:149px; height:17px; padding:0 5px;}

@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+/*layout*/
+#wrap { width:100%; height:100%; left: 0px; top: 0px; height:100%; z-index: 999999; }
+#heardMain { height:89px; }
+#leftArea { width:110px; height:100%; margin-top:0px; position:absolute;top:0;left:0; border-right:1px solid #d9d9d9; /*background:url('https://img.sbs.co.kr/news/newsadmin/bg_leftArea.gif') repeat-y right top; padding-right:1px;*/ }
+#top { width:1024px; margin-left:111px; }
+#menuArea { width:1168px; margin-left:111px; margin-top:1px; }
+
+
+#top { position:relative; }
+#wrap { position:absolute; }
+
+
+/*nav*/
+#leftArea h1 { height:53px; background:url('https://img.sbs.co.kr/news/newsadmin/bg_h1.gif') repeat-x left top; padding-top:22px; text-align:center;
+color:#485464; font-weight:bold !important; font:17px Malgun Gothic,"맑은고딕", Dotum,"돋움",Arial,Tahoma, Verdana, AppleGothic,sans-serif; }
+#leftArea #nav { width:109px; border-bottom:1px solid #dedede; }
+#leftArea #nav li a:link, #leftArea #nav li a:visited { height:36px; display:block; background:url('https://img.sbs.co.kr/news/newsadmin/bg_menu_off.gif') repeat-x left top; padding-top:15px; text-align:left;
+color:#333; font-weight:bold !important; font:13px Malgun Gothic,"맑은고딕", Dotum,"돋움",Arial,Tahoma, Verdana, AppleGothic,sans-serif;  padding-left:10px; }
+#leftArea #nav li a:hover, #leftArea #nav li a.on { height:36px; display:block; background:url('https://img.sbs.co.kr/news/newsadmin/bg_menu_on.gif') repeat-x left top; padding-top:15px; text-align:left;
+color:#fff !important; font-weight:bold !important; font:13px Malgun Gothic,"맑은고딕", Dotum,"돋움",Arial,Tahoma, Verdana, AppleGothic,sans-serif; padding-left:10px; }
+
+#leftArea #nav .sub { padding:0; }
+#leftArea #nav .sub dd a { text-align:left; }
+#leftArea #nav .sub dd a:link, #leftArea #nav .sub dd a:visited { height:20px; display:block; background:#fff; padding:8px 0 0 22px; margin:0 auto; border-top:1px solid #ececec; 
+color:#737373; font-weight:bold !important; font:12px Dotum,"돋움",Arial,Tahoma, Verdana, AppleGothic,sans-serif !important; background:url('https://img.sbs.co.kr/news/newsadmin/bul_sq.gif') no-repeat 15px 11px; }
+#leftArea #nav .sub dd a:hover, #leftArea #nav .sub dd a.on { height:20px; display:block; background:#fff; padding:8px 0 0 22px; margin:0 auto; border-top:1px solid #ececec; 
+color:#4d70cf !important; font-weight:bold !important; font:12px Dotum,"돋움",Arial,Tahoma, Verdana, AppleGothic,sans-serif !important; background:url('https://img.sbs.co.kr/news/newsadmin/bul_sq.gif') no-repeat 15px 11px; }
+#leftArea #nav .sub dd.last a { border-bottom:0; }
+
+.depth3 { padding-bottom:5px; }
+.depth3 p a:link, .depth3 p a:visited { width:80px; height:15px !important; color:#808080 !important; padding-left:40px; 
+background:url('https://img.sbs.co.kr/news/newsadmin/bul_L.gif') no-repeat 15px 11px !important; border:0 !important; letter-spacing:-1px !important; font-weight:normal !important; }
+.depth3 p a:hover, .depth3 p a.on { width:80px; height:15px !important; color:#808080 !important; padding-left:40px; text-decoration:underline; 
+background:url('https://img.sbs.co.kr/news/newsadmin/bul_L.gif') no-repeat 15px 11px !important; border:0 !important; letter-spacing:-1px !important; font-weight:normal !important; color:#808080 !important; }
+
+/*nav
+#leftArea h1 { height:53px; background:url('https://img.sbs.co.kr/news/newsadmin/bg_h1.gif') repeat-x left top; padding-top:22px; text-align:center;
+color:#333; font-weight:bold !important; font:17px Malgun Gothic,"맑은고딕", Dotum,"돋움",Arial,Tahoma, Verdana, AppleGothic,sans-serif; }
+#leftArea #nav li a:link, #leftArea #nav li a:visited { height:36px; display:block; background:url('https://img.sbs.co.kr/news/newsadmin/bg_menu_off.gif') repeat-x left top; padding-top:15px; text-align:center;
+color:#333; font-weight:bold !important; font:14px Malgun Gothic,"맑은고딕", Dotum,"돋움",Arial,Tahoma, Verdana, AppleGothic,sans-serif;}
+#leftArea #nav li a:hover, #leftArea #nav li a.on { height:36px; display:block; background:url('https://img.sbs.co.kr/news/newsadmin/bg_menu_on.gif') repeat-x left top; padding-top:15px; text-align:center;
+color:#333; font-weight:bold !important; font:14px Malgun Gothic,"맑은고딕", Dotum,"돋움",Arial,Tahoma, Verdana, AppleGothic,sans-serif;}
+
+#leftArea #nav .sub { padding:10px 0; }
+#leftArea #nav .sub dd { text-align:center; }
+#leftArea #nav .sub dd a:link, #leftArea #nav .sub dd a:visited { width:80%; height:20px; display:block; background:none; padding-top:8px; margin:0 auto; border-bottom:1px dotted #cbcbcb; 
+color:#666; font-weight:bold !important; font:12px Dotum,"돋움",Arial,Tahoma, Verdana, AppleGothic,sans-serif; letter-spacing:-1px; }
+#leftArea #nav .sub dd a:hover, #leftArea #nav .sub dd a.on { width:80%; height:20px; display:block; background:none; padding-top:8px; margin:0 auto; border-bottom:1px dotted #cbcbcb; 
+color:#3a5a95 !important; font-weight:bold !important; font:12px Dotum,"돋움",Arial,Tahoma, Verdana, AppleGothic,sans-serif; letter-spacing:-1px; }
+#leftArea #nav .sub dd.last a { border-bottom:0; }
+*/
+
+/*top*/
+#top h2 { height:31px; padding:9px 0 0 0; margin-left:15px; font-weight:bold !important; color:#333; font:22px Malgun Gothic,"맑은고딕", Dotum,"돋움",Arial,Tahoma, Verdana, AppleGothic,sans-serif; }
+#top .logLine { height:35px; background:url('https://img.sbs.co.kr/news/newsadmin/bg_topLine.gif') repeat-x left top; position:relative; }
+#top .logLine .logLine_left { float:left; margin:6px 0 0 15px; font:12px Dotum,"돋움",Arial,Tahoma, Verdana, AppleGothic,sans-serif; }
+#top .logLine .logLine_left strong { color:#666; font-weight:bold !important; font:12px Malgun Gothic,"맑은고딕", Dotum,"돋움",Arial,Tahoma, Verdana, AppleGothic,sans-serif; }
+#top .logLine .logLine_left em { font-weight:bold !important; font:11px Tahoma, Verdana, AppleGothic,sans-serif; }
+#top .logLine .bu_publish { overflow:hidden;_zoom:1; position:absolute;top:0;right:5%; }
+#top .logLine .bu_publish li { float:left; }
+#top .logLine .bu_publish li a:link, #top .logLine .bu_publish li a:visited { height:15px; display:inline-block; background:url('https://img.sbs.co.kr/news/newsadmin/bg_topPub.gif') repeat-x left top; padding:10px 20px; text-align:center;
+color:666; font:11px Tahoma, Arial, Verdana, AppleGothic, Dotum,"돋움", sans-serif; font-weight:bold; border-left:1px solid #d6d6d6; border-right:1px solid #d6d6d6; }
+
+/*TopMenu*/
+
+
+/* 2013 Left 3Depth Add */
+#leftArea #nav li .sub dd ul {margin-left:10px;}
+#leftArea #nav li .sub dd ul a { height:21px; display:block; padding-top:10px; text-align:left;
+color:#333 !important; font:14px Malgun Gothic,"맑은고딕", Dotum,"돋움",Arial,Tahoma, Verdana, AppleGothic,sans-serif; padding-left:15px; background:none !important;}

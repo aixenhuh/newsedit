@@ -1,0 +1,200 @@
+/* TITLE : 생생포착 메인
+ * UPDATE: 20110331
+ * AUTHOR: Yooni */
+
+@import url("http://img.sbs.co.kr/s9/common/css/base_2010.css");
+
+
+/* 생생포착 타이틀 */
+.saengTit {float:left; width:990px; height:49px; margin-bottom:10px; background:url(http://img.sbs.co.kr/s9/news/saengsaeng/tit_saeng_header.gif)}
+.saengTitNotice {float:left; width:990px; height:49px; margin-bottom:10px; background:url(http://img.sbs.co.kr/s9/news/saengsaeng/tit_saeng_notice.gif)}
+.saengTitInfo {float:left; width:990px; height:49px; margin-bottom:10px; background:url(http://img.sbs.co.kr/s9/news/saengsaeng/tit_saeng_info.gif)} 
+
+/* 탑갤러리 */
+.saengPhoto {float:left; width:945px; height:210px; margin-bottom:25px; padding:24px 23px 26px 22px; background:url(http://img.sbs.co.kr/s9/news/saengsaeng/cntMainGallery_bg.gif)}
+.saengPhotoBox {position:relative; float:left; width:225px; heigh:160px; margin-right:15px; z-index:97;}
+.saengPhotoBoxLast{position:relative; float:left; margin-right:0px; z-index:97;}
+.saengPhotoThum {position:absolute; float:left; border:1px solid #000; z-index:98;}
+.saengPhotoTxtarea{position:absolute;width:205px; height:55px; top:105px; background:#000; filter:alpha(opacity=70); opacity:0.7; -moz-opacity:0.7; text-align:center; z-index:99;}
+.saengPhotoTxtarea a{position:relative; color:#fff; font-weight:bold; font-size:14px; font-family:dotum; letter-spacing:-1px; line-height:18px; z-index:99; top:4px;}
+.saengPhotoTxtarea a:hover{color:#fff !important;}
+.saengPhotoTxtarea div {position:relative; font-size:11px; font-family:dotum; color:#555; top:4px;}
+
+.cntMainGallery {float:left; width:960px; height:184px; padding:24px 0 0 22px; border:1px solid #e0e0e0; border-bottom:none;}
+.cntMainGallery li {position:relative; float:left; width:225px; height:144px; margin-right:15px;}
+.cntMainGallery img {width:225px; height:126px;}
+.cntMainGallery li p {position:absolute; top:105px; left:0; width:225px; padding-top:4px;  text-align:center;}
+.cntMainGallery li p.txtBg {position:absolute; bottom:0; left:0; width:225px; height:51px; background:#000; filter:alpha(opacity=70); opacity:0.7; -moz-opacity:0.7; text-align:center;}
+.cntMainGallery li p a b{line-height:129%; font-size:15px; font-family:dotum; letter-spacing:-1px;}
+.cntMainGallery li p a:link,
+.cntMainGallery li p a:visited { color:#fff; }
+.cntMainGallery li p a:hover,
+.cntMainGallery li p a:active {color:#fff !important; }
+.cntMainGallery li p span {font-size:11px; font-family:dotum; color:white; line-height:120%;}
+.cntMainGalleryLine {float:left; width:990px; padding-bottom:26px; border-top:4px solid #4481b8;}
+
+.playBtn {
+    background: url("http://img.sbs.co.kr/s9/news/saengsaeng/saengsaengPlaybtn.png") no-repeat scroll 0 0 transparent;
+    height: 53px;
+    left: 78px;
+    top: 27px;
+    width: 65px;
+	overflow: hidden;
+    position: absolute;
+}
+
+/* 하단컨텐츠 */
+.saengContent {float:left; width:990px; margin:0;}
+
+/* 왼쪽컨텐츠 */
+.saengLeft {float:left; width:720px;}
+
+.saengsaengMyPage {float:left; width:720px; margin-bottom:25px; padding:15px 0 15px 0; text-align:center; border-bottom:3px solid #4581b9;}
+
+/* 리스트포토갤러리 */
+.saengListPhoto{float:left; width:720px; height:155px; margin-bottom:33px; border-bottom:3px solid #4581b9;}
+.saengListPhotoThum{position:relative; float:left; width:165px; height:129px; margin-right:20px}
+.saengListPhotoThumfin{float:left; width:165px; height:93px; margin-right:0px}
+.thumImg {position:relative; overflow:hidden; float:left; width:165px;  height:93px; margin-bottom:8px;}
+.player {position:absolute; left:141px; top:74px; width:24px; height:19px; background:url(http://img.sbs.co.kr/s9/news/main/btn_playNews.gif) no-repeat 0 0;}
+.thumImg .frameBd {width:124px; height:70px;}
+.saengListPhotoThum h3 a{font-weight:bold; color:#054e92; letter-spacing:-1px;}
+.saengListPhotoThum h3 span{font-size:11px; font-weight:normal; font-family:dotum; color:#bbb;}
+.saengListPhotoThumfin h3 a{font-weight:bold; color:#054e92; letter-spacing:-1px;}
+.saengListPhotoThumfin h3 span{font-size:11px; font-weight:normal; font-family:dotum; color:#bbb;}
+/* 110331 추가 */
+.saengListPhotoTit {overflow:hidden; width:165px; height:16px;}
+.saengListPhotoTit a{font-weight:bold; color:#054e92; letter-spacing:-1px;}
+.saengListPhotoIdPoint {overflow:hidden; width:165px; height:13px; font-size:11px; font-weight:normal; font-family:dotum; color:#555;}
+
+/* 리스트 */
+.saengList1{position:relative; float:left; width:691px; height:62px; padding:7px 13px 7px 16px; background-color:#f4f4f4;}
+.saengList2{position:relative; float:left; width:691px; height:61px; padding:7px 13px 7px 16px;border-bottom:1px solid #f4f4f4; background-color:#fff;}
+.saengListContent{width:691px; height:62px;}
+.saengListThum {position:relative; float:left; float:left; width:104px; height:60px; margin-right:27px; border:1px solid #dbdbdb;}
+.saengListText{float:left; width:450px; height:46px; margin:6px 0 0 0;}
+.saengListTextid{font-family:dotum; color:#bbbbbb; margin-bottom:2px;}
+/* 리스트 포인트박스 */
+.ListPointBox{float:right; overflow:hidden; height:32px; margin:14px 0px 0px 10px;}
+.ListPointBoxLeft{float:left; width:14px; height:32px; background:url(http://img.sbs.co.kr/s9/news/saengsaeng/list_point_boxLeft.gif)}
+.ListPointBoxCenter{float:left; height:32px; background:url(http://img.sbs.co.kr/s9/news/saengsaeng/list_point_boxCenter.gif);}
+.ListPointBoxRight{float:left; width:25px; height:32px; background:url(http://img.sbs.co.kr/s9/news/saengsaeng/list_point_boxRight.gif)}
+.PointNum{margin-top:9px; font-family:dotum; font-size:11px; color:#49596b;}
+/* 리스트 플레이 버튼 */
+.saengListThum .aviBtn {
+    background: url("http://img.sbs.co.kr/s9/news/main/btn_playNews.gif") no-repeat scroll 0 0 transparent;
+    bottom: 0;
+    display: block;
+    height: 19px;
+    position: absolute;
+    right: 0;
+    width: 24px;
+}
+/* 글쓰고난후 */
+.saengsaengBoardAfter {width:410px; margin:250px 0 0 152px;}
+.saengsaengBoardAfterContent {width:415px; margin-top:5px; padding:20px 0 20px 0;border:1px solid #d9e0e8; border-left:none; border-right:none; background:#f8f8f8; font-size:11px; font-family:dotum; text-align:center; letter-spacing:-1px; color:#5f5f5f}
+.saengsaengBoardAfterContent span {font-size:11px; font-family:dotum; letter-spacing:-1px; color:#5f5f5f;}
+.saengsaengBoardAfterBtn {text-align:center; margin-top:8px;}
+
+/* 오른쪽컨텐츠 */
+.saengRight{float:right; width:240;}
+/* 생생포착 로그인폼*/
+.saengLogin{width:238px; height:153px; margin-bottom:22px; border:1px solid #d9e0e7; background:url(http://img.sbs.co.kr/s9/news/saengsaeng/saeng_login_bg.gif)}
+.saengLoginContent1{float:left; width:231px; height:24px; margin:0; padding:11px 0 0 7px; }
+.saengsaengInfoText{width:115px; height:24px;}
+.saengsaengInfoText a{font-size:11px; font-family:dotum; color:#606060; letter-spacing:-1px; text-decoration:none;}
+.saengsaengMypageText{width:95px; height:24px; padding-left:20px;}
+.saengsaengMypageText a{font-size:11px; font-family:dotum; color:#606060; letter-spacing:-1px; font-weight:bold; text-decoration:none;}
+.saengLoginContent2{float:left; width:238px; height:68px; padding-top:20px;}
+.saengLoginBtn {width:238px; height:38px; font-weight:bold; color:#000; letter-spacing:-1px; line-height:24px; text-align:center;}
+.saengLoginContent3{float:left; width:128px; height:22px; padding:8px 5px 0 104px; color:#d2dae5;}
+.saengLoginContent3 a{font-size:11px; font-family:dotum; color:#000; letter-spacing:-1px; text-decoration:none;}
+.saengLoginId{width:126px; height:13px;}
+.saengLoginIdLine{color:#d2dae5;}
+.saengLoginContent4{float:left; width:221px; height:20px; padding:5px 8px 5px 9px;}
+.saengLogout{width:221px; height:20px;}
+.saengLogoutMyInfo{float:left;  display:inline; margin:4px 5px 0 106px;}
+.saengLogoutMyInfo a{font-size:11px; font-family:dotum; text-decoration:none; letter-spacing:-1px;}
+.saengLogoutBtn{float:left; display:inline; width:49px; height:18px; margin-top:1px;}
+.saengLoginContent5{float:left; width:238px; height:62px; padding-top:26px; line-height:18px;}
+.PointTextBox{text-align:center; font-family:dotum;}
+.PointId{font-weight:bold;}
+.saengPointNum{font-weight:bold; font-size:12px; color:#0b6bdc;}
+
+/* 로그아웃 */
+.saengLogoutBox{float:right; width:240px; height:154px; background:#000;}
+
+
+
+/* 생생포착 글쓰기 */
+.saeng_bn{margin-bottom:9px;}
+/* 생생포착 SNS 링크 */
+.saengSnsService{width:240px; margin-bottom:18px;}
+.saengSnsTit{margin-bottom:5px;}
+.saengSnsServicebg{width:211px; height:47px; padding:10px 15px 10px 14px; background:url(http://img.sbs.co.kr/s9/news/saengsaeng/saeng_sns_service_bg.gif)}
+.saengSnsContent{float:left; width:211px; height:47px;}
+.saengSnsConStyle{float:left; width:46px; height:47px; margin-right:9px;}
+.saengSnsConStyleLast{float:left; width:46px; height:47px; margin-right:0;}
+/* 생생포착 APP 다운로드 */
+.saengAppDown{width:240px;}
+.saengDownTit{margin-bottom:8px;}
+.saengDownAppbg{width:220px; height:30px; margin-bottom:27px; padding:10px 10px 10px 9px; background:url(http://img.sbs.co.kr/s9/news/saengsaeng/saeng_down_app_bg.gif);}
+.saengDownContent{float:left; width:220px; height:30px;}
+.saengDownConStyle{float:left;}
+.saengDownConStyleLast{float:right;}
+/* 생생포착 공지사항 */
+.saengNotice {float:left; width:240px;}
+.saengNotice p.firstP {margin-bottom:10px;}
+.saengNotice ul {border-top:2px solid #4581b9;}
+.saengNotice ul li {margin-top:10px; padding:0 0 0 7px; background:url(http://img.sbs.co.kr/s9/news/uporter/dot_gray.gif) no-repeat left 5px; line-height:100%;}
+.saengNotice ul li a:link,
+.saengNotice ul li a:visited {color:#353535;}
+.saengNotice ul li.bestOn {font-weight:bold;}
+.saengNotice h2{font-weight:bold; margin-bottom:4px;}
+.saengNotice h2 span{font-weight:bold; color:#1162b1;}
+
+/* 페이지 숫자 */
+#saenglist_paging{
+	clear:both;
+	padding-top:26px;
+	text-align:center;
+	width:100%;
+}
+.saengpager_ul li{
+	display:inline;
+}
+div.saengpager a {
+	vertical-align: middle;
+	height: 12px;
+	padding: 1px 6px 3px;
+	font-size: 11px;
+	font-family: "arial";
+	border: 1px solid #e3e3e3;
+	display: inline-block;
+	text-decoration:none;
+	color:#000;
+}
+
+div.saengpager a:hover {
+	color: #ff7e00;
+	border: 1px solid #ffb063;
+	text-decoration: none;
+}
+div.saengpager a.saengthispage {
+	color: #ff7e00;
+	border: 1px solid #ffb063;
+}
+div.saengpager a img {
+	margin: 3px 0 1px;
+}
+
+.saengsaengsearch {float:left; width:310px; text-align:center; margin-top:10px; padding:0 202px 0 208px;}
+.saengsearchBox {float:left; width:204px; margin:0 5px 0 5px; text-align:center;}
+.saengsearchBox input{width:200px; height:15px; padding-top:1px; border:1px solid #ccc;}
+.saengsearchBtn {float:left; width:40px; height:15px; padding-top:3px; background:#0d64b4}
+.saengsearchBtn a{font-weight:bold; color:#fff; text-decoration:none;}
+.saengsearchBtn a:link,
+.saengsearchBtn a:visited { color:#fff; }
+.saengsearchBtn a:hover,
+.saengsearchBtn a:active {color:#fff !important; }
+.select {float:left;}

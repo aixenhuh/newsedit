@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* ------------------------------------------
+* Filename: drama.css
+* Description: 드라마 메인
+* Author: Fu:z
+------------------------------------------ */
+
+/* container
+------------------------------------------ */
+#container [class^='drama_list_']{float:left}
+
+/* 이미지형 */
+.drama_list_image > ul{border-left:1px solid #f6f7f8}
+.drama_list_image li.drama_item{position:relative; float:left; border-left:1px solid #f6f7f8; width:400px; /* height:1000px; */ color:#fff; background-color:#000}
+.drama_list_image li.drama_item:first-child{border-left:0}
+.drama_list_image > ul:after{display:block; content:""; clear:both}
+
+.drama_list_image a.drama_wrap{display:block; color:#fff}
+.drama_list_image .drama_info{position:absolute; top:85px; left:30px; width:340px; text-shadow:1px 1px 1px #000}
+.drama_list_image .drama_info .drama_title{font-size:33px; letter-spacing:-.09em}
+.drama_list_image .drama_info .drama_post{display:block}
+
+.drama_list_image .info_wrap{display:block; margin:15px 0 0; font-size:13px; line-height:26px; vertical-align:middle}
+.drama_list_image .info_wrap *{vertical-align:middle}
+.drama_list_image .info_wrap .broadcast_day{font-size:18px; /* font-weight:bold */}
+.drama_list_image .info_wrap .broadcast_bar{margin:0 5px}
+.drama_list_image .info_wrap .broadcast_time{font-size:15px}
+.drama_list_image .info_wrap .broadcast_date{font-size:18px; vertical-align:middle}
+
+.drama_list_image .like_wrap{position:absolute; top:40px; right:30px}
+.drama_list_image .like_wrap a{display:inline-block; margin:2px 0 0; width:15px; height:13px; line-height:100px; overflow:hidden; vertical-align:top; background-position:-25px -164px}
+.drama_list_image .like_wrap a:hover, .drama_list_image .like_wrap a.liked{background-position:0 -164px}
+.drama_list_image .like_wrap span{margin:0 0 0 2px; font-family:Verdana; font-size:14px}
+
+
+/* 정보모듈형 */
+.drama_list_module > ul{margin-left:40px}
+.drama_list_module li.drama_item{float:left; margin:40px 40px 0 0; width:360px}
+.drama_list_module > ul:after{display:block; content:""; clear:both}
+.drama_list_module li.drama_item .drama_post img{width:360px; height:202px}
+
+.drama_list_module a.drama_wrap{display:block}
+.drama_list_module .drama_title{display:block; margin:12px 0; font-size:16px}
+.drama_list_module a.drama_wrap:hover .drama_title{text-decoration:underline}
+.drama_list_module .drama_info{position:relative}
+.drama_list_module .broadcast_time{font-size:11px}
+.drama_list_module .broadcast_time span{margin:0 5px; color:#8f8f8f}
+
+.drama_list_module .like_wrap{position:absolute; top:0; right:0}
+.drama_list_module .like_wrap a{display:inline-block; margin:-2px 0 0; width:13px; height:12px; line-height:100px; overflow:hidden; vertical-align:middle; background-position:-69px -164px}
+.drama_list_module .like_wrap a:hover, .drama_list_module .like_wrap a.liked{background-position:-48px -164px}
+.drama_list_module .like_wrap span{font-family:Verdana; font-size:11px}
+
+.drama_list_module .drama_summary{margin:12px 0 0; padding:10px 0; border:solid #cfd5da; border-width:1px 0; height:54px; overflow:hidden; line-height:18px}
+
+/* 인기콘텐츠 */
+.drama_list_module h4.sub_title{margin:15px 0}
+.best_cont_wrap{position:relative}
+.best_cont_wrap .post_list > li{display:none; height:100%}
+.best_cont_wrap .post_list > li.on{display:block}
+.best_cont_wrap .list_paging_wrap{position:absolute; right:0; top:-33px}
+.best_cont_list > li{position:relative; margin:11px 0; *zoom:1}
+.best_cont_list > li:after{display:block; content:""; clear:both}
+.best_cont_list li .post_cate{position:absolute; top:0; left:123px; color:#6dabf8; font-size:13px; font-weight:normal}
+.best_cont_list .thumnail{float:left; position:relative; display:block}
+.best_cont_list .thumnail .thum{width:110px; height:62px}
+.best_cont_list .thumnail .icon_play{position:absolute; top:20px; left:43px}
+.best_cont_list .post_title{float:right; margin:18px 0 0; width:238px; height:35px; overflow:hidden; line-height:18px; font-weight:normal}
+.best_cont_list a:hover .post_title{text-decoration:underline}
+.best_cont_list li.banner img{border:1px solid #ddd}
+
+
+/* resize 
+------------------------------------------ */
+/* 높이 < 810px */ 
+#wrap.small .drama_list_image .drama_post img{width:100%; height:auto}
+
+/* 810px =< 높이 < 1006px */
+#wrap.normal .drama_list_image .drama_post img{width:auto; height:775px}
+
+/* 높이 >= 1006px */
+#wrap.big .drama_list_image .drama_post img{width:auto; height:971px}

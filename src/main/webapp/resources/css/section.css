@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+/* section layout */
+
+
+#section01 { background-color: #666666; left: 145px; top: 150px; width: 550px; height: 250px; z-index:1; }
+#section0101 { background-color: #ffffff;  top: 2px; left: 2px; width: 546px; height: 246px; z-index:2; }
+#section0101photo { background-color: #ffffff;  top: 5px; left: 5px; width: 230px; height: 146px; z-index:3; }
+#section0101txt1 { background-color: #ffffff;  top: 5px; left: 240px; width: 300px; height: 146px; z-index:3; }
+#section0101txt2 { background-color: #ffffff;  top: 156px; left: 5px; width: 530px; height: 90px; z-index:3; }
+#section0101btn { background-color: skyblue;  top: -5px; left: 276px; width: 30px; height: 20px; z-index:4; }
+
+#section02 { background-color: #666666; left: 710px; top: 150px; width: 250px; height: 250px; z-index:1; }
+#section0201 { background-color: #ffffff;  top: 2px; left: 2px; width: 246px; height: 246px; z-index:2; }
+
+#section03 { background-color: #666666; left: 145px; top: 415px; width: 370px; height: 650px; z-index:1; }
+#section0301 { background-color: #ffffff;  top: 2px; left: 2px; width: 366px; height: 646px; z-index:2; }
+
+#section04 { background-color: #666666; left: 530px; top: 415px; width: 165px; height: 310px; z-index:1; }
+#section0401 { background-color: #ffffff;  top: 2px; left: 2px; width: 161px; height: 306px; z-index:2; }
+
+#section01, #section02, #section03, #section04, #section05, #section06, #section07 { position: absolute; }
+#section0101, #section0201, #section0301, #section0401, #section0501, #section0601, #section0701  { position:absolute; }
+#section0101photo, #section0101txt1, #section0101txt2, #section0101btn { position: absolute; }
+
+
+/* ad layout */
+#ad01 { background-color: red; left: 975px; top: 150px; width: 250px; height: 250px; z-index:1; }
+#ad0101 { background-color: #ffffff;  top: 2px; left: 2px; width: 246px; height: 246px; z-index:2; }
+
+#ad01 { position: absolute; }
+#ad0101 { position: absolute; }
+
+/* sitemesh */
+#sitemesh_wrap {
+	width: 100%;
+	float: left;
+}
+
+#document 			{ width:100%; height:auto; left:0px; top:0px; z-index:1; }
+#sitemesh_top 		{ width:100%; left: 110px; height:58px; }
+#sitemesh_left  	{ position:absolute; left: 0;top: 0px; }
+#sitemesh_content 	{ position:absolute; left: 120px;top:90px; }

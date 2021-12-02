@@ -1,0 +1,157 @@
+/* TITLE : sbs Layout
+ * UPDATE: 20100111
+ * AUTHOR: Tag&Brace */
+
+/* COMMON STYLE */
+/* * { font-size:12px; font-family:Gulim, 굴림; color:#333333; margin:0; padding:0; } */
+hr, legend, caption, .Thidden { display:none !important; }
+li { list-style:none; }
+fieldset { border:none; }
+img { border:none; }
+table { border-collapse:collapse; }
+.clear { clear:both; }
+.backNo { background:none !important; }
+.borRNo { border-right:none !important; }
+.borLNo { border-left:none !important; }
+.borBNo { border-bottom:none !important; }
+.mtNo { margin-top:0 !important; }
+.mrNo { margin-right:0 !important; }
+.mbNo { margin-bottom:0 !important; }
+.pdbNo { padding-bottom:0 !important; }
+.overflow { overflow:hidden; }
+.overflow_ie6 { overflow:hidden; _height:1%; }
+.input { padding:3px 0 0 2px; font-family:dotum; font-size:11px; border:1px solid #dbdbdb; height:16px; }
+.lart_li { margin-bottom:0 !important; }
+.index * { font-family:Dotum; }
+.space_h5 { height:5px; overflow:hidden; }/* 라디오 좌측 선택상자 여백에 사용 skydown@sbs.co.kr 20090729 */
+.space_h10 { height:10px; overflow:hidden; }/* 우측광고 하단 여백에 사용 skydown@sbs.co.kr 20090729 */
+.BTN_RESET2 {float:right; margin-right:15px !important; }
+.png24{tmp:expression(setPng24(this));} /*  png  */
+
+/* LINK STYLE */
+a { text-decoration:none; color:#000; }
+a:hover, a:hover * { text-decoration:underline; /* color:#2b5baf !important; */ }
+
+/* TAB STYLE */
+.hidden_obj { display:none !important; }
+
+/* LAYOUT */
+#Twrap { position:relative; width:990px; margin:0 auto; }
+#Thead_wrap { position:relative; width:990px; padding:0 0 0 0; margin-top:1px; }
+#Thead_wrap .Tleft { float:left; display:inline; width:480px; height:90px; margin-left:3px; }
+
+#Tlogo_area { position:relative; }
+#Tlogo_area h1 { position:absolute; top:40px; left:0; width:77px; height:33px; background:url(http://img.sbs.co.kr/s9/common/baseimg/logo.gif) no-repeat 0 0; }
+#Tlogo_area h2.news { position:absolute; top:43px; left:84px; width:49px; height:27px; background:url(http://img.sbs.co.kr/s9/common/baseimg/news.gif) no-repeat 0 0; }
+#Tlogo_area span { position:relative; z-index:-1; display:block; overflow:hidden; cursor:pointer; cursor:hand; font-size:0; line-height:0; }
+#Tlogo_area h1 span { width:77px; height:33px; }
+#Tlogo_area h2.news span { width:49px; height:27px; }
+#Tlogo_area a:hover { text-decoration:none; }
+
+#Tnaviup_area { float:left; width:384px; }
+#Tnaviup_area ul { width:375px; overflow:hidden; }
+#Tnaviup_area ul li { float:left; }
+#Tnaviup_area ul li a { display:block; width:100%; height:12px; background:url(http://img.sbs.co.kr/s9/common/baseimg/naviup_off.gif) no-repeat 0 0; }
+#Tnaviup_area li.off .tv { width:29px; }
+#Tnaviup_area li.off .radio { width:45px; background-position:-29px 0; }
+#Tnaviup_area li.off .news { width:29px; background-position:-74px 0; }
+#Tnaviup_area li.off .movie { width:31px; background-position:-103px 0; }
+#Tnaviup_area li.off .music { width:30px; background-position:-134px 0; }
+#Tnaviup_area li.off .game { width:35px; background-position:-164px 0; }
+#Tnaviup_area li.off .board { width:45px; background-position:-199px 0; }
+#Tnaviup_area li.off .neTv { width:34px; background-position:-243px 0; }
+#Tnaviup_area li.off .freeS { width:68px; background-position:-276px 0; }
+#Tnaviup_area li.off .sbsU { width:29px; background-position:-346px 0; }
+#Tnaviup_area ul li a span { position:relative; z-index:-1; display:block; height:12px; overflow:hidden; }
+
+#Tlogin_area { float:left; width:95px; }
+#Tlogin_area button { float:left; display:block; height:18px; overflow:hidden; background:url(http://img.sbs.co.kr/s9/common/baseimg/login.gif) no-repeat 0 0; text-indent:-3000em; border:none; cursor:pointer; cursor:hand;  }
+#Tlogin_area #login { width:48px; }
+#Tlogin_area #join { width:47px; background-position:-48px 0; }
+
+#Tsearch_area { clear:both; position:relative; width:280px; }
+#Tsearch_area fieldset { position:absolute; left:199px; top:29px; width:280px; background:url(http://img.sbs.co.kr/s9/common/baseimg/search.gif) no-repeat 0 0; }
+#Tsearch_area #q { width:221px; height:14px; margin:2px 0 0 2px; #margin-top:1px; vertical-align:top; border:0; }
+#Tsearch_area #search_submit { display:inline-block; width:47px; height:23px; background:url(http://img.sbs.co.kr/s9/common/baseimg/login.gif) no-repeat -233px 0; text-indent:-3000em; border:none; cursor:pointer; cursor:hand; }
+#Tad_main_area { float:right; width:500px; height:90px; }
+
+#Tcenter_wrap { width:990px; padding:10px 0 40px 0; overflow:hidden; }
+
+#Tfooter_wrap { clear:both; width:990px; border-top:2px solid #5e5e5e; }
+#Tfooter_wrap a:hover { text-decoration:none; }
+#Tfooter_wrap .Tpolicy { border-bottom:1px solid #e8e8e8; width:968px; height:20px; overflow:hidden; padding:8px 0 0 22px; background:#fafafa; }
+#Tfooter_wrap .Tpolicy li { float:left; padding-left:21px; margin-left:20px; background:url(http://img.sbs.co.kr/s9/index/footerLine_gray.gif) no-repeat 0 0; }
+#Tfooter_wrap .Tpolicy li.first { background:none; margin-left:0; padding-left:0; }
+#Tfooter_wrap .Tpolicy li a:hover { color:#000 !important; }
+#Tfooter_wrap .addressBox { position:relative; height:51px; background:#f8f8f8; padding:10px 0 5px 23px; margin-top:2px; border-bottom:1px solid #e8e8e8; }
+#Tfooter_wrap .addressBox address { font-size:11px; color:#898989; font-style:normal; line-height:150%; margin-bottom:2px; }
+#Tfooter_wrap .addressBox address span { padding-left:15px; font-size:11px; color:#898989; }
+#Tfooter_wrap .addressBox address a { font-size:11px; color:#898989; text-decoration:underline; padding-left:10px; }
+#Tfooter_wrap .addressBox address a:hover { color:#00a7f5 !important; }
+#Tfooter_wrap .addressBox ul { width:100%; overflow:hidden; margin-bottom:4px; }
+#Tfooter_wrap .addressBox ul li { float:left; font-size:11px; color:#898989; margin-right:10px; }
+#Tfooter_wrap .addressBox ul li span { font-size:11px; color:#898989; word-spacing:-0.1em; margin-left:5px; letter-spacing:-1px; }
+#Tfooter_wrap .addressBox ul li a { font-size:11px; color:#898989; }
+#Tfooter_wrap .addressBox ul li a:hover { color:#00a7f5 !important; }
+#Tfooter_wrap .addressBox ul li.email { background:url(http://img.sbs.co.kr/s9/index/email.gif) no-repeat 0 2px; padding-left:14px; }
+#Tfooter_wrap .copyright { padding:20px 0; text-align:center; }
+
+#TsbsFamilyLocalSearchWrap { position:absolute; top:10px; right:0; width:280px;}
+#TsbsFamilySearch, #TlocalSearch { float:left; display:inline; width:135px; margin-bottom:5px; }
+#TsbsFamilySearch { margin-right:3px; }
+#TsbsFamilySearch span, #TlocalSearch span {display:block;position:absolute; left:-18px;width:135px; height:15px; color:#8cb5d4;border:1px solid #d3d3d1; background:url(http://img.sbs.co.kr/s9/index/selectBox.gif) no-repeat right 0; padding:3px 0 0 8px !important; #padding-top:4px !important; }
+#TlocalSearch span {left:129px;width:119px;border:1px solid #d3d3d1;}
+
+#TsbsFamilySearch span a, #TlocalSearch span a { display:block;width:100%; color:#595959; font-size:11px;  }
+#TsbsFamilySearch li, #TlocalSearch li { clear:both; width:91px; margin:0 0 5px 0 !important; letter-spacing:0 !important; }
+#TsbsFamilySearch #sbsFamily_list, #TlocalSearch #localSearch_list { position:absolute; left:0; width:136px; height:90px; overflow:auto; padding:10px 0 0 7px; border:1px solid #d3d3d1; border-bottom:none; background:#fff; display:none;
+	scrollbar-face-color:#fff;
+	scrollbar-highlight-color:#fff;
+	scrollbar-3dlight-color:#e3e3e3;
+	scrollbar-darkshadow-color:#fff;
+	scrollbar-shadow-color:#e3e3e3;
+	scrollbar-arrow-color:#6d6d6d;
+	scrollbar-track-color:#fff;
+}
+#TsbsFamilySearch.on1 #sbsFamily_list, #TlocalSearch.on2 #localSearch_list{ display:block; z-index:10; }
+#TsbsFamilySearch #sbsFamily_list { top:-100px;left:-18px; }
+#TlocalSearch #localSearch_list { position:absolute; top:-100px; left:130px;width:122px;border:1px solid #d3d3d1;}
+#TlocalSearch #localSearch_list li a{width:90px;}
+#TsbsFamilyLocalSearchWrap a { display:block; width:118px; text-decoration:none !important;padding-left:0 !important; }
+#TsbsFamilyLocalSearchWrap a:hover { color:#00a7f5 !important; }
+
+/*채널 별 플로팅 배너 추가(드라마, 예능, 교양) skydown@sbs.co.kr 20070731*/
+.chanelImage .floating {z-index:1; position:absolute; top: 0;left: 0; width:524px;height:180px; overflow:hidden; background-color:#00a7f5;}
+.chanelImage .floating img { display:block; position:absolute; }
+.chanelImage .floating .banner { cursor:pointer; }
+.chanelImage .floating .close { right:5px; top:5px; cursor:pointer; }
+
+/* 페이지 부분 */
+#paging { clear:both; width:100%; text-align:center; padding:0; }
+#paging a { display:inline-block; font-family:verdana; border:1px solid #e3e3e3; height:14px; padding:1px 4px 2px 4px; margin:0 -1px 0 -1px; color:#000; text-align:center; letter-spacing:-1px;}
+#paging a:hover { border:1px solid #ffb063; color:#ff7e00 !important; text-decoration:none; font-weight:bold; }
+#paging .over { border:1px solid #ffb063; color:#ff7e00 !important; text-decoration:none; font-weight:bold; }/*추가 skydown@sbs.co.kr 20090728*/
+/* 2009-08-10 추가 및 수정 */
+#paging .homeOn, #paging .endOn, #paging .homeOff, #paging .endOff,#paging .prevOn, #paging .nextOn, #paging .prevOff, #paging .nextOff { width:17px; height:17px; vertical-align:top; padding:0 !important; margin: 0 -3px 0 -3px !important; overflow:hidden; }
+#paging .homeOn span, #paging .endOn span, #paging .homeOff span, #paging .endOff span, #paging .prevOn span, #paging .nextOn span, #paging .prevOff span, #paging .nextOff span { visibility:hidden; }
+#paging .homeOn { background:url(http://img.sbs.co.kr/s9/news/paging2.gif) no-repeat 1px -37px; }
+#paging .endOn { background:url(http://img.sbs.co.kr/s9/news/paging2.gif) no-repeat -63px -37px; }
+#paging .homeOff { background:url(http://img.sbs.co.kr/s9/news/paging2.gif) no-repeat 1px 0; margin-right: -2px;}
+#paging .endOff { background:url(http://img.sbs.co.kr/s9/news/paging2.gif) no-repeat -63px 0; }
+#paging .prevOn { background:url(http://img.sbs.co.kr/s9/news/paging2.gif) no-repeat -21px -37px; margin-right:2px !important;}
+#paging .nextOn { background:url(http://img.sbs.co.kr/s9/news/paging2.gif) no-repeat -41px -37px; margin-left:2px !important;}
+#paging .prevOff { background:url(http://img.sbs.co.kr/s9/news/paging2.gif) no-repeat -21px 0; margin-right:2px !important;}
+#paging .nextOff { background:url(http://img.sbs.co.kr/s9/news/paging2.gif) no-repeat -41px 0; margin-left:2px !important;}
+
+
+/* 익스 5버전 */
+* html body { text-align:center; voice-family:"\"}\""; voice-family:inherit; text-align:none; }
+	* html #Twrap  { text-align:left;  voice-family:"\"}\""; voice-family:inherit; text-align:none; }
+	* html #paging a { width:19px; height:19px;  padding:1px 0 0 0; voice-family:"\"}\""; voice-family:inherit; width:17px; height:14px; padding:1px 0 0 0; }
+	* html #paging .prevOn, * html #paging .nextOn, * html #paging .prevOff, * html #paging .nextOff { width:19px; height:19px !important; voice-family:"\"}\""; voice-family:inherit; width:17px; height:17px !important; }
+	* html #Tfooter_wrap .INpolicy { width:990px; voice-family:"\"}\""; voice-family:inherit; width:968px; }
+	* html #Tfooter_wrap .addressBox { height:65px; voice-family:"\"}\""; voice-family:inherit; height:51px; }
+	* html #TsbsFamilySearch span, #TlocalSearch span { width:120px; height:19px; voice-family:"\"}\""; voice-family:inherit; width:112px; height:15px; }
+	* html #TsbsFamilySearch #sbsFamily_list, #TlocalSearch #localSearch_list { width:121px; height:102px; voice-family:"\"}\""; voice-family:inherit; width:112px; height:90px; }
+	* html #Tsearch_area fieldset #stype_list li { width:71px; voice-family:"\"}\""; voice-family:inherit; width:70px; }
+	* html #Tfooter_wrap .Tpolicy { width:990px; voice-family:"\"}\""; voice-family:inherit; width:968px; }

@@ -1,0 +1,311 @@
+@charset "UTF-8";
+/* TITLE : sbs NEWS Main
+ * UPDATE: 201007
+ * AUTHOR: ������ */
+
+/*����*/
+/*����� �̹����׵θ�*/
+.thumImg {position:relative; }
+.thumImg img {vertical-align:top;}
+.player {position:absolute; overflow:hidden;  display:block; text-indent:-1000px; cursor:pointer;}
+.frameBd {position:absolute; top:0; left:0; display:block; border:1px solid #000; filter:alpha(opacity=20); opacity:0.2;}
+
+.mt15 {margin-top:15px;}
+
+
+/*���� �ϴ� �������*/
+.subList {clear:both; position:relative;}
+.subList li {overflow:hidden; height:14px; vertical-align:top; padding:0 0 0 12px; background:url(http://img.sbs.co.kr/s9/news/main/dot_topNews.gif) no-repeat 0 0;  }
+/*�Խ��� title*/
+.cntArea1 h3, .cntArea2 .cntLine1 h3 {padding-bottom:4px; border-bottom:2px solid #2e80ba; }
+.cntArea1 h3, .cntArea1 h3 a, .cntArea2 .cntLine1 h3, .cntArea2 .cntLine1 h3 a {line-height:1em; vertical-align:top; color:#134e8d; font-family:Gulim; }
+.cntArea1 h3 a:hover, .cntArea2 h3 a:hover { text-decoration:none;}
+
+.cntArea2 .moreView { font-size:11px; font-family:dotum; color:#888; text-decoration:none !important; letter-spacing:-1px; text-align:right;}
+
+/*���� ���̾ƿ�*/
+.newsMainCnt { overflow:hidden; width:100%; margin-bottom:70px;}
+
+.newsflashWrap {padding:15px 0;}
+.newsflash {border:2px solid #f6d4b9; padding:5px; overflow:hidden; zoom:1;}
+.newsflash dt {background:url(http://img.sbs.co.kr/s9/news/main/bu_arrow.gif) no-repeat top right #f05804; font:11px/1.5 dotum; font-weight:bold; color:#fff; float:left; padding:4px 10px 0 5px;}
+.newsflash dd {float:left; padding:0px 0 0px 10px; font:14px/1.5 dotum; font-weight:bold; color:#f05804; display:block;}
+.newsflash dd a {font:14px/1.5 dotum; font-weight:bold; color:#f05804;}
+.newsflash dd marquee {font:14px/1.5 dotum; font-weight:bold; color:#f05804;}
+
+.cntArea1 { float:left; overflow:hidden; height:224px; border-bottom:2px solid #2e80ba; padding:6px 0 8px; margin-bottom:24px;}
+.cntArea2 {clear:both; overflow:hidden; width:100%;}
+.cntArea2 .board, .cntArea2 .banner {overflow:hidden;}
+.cntArea2 .cntLine1 {float:left; width:295px; margin-right:24px;}
+.cntArea2 .cntLine2 {float:left; width:138px; margin-right:24px;}
+.cntArea2 .cntLine3 {float:left; width:385px;}
+.cntArea2 .cntLine4 {float:right; width:111px; }
+
+/*��ǥ����*/
+.topNews {float:left; width:438px; margin-right:39px;}
+.cntArea1 .topNews h3 {overflow:hidden; height:24px;  margin-bottom:10px; border:none; }
+.cntArea1 .topNews h3 a {font-size:24px; font-family:dotum; font-weight:bold; color:#000; letter-spacing:-3px;line-height:1.2em;}
+.cntArea1 .topNews h3 a:hover {text-decoration:underline;}
+.topNews .mainNews {overflow:hidden; width:100%;}
+.topNews .thumImg { overflow:hidden; float:left; width:195px;  height:111px; margin-right:10px;}
+.topNews .thumImg .player {left:157px; top:81px; width:38px; height:30px; 
+	background:url(http://img.sbs.co.kr/s9/news/main/btn_playTopNews.png) no-repeat 0 0;
+	_background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src="http://img.sbs.co.kr/s9/news/main/btn_playTopNews.png", sizingMethod="crop");
+}
+.topNews .thumImg .frameBd {width:193px; height:109px;}
+.topNews .bodyTxt {overflow:hidden; display:inline-block; width:230px; height:91px; line-height:1.5em; vertical-align:top; margin:10px 0; }
+.topNews .bodyTxt a:hover * {text-decoratin:underline; color:#2b5baf;}
+.topNews .subList {margin-top:12px;}
+.topNews .subList li {margin-bottom:6px; font-weight:bold;}
+.topNews .subList a {vertical-align:top; font-weight:bold;}
+.topNews .subList .btnMove {overflow:hidden; position:absolute; top:35px; left:405px; width:33px; height:19px; padding:0; margin:0; background:url(http://img.sbs.co.kr/s9/news/main/bg_btnMove.gif) no-repeat 0 0;}
+.topNews .subList .btnMove img {float:left; padding:6px 6px; cursor:pointer;}
+.topNews .subList .btnMove .btnPrev {padding-right:5px;}
+
+/*�ִ���*/
+.cntArea1 .hotNews {float:left; width:247px;}
+.cntArea1 .hotNews h3 {padding-top:6px; margin-bottom:16px;}
+.cntArea1 .hotNews p { overflow:hidden;  margin:0 0 8px; padding-left:5px; height:15px; background:url(http://img.sbs.co.kr/s9/news/main/dot_gray.gif) no-repeat 0 5px; }
+.cntArea1 .hotNews a {vertical-align:top; line-height:16px;}
+.cntArea1 .hotNews a:hover * {text-decoratin:underline; color:#2b5baf;}
+.cntArea1 .hotNews .pointNews {font-weight:bold;}
+
+/*���?��*/
+.addArea {float:right; overflow:hidden; height:240px;}
+
+/*19���Ѽ� ����߰�*/
+.banner_election {width:990px; height:73px; position:relative; margin-bottom:35px;}
+.banner_election .btn {position:absolute; height:45px; display:block; margin:15px 0 0 835px; top:0px; z-index:250;}/*120412����*/
+.banner_election .btn .btn1 {width:133px; height:45px; float:left; margin-right:6px;}
+.banner_election .btn .btn2 {width:133px; height:45px; float:left;}
+.banner_election .btn a {display:block; height:45px; text-indent:-20000px;}
+.banner_election .btn .btn1 a {background:url(http://img.sbs.co.kr/sw11/news/election/newsmain/btn_electionnews.gif) no-repeat left top;}
+.banner_election .btn .btn1 a:hover {background:url(http://img.sbs.co.kr/sw11/news/election/newsmain/btn_electionnews_over.gif) no-repeat left top;} 
+.banner_election .btn .btn2 a {background:url(http://img.sbs.co.kr/sw11/news/election/newsmain/btn_electionair.gif) no-repeat left top;}
+.banner_election .btn .btn2 a:hover {background:url(http://img.sbs.co.kr/sw11/news/election/newsmain/btn_electionair_over.gif) no-repeat left top;} 
+
+.banner_election a.line {width:988px; height:71px; display:block; border:1px solid #000; filter:alpha(opacity=20); opacity:0.2; position:absolute; z-index:200; background:url(http://img.sbs.co.kr/sw11/tv/common/blank.gif) repeat scroll left top transparent;}
+.banner_election2 {width:292px; height:70px; position:relative; margin-bottom:15px;}
+.banner_election2 a{width:292px; height:70px; display:block; position:absolute; text-indent:-20000px; z-index:240; background:url(http://img.sbs.co.kr/sw11/news/election/newsmain/banner_election2.jpg) no-repeat left top;}
+.banner_election2 a:hover{width:292px; height:70px; display:block; position:absolute; z-index:241; background:url(http://img.sbs.co.kr/sw11/news/election/newsmain/banner_election2_over.jpg) no-repeat left top;}
+
+
+/*��������Ʈ- ���� ���� ù��° ��*/
+.cnt1Main {overflow:hidden; width:100%; margin-bottom:5px; background:url(http://img.sbs.co.kr/s9/news/main/line_dottedGray.gif) repeat-x 0 bottom;}
+.cntThum h4, .cnt1Main h4 {float:right; width:153px; height:53px; overflow:hidden; margin:10px 0;}
+.cntLine1 h4 a { font-family:Dotum; font-size:14px; color:#3a3a3a; line-height:1.3em; vertical-align:top}
+.cntLine1 .thumImg { overflow:hidden; float:left; width:126px;  height:72px; margin-right:10px;}
+.cntLine1 .thumImg .player {left:102px; top:53px; width:24px; height:19px; background:url(http://img.sbs.co.kr/s9/news/main/btn_playNews.gif) no-repeat 0 0;}
+.cntLine1 .thumImg .frameBd {width:124px; height:70px;}
+.cntLine1 .cnt1Main .subList {padding-top:10px; padding-bottom:4px;}
+.cntLine1 .cnt1Main .subList li {margin-bottom:6px;}
+.cntLine1 .cnt1Main .subTxt {margin-bottom:10px;}
+
+.cntLine1 .cntThum .subList{overflow:hidden; width:100%;  padding-top:10px; }
+.cntLine1 .cntNoThum .subList {overflow:hidden; width:100%; padding-top:5px;}
+.cntLine1 .cntThum .subList li, .cntLine1 .cntNoThum .subList li {margin-bottom:4px;}
+.cntLine1 .cntThum .subList a, .cntLine1 .cntNoThum .subList a {vertical-align:top}
+
+.cntThum {overflow:hidden; width:100%; padding:10px 0 10px 0; }
+.cntLine1 .subTxt {clear:both; display:inline-block; overflow:hidden; height:30px; padding-top:10px;color:#6a6a6a; line-height:15px; vertical-align:top;}
+
+.cntLine {background:url(http://img.sbs.co.kr/s9/news/main/line_dottedGray.gif) repeat-x 0 bottom;}
+
+.cntNoThum {overflow:hidden; width:100%; padding:10px 0 11px 0;}
+.cntLine1 .cntNoThum .subTxt { padding-top:5px;}
+.cntLine1 .cntNoThum h4 {overflow:hidden; width:100%; height:16px; vertical-align:top;}
+.cntLine1 .cntNoThum h4 a { vertical-align:top; line-height:1.2em; }
+.lastCnt {border-bottom:2px solid #2e80ba;}
+.cntLine1 .lastCnt {margin-bottom:5px;}
+
+/*���� ���� �� ���*/
+.cntArea2 .board .popularNews {position:fixed;}
+.cntArea2 .board .popularNews h3 {padding-top:17px; margin-bottom:10px;}
+.cntArea2 .board .popularNews p {overflow:hidden;  margin-bottom:9px; height:16px; }
+.cntArea2 .board .popularNews a { vertical-align:top; font-weight:bold; color:#3a3a3a; font-family:Dotum; font-size:14px;}
+
+.cntArea2 .board .temp_popularNews h3 {padding-top:17px; margin-bottom:10px;}
+.cntArea2 .board .temp_popularNews p {overflow:hidden;  margin-bottom:9px; height:16px; }
+.cntArea2 .board .temp_popularNews a { vertical-align:top; font-weight:bold; color:#3a3a3a; font-family:Dotum; font-size:14px; overflow:hidden}
+
+/*���� �ι�° ��*/
+.newsMainCnt .banner h3{font-family:gulim; font-size:12px; font-weight:normal;color:#fff; background-color:#00548e; line-height:1em;  padding:9px 14px 6px;}
+.newsMainCnt .banner h3 a, .newsMainCnt .banner h3 a:hover {font-family:gulim; font-size:12px; font-weight:normal;color:#fff !important; text-decoration:none; line-height:1em;}
+.newsMainCnt .banner .longTxt {letter-spacing:-1px; padding:9px 7px 6px;}
+
+.cntLine2 ul { border:1px solid #dfdede; border-top:none; padding-top:15px; text-align:center;}
+.cntLine2 li {width:110px; margin:0 auto; padding-bottom:18px; text-align:left;}
+.cntLine2 .thumImg {display:block; margin:0 auto 9px; width:110px;  height:65px;}
+.cntLine2 .frameBd {width:108px; height:63px;}
+.cntLine2 .bodyTxt {overflow:hidden; height:28px; display:block;  font-family:Gulim; margin-bottom:2px; line-height:1.2em; }
+.cntLine2 .bodyTxt:hover {color:#000 !important;}
+.cntLine2 .writerName {display:block; font-family:Dotum; font-size:11px; letter-spacing:-1px; color:#878787; line-height:1em;  vertical-align:top;}
+
+.cntLine2 .special {margin-bottom:10px; overflow:hidden; height:534px;}
+.cntLine2 .bnBlue {margin-bottom:10px;}
+.cntLine2 .bnBlue a {display:block; margin-bottom:1px;}
+.cntLine2 .uporter {overflow:hidden; height:264px; margin-bottom:10px;}
+/* ������� �߰� 20110320 */
+.cntLine2 .saengsaeng {overflow:hidden; height:264px; margin-bottom:10px;}
+/* ���� ����? ��*/
+.cntLine3 .vod {margin-bottom:5px; overflow:hidden; width:100%; height:320px;}
+.cntLine3 .vod h3 {overflow:hidden; float:left; width:337px; height:12px; margin:0; padding:7px 0; border:0; }
+.cntLine3 .vod a:hover {text-decoration:none;}
+.cntLine3 .vod .moreView {overflow:hidden; float:right; height:12px; width:40px; padding:7px 0;}
+.cntLine3 .vod dl {clear:both; vertical-align:top}
+.cntLine3 .vod dt {position:relative; height:235px; background-color:#000;}
+.cntLine3 .vod dt .frameBd {width:375px; height:233px; z-index:99;}
+.cntLine3 .vod dd {position:relative; top:-4px; overflow:hidden; width:100%; height:63px;}
+.cntLine3 .vod dd a {position:relative; float:left; padding:7px 4px 0 0; }
+.cntLine3 .vod a img {vertical-align:top}
+.cntLine3 .vod .lastA {padding-right:0; margin-left:1px;}
+.cntLine3 .vod dd .frameBd {display:none; cursor:pointer; width:91px; height:63px;  border:0; filter:alpha(opacity=100); opacity:1; background:url(http://img.sbs.co.kr/s9/news/main/frame_vodS.gif) no-repeat 0 0;  z-index:99; }
+.cntLine3 .vod dd .thisCnt .frameBd {display:block;}
+.cntLine3 .vod .player {left:150px; top:63px; width:90px; height:74px; 
+	background:url(http://img.sbs.co.kr/s9/news/main/btn_playVod.png) no-repeat 0 0;
+	_background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src="http://img.sbs.co.kr/s9/news/main/btn_playVod.png", sizingMethod="crop");
+}
+.cntLine3 .vod .txtArea {overflow:hidden; position:absolute; top:180px; left:0;display:block; width:100%; height:35px; padding:10px 0;  cursor:pointer; z-index:99;
+	background:url(http://img.sbs.co.kr/s9/news/main/bg_vodTxt.png) repeat 0 0;_background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src="http://img.sbs.co.kr/s9/news/main/bg_vodTxt.png", sizingMethod="scale");
+}
+.cntLine3 .vod .txtArea span {overflow:hidden; height:1.4em;  display:block; padding:0 10px; color:#fff; line-height:1.4;}
+.cntLine3 .vod .txtArea .tit {font-weight:bold; font-size:15px; font-family:dotum;}
+.cntLine3 .vod .txtArea:hover span {color:#fff !important; text-decoration:underline !important;}
+.cntLine3 .vod .txtArea:hover {color:#fff !important; text-decoration:underline !important;}
+
+.cntLine3 .newsBoard {position:relative; margin-bottom:18px;}
+.cntLine3 .newsBoard h3 {overflow:hidden; padding:1px 0 0; _padding:0; border-bottom:1px solid #134e8d; line-height:1em; vertical-align:top; color:#134e8d;}
+.cntLine3 .newsBoard h3 a {color:#134e8d;}
+.cntLine3 .newsBoard h3 span {padding-left:5px;}
+.cntLine3 .newsBoard h3 span a {display:inline-block; padding-left:5px; font-size:11px; font-family:dotum; font-weight:normal;color:#888; letter-spacing:-1px; vertical-align:top}
+.cntLine3 .newsBoard h3 .subCate a {background:url(http://img.sbs.co.kr/s9/news/main/bar_grayCate.gif) no-repeat 0 0;}
+.cntLine3 .newsBoard h3 .subCate .firstA {background:none}
+.cntLine3 .newsBoard .moreView {position:absolute; top:0; right:0;}
+.cntLine3 .newsBoard ul {position:relative; overflow:hidden; margin:9px 0; width:100%;}
+.cntLine3 .newsBoard ul li {position:relative; overflow:hidden;float:left; width:118px; height:104px; margin-left:11px;}
+.cntLine3 .newsBoard ul .firstLi { margin:0 1px 0 0;}
+
+.cntLine3 .newsBoard .thumImg {position:static}
+.cntLine3 .newsBoard .player {left:94px; top:50px;  width:24px; height:19px; background:url(http://img.sbs.co.kr/s9/news/main/btn_playNews.gif) no-repeat 0 0;}
+.cntLine3 .newsBoard .frameBd {width:116px; height:67px;}
+.cntLine3 .newsBoard .bodyTxt { overflow:hidden; display:block; height:30px; line-height:1.3em; vertical-align:top; padding-top:5px; font-family:gulim; font-size:12px; }
+
+.cntLine3 .newsBoard2 {position:relative; padding-top:5px;}
+.cntLine3 .newsBoard2 h3 {padding-bottom:1px; border-bottom:1px solid #134e8d; line-height:1; vertical-align:top; color:#134e8d;}
+.cntLine3 .newsBoard2 h3 a {color:#134e8d;}
+.cntLine3 .newsBoard2 .moreView {position:absolute; top:5px; right:0;}
+.cntLine3 .newsBoard2 ul {padding-top:14px;}
+.cntLine3 .newsBoard2 li {position:relative; overflow:hidden; width:100%; height:51px; padding:0; margin:0 0 10px 0; vertical-align:top}
+
+.cntLine3 .newsBoard2 h4 {float:right; overflow:hidden; width:277px; height:14px; padding-top:4px; font-weight:normal; font-size:12px; }
+.cntLine3 .newsBoard2 .thumImg {float:left; width:90px; margin-right:10px;}
+.cntLine3 .newsBoard2 .player {left:66px; top:32px;  width:24px; height:19px; background:url(http://img.sbs.co.kr/s9/news/main/btn_playNews.gif) no-repeat 0 0;}
+.cntLine3 .newsBoard2 .frameBd {width:88px; height:49px;}
+.cntLine3 .newsBoard2 .bodyTxt { overflow:hidden; float:right; width:277px; height:26px; line-height:1.2em; vertical-align:top; padding-top:7px; font-family:Dotum; font-size:11px; color:#8a8a8a;}
+
+.cntLine3 .newsBoard2 .noThum {width:100%; height:135px; margin:19px 0 0 0;}
+.cntLine3 .newsBoard2 .noThum h4 {float:none; width:100%; height:22px; margin:0; padding:0;}
+.cntLine3 .newsBoard2 .noThum h4 a:hover * {text-decoratin:underline; color:#2b5baf;}
+
+/*���� �׹�° ��*/
+/*sns ����*/
+.snsBanner {width:100%; margin-bottom:7px;}
+.snsBanner a {display:block;  margin-bottom:1px;}
+.snsBanner img {vertical-align:top;}
+
+/*�ֽ�����*/
+.cntLine4 .stock {padding:3px 6px 0; width:97px; border:1px solid #e8e5e5; border-top:0;}
+.cntLine4 .stock li {position:relative; padding:10px 0 0; width:100%; background:url(http://img.sbs.co.kr/s9/news/main/line_dottedGray.gif) repeat-x 0 bottom; }
+.cntLine4 .stock h4 {font-weight:normal;  width:50px; line-height:1em; vertical-align:top;}
+.cntLine4 .stock .time {position:absolute; top:10px; right:0; width:40px; text-align:right; font-family:Verdana; font-size:10px; color:#888;  line-height:1em; vertical-align:top; }
+.cntLine4 .stock div {clear:both;width:100%; padding:5px 0 10px 0; _padding-bottom:8px; overflow:hidden; }
+.cntLine4 .stock div p {padding-bottom:4px; font-family:Verdana, dotum; font-weight:bold; text-align:right;}
+.cntLine4 .stock div p span {display:inline-block; overflow:hidden; width:8px; height:8px; vertical-align:middle;}
+.cntLine4 .stock .up * {color:#ed1c24}
+.cntLine4 .stock .down * {color:#0f46e3}
+.cntLine4 .stock .up p span { background:url(http://img.sbs.co.kr/s9/news/main/icon_stockUp.gif) no-repeat center center;}
+.cntLine4 .stock .down p span { background:url(http://img.sbs.co.kr/s9/news/main/icon_stockDown.gif) no-repeat center center;}
+.cntLine4 .stock .num1 {font-size:11px; line-height:1em; vertical-align:top}
+.cntLine4 .stock .num2 {font-size:14px; line-height:1em; vertical-align:top}
+.cntLine4 .stock .rate {background:none;}
+.cntLine4 .stock .rate div {padding-bottom:0;}
+.cntLine4 .stock .lastLi {padding-bottom:5px; _padding-bottom:7px; background:none; text-align:center; font-size:11px; font-family:dotum; color:#a5a4a4;letter-spacing:-1px; line-height:1em; vertical-align:top; }
+.cntLine4 .stock .lastLi span {display:inline; font-size:11px; font-family:Verdana; color:#a5a4a4; letter-spacing:-1px;}
+/*cnbc �ٷΰ���*/
+.cntLine4 .cnbcView {width:109px; display:block; margin-bottom:8px; border:1px solid #e8e5e5; border-top:0;}
+/*��������*/
+.cntLine4 .tipOff {padding-bottom:3px; margin-bottom:8px; border:1px solid #c4dded; background:url(http://img.sbs.co.kr/s9/news/main/bg_tipOffBtm.gif) no-repeat 0 bottom;}
+.cntLine4 .tipOff h3 {margin:0; padding:0; border:0; background:none;}
+.cntLine4 .tipOff a {display:block; padding:0 3px; background:url(http://img.sbs.co.kr/s9/news/main/bg_tipOff.gif) repeat-y 0 0;}
+
+/*�Խ��� ����*/
+.cntLine4 .bnBoard { width:111px;margin-bottom:8px; border-top:1px solid #e8e5e5;}
+.cntLine4 .bnBoard a {display:block; padding:14px 9px 11px; border:1px solid #e8e5e5; border-top:0; color:#134e8d; background:url(http://img.sbs.co.kr/s9/news/main/arrow_blue.gif) no-repeat 94px 16px; font-weight:bold; line-height:1em; vertical-align:top;}
+.cntLine4 .bnBoard a:hover {text-decoration:none; color:#134e8d; }
+
+.cntLine4 .notice { width:109px; margin-bottom:8px; padding-bottom:17px; border:1px solid #e8e5e5;}
+.cntLine4 .notice h3 {margin:0; padding:10px 8px 6px; background:0; color:#134e8d; font-weight:bold;}
+.cntLine4 .notice a {display:block; overflow:hidden; height:30px; margin:8px 5px 0 10px; padding-left:5px; color:#6a6a6a; background:url(http://img.sbs.co.kr/s9/news/main/dot_gray.gif) no-repeat 0 5px;  line-height:15px;}
+
+.cntLine4 .issue { width:109px; padding:10px 0 7px; margin-bottom:8px; border:1px solid #e8e5e5; border-top:0;}
+.cntLine4 .issue a {display:block; overflow:hidden; height:30px; margin:0 5px 8px 10px; padding-left:5px; color:#6a6a6a; background:url(http://img.sbs.co.kr/s9/news/main/dot_gray.gif) no-repeat 0 5px;  line-height:15px;}
+
+.cntLine4 .bnNews {  width:109px; border:1px solid #e8e5e5; border-top:0;}
+.cntLine4 .bnNews a {display:block; border-top:1px solid #e8e5e5;}
+
+.cntLine4 .highlight {width:97px; padding:3px 6px 0; border:1px solid #e8e5e5; border-top:0;}
+.cntLine4 .highlight dt {padding:10px 0 5px;background:url(http://img.sbs.co.kr/s9/news/main/line_dottedGray.gif) repeat-x 0 0; color:#3f3f3f; font-weight:bold; }
+.cntLine4 .highlight .firstDt {background:none;}
+.cntLine4 .highlight dd {padding-bottom:10px; font-size:11px;}
+.cntLine4 .highlight dd a { font-size:11px; color:#878787; font-family:dotum; letter-spacing:-1px; line-height:13px;}
+.cntLine4 .highlight dd a:hover {color:#878787 !important;}
+
+/* 110707 main sns service �߰� */
+.cntLine3 .mainSns {overflow:hidden; width:377px; height:239px; margin-bottom:10px;}
+
+.cntLine3 .mainSns .menuBox {overflow:hidden; width:377px; border-bottom:1px solid #134e8d;}
+
+.cntLine3 .mainSns .menuBox .snstit {overflow:hidden; float:left; width:150px; padding:1px 0 0; _padding:0;  line-height:1em; vertical-align:top; color:#134e8d; letter-spacing:-1px; font-weight:bold; }
+.cntLine3 .mainSns .menuBox .more {overflow:hidden; float:right; letter-spacing:-1px;}
+.cntLine3 .mainSns .menuBox .more a{font-size:11px; font-family:dotum; color:#888; font-weight:normal; text-decoration:none;}
+
+.cntLine3 .mainSns .snsContentBox {overflow:auto; width:377px; height:225px;}
+.cntLine3 .mainSns .snsContentBox .snsCon {overflow:hidden; width:355px; padding:12px 0px 12px 3px; border-bottom:1px dotted #bdbdbd;}
+.cntLine3 .mainSns .snsContentBox .snsCon .thum {overflow:hidden; float:left; width:46px; height:46px; margin-right:10px;}
+.cntLine3 .mainSns .snsContentBox .snsCon .text {overflow:hidden; float:right; width:296px;}
+.cntLine3 .mainSns .snsContentBox .snsCon .text a{font-family:gulim; font-size:12px; line-height:130%; color:#333;}
+.cntLine3 .mainSns .snsContentBox .snsCon .id a{font-family:gulim; font-weight:bold; font-size:12px; color:#134e8d;}
+
+/* 110707 main banner �߰� */
+.cntLine3 .mainBanner {overflow:hidden; width:377px; height:38px; margin-bottom:18px;}
+.cntLine3 .mainBanner .mainBn1{overflow:hidden; float:left;}
+.cntLine3 .mainBanner .mainBn2{overflow:hidden; float:right;}
+
+/* 120120 ���� ����°��, ä�� �ǿ��� ����Ʈ �߰� */
+.tab_channel {height:26px; border-bottom:1px solid #226aac; position:relative; margin-bottom:10px;}
+.tab_channel h3 {width:108px; height:25px; text-align:center; font:bold 13px/2.5 dotum; position:absolute;}
+.tab_channel h3 a {height:25px; display:block;}
+.tab1_on {color:#1e4fa0; background:#fff; border:1px solid #226aac; border-bottom:0px; padding-bottom:1px; left:0px; top:0px;}
+.tab1_on a {color:#1e4fa0;}
+.tab1_off {color:#7e7e7e; background:#f6f6f6; border:1px solid #d3d3d3; border-bottom:1px solid #226aac; left:0px; top:0px;}
+.tab1_off a {color:#7e7e7e;}
+.tab2_on {color:#1e4fa0; background:#fff; border:1px solid #226aac; border-bottom:0px; padding-bottom:1px; left:109px; top:0px;}
+.tab2_on a {color:#1e4fa0;}
+.tab2_off {color:#7e7e7e; background:#f6f6f6; border:1px solid #d3d3d3; border-left:0; border-bottom:1px solid #226aac; left:110px; top:0px;}
+.tab2_off a {color:#7e7e7e;}
+
+.view_channel {overflow:hidden; padding-bottom:17px;}
+.img_channel {float:left; position:relative;}
+.img_channel img {vertical-align:top;}
+.line {width:281px; height:158px; position:absolute; top:0px; left:0px; z-index:250; border:1px solid #000; filter:alpha(opacity=20); opacity:0.2; background: url("http://img.sbs.co.kr/sw11/tv/common/blank.gif") repeat scroll left top transparent;}
+.img_channel p {width:263px; height:31px; padding:0 10px; position:absolute; left:0px; bottom:0px; background:url(http://img.sbs.co.kr/s9/news/main/bg_txt.png) repeat left top; color:#fff; line-height:2.7; overflow:hidden;}
+.list_thum {float:left; padding-left:5px;}
+.list_thum li {margin-bottom:5px;}
+.list_thum li img {vertical-align:top;}
+.list_thum li:hover {border:4px solid #f7941d;}
+.list_thum li:hover a {width:81px; height:42px; overflow:hidden; display:block;}
+.list_thum li:hover a img {margin:-4px;}
+
+.list_txt {clear:both; font:12px/1 gulim; padding-top:7px;}
+.list_txt li {width:377px; height:22px; background:url(http://img.sbs.co.kr/s9/news/main/bu_dot.gif) no-repeat left 3px; padding-left:7px; overflow:hidden;}
+.list_txt li a {line-height:2.1;}

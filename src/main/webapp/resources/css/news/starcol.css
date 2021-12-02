@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* ------------------------------------------
+* Filename: starcol.css
+* Description: star collection css
+* Author: Fu:z
+------------------------------------------ */
+
+/* backgrounds */
+.about_me .sns_list a, .btn_edit a,
+.fan_star .list_paging_nav a,
+.starcol .must_view .link_more a,
+.twit_time, 
+[class$='fan_flag'],
+.category_list > a.btn_toggle,
+ul.star_fan_sort, ul.star_fan_sort li a{background-image:url('http://image.sbs.co.kr/sbs/starcol/bg_starcol.png'); background-repeat:no-repeat}
+
+/* ����κ� */
+.btn_edit a{display:block; padding:0 0 0 18px; width:24px; height:19px; line-height:18px; font-size:11px; letter-spacing:-.09em}
+.has_fan_list li{float:left; position:relative; margin:0 5px 5px 0; width:33px; height:33px}
+.has_fan_list li a{display:block}
+.has_fan_list li img{width:33px; height:33px}
+.has_fan_list li .star_name{display:none; position:absolute; top:0; left:0; width:33px; height:33px; font-size:11px; line-height:13px; letter-spacing:-.09em; color:#fff; text-align:center; background:url('http://image.sbs.co.kr/sbs/common/bg_opacity.png') 0 0 repeat}
+.has_fan_list li:hover .star_name{display:block}
+.has_fan_list li .star_name span{display:block; margin-top:11px; cursor:pointer}
+.has_fan_list li .star_name span.break{margin-top:4px}
+
+/* ģ���� ��Ÿ�÷���(����κ�)
+------------------------------------------ */
+.friend_starcol, .friend_starcol .inner{background-image:url('http://image.sbs.co.kr/sbs/starcol/bg_lnb_fri.png'); background-repeat:no-repeat}
+.friend_starcol{margin:9px 0 0; padding:0 0 2px; background-position:0 100%}
+.friend_starcol .inner{position:relative; top:-2px; padding:6px 6px 2px; background-position:0 0}
+.friend_starcol .inner:after{display:block; content:""; clear:both}
+.friend_starcol h3{float:right; width:70px; font-size:12px; line-height:18px; color:#d7d8d8; letter-spacing:-.09em}
+.friend_starcol h3 strong{color:#fff}
+.friend_starcol h3 span{display:inline-block}
+.friend_starcol .profile{float:left; position:relative; width:41px; height:41px}
+.friend_starcol .profile img{width:41px; height:41px}
+.friend_starcol .profile span{position:absolute; top:0; left:0; display:block; width:41px; height:41px; background:url('http://image.sbs.co.kr/sbs/starcol/bg_prof_mask02.png') 0 0 no-repeat}
+
+/* �� ��Ÿ�÷��� 
+------------------------------------------ */
+.starcol_visual{position:relative}
+.starcol_visual img.bg_image{width:100%; height:auto}
+.starcol_visual .btn_edit{position:absolute; bottom:25px; right:10px}
+.starcol_visual .btn_edit a{color:#767673; background-position:-97px -21px}
+
+.starcol #head{float:left; width:110px; padding:0 13px; color:#e5e5e5; background:url('http://image.sbs.co.kr/sbs/starcol/bg_starcol_head.gif') 0 0 repeat-y}
+.starcol #head a{color:#e5e5e5}
+
+/* �ڱ�Ұ� */
+.about_me{padding:23px 0 0}
+.about_me .profile{position:relative; left:5px; width:100px}
+.about_me .profile span{position:absolute; top:0; left:0; z-index:2; display:block; width:100px; height:100px; background:url('http://image.sbs.co.kr/sbs/starcol/bg_prof_mask.png') 0 0 no-repeat}
+.about_me h3.nick_name{margin:12px 0 0; font-size:16px; color:#fff}
+.about_me .sns_list{margin:5px 0 0; overflow:hidden; *zoom:1}
+.about_me .sns_list li{float:left; margin:0 1px 0 0}
+.about_me .sns_list li a{display:block; width:22px; height:22px; text-indent:-9999em}
+.about_me .sns_list li a.sns{background-position:0 0}
+.about_me .sns_list li a.facebook{background-position:-23px 0}
+.about_me .sns_list li a.twitter{background-position:-46px 0}
+.about_me .sns_list li.on a.sbs{background-position:0 -23px}
+.about_me .sns_list li.on a.facebook{background-position:-23px -23px}
+.about_me .sns_list li.on a.twitter{background-position:-46px -23px}
+
+.about_me p.intro{margin:10px 0 0; font-size:12px; line-height:18px; letter-spacing:-.09em}
+.about_me .btn_edit{margin:5px 0 0}
+.about_me .btn_edit a{background-position:-97px 0}
+
+.fan_star, .activity_log{margin:20px 0 0; padding:20px 0 0; background:url('http://image.sbs.co.kr/sbs/starcol/bg_two_line.png') 0 0 repeat-x}
+/* Fan�� ��Ÿ */
+.fan_star{position:relative; width:110px; overflow:hidden}
+.fan_star .star_list{margin:10px 0 0; width:114px; overflow:hidden; *zoom:1}
+.fan_star .has_fan_list{margin:10px 0 0; width:120px}
+.fan_star .list_paging_nav{position:absolute; top:20px; right:0; overflow:hidden; *zoom:1}
+.fan_star .list_paging_nav a{float:left; display:block; height:14px; text-indent:-9999em;}
+.fan_star .list_paging_nav a.prev{width:14px; background-position:-69px 0}
+.fan_star .list_paging_nav a.next{width:13px; background-position:-83px 0}
+.fan_star .list_paging_info{position:absolute; top:120px; right:0; width:33px; height:33px; line-height:33px; text-align:center}
+.fan_star .goto_fan a{display:inline-block; margin:5px 0 0; line-height:14px; letter-spacing:-.09em; text-decoration:underline}
+
+/* Ȱ���α� */
+.activity_log{position:relative}
+.activity_log .acti_list{letter-spacing:-.09em; font-size:11px}
+.activity_log .acti_list dt{margin:10px 0 0}
+.activity_log .acti_list dd{margin:7px 0 0; padding:1px; height:17px; background-color:#474e54}
+.activity_log .acti_list dd span{display:block; text-indent:5px; font-size:12px; height:17px; line-height:17px; color:#fff; background-color:#677179}
+.activity_log .link_more{position:absolute; top:18px; right:0}
+.activity_log .link_more a{line-height:14px; letter-spacing:-.09em; text-decoration:underline}
+
+/* contents */
+.star_top_head .category_list{position:fixed; top:18px; right:40px; z-index:10; width:70px}
+.star_prf{position:fixed; top:11px; right:40px; z-index:10;}
+.star_prf:after{display:block; content:""; clear:both}
+/* ����Ʈ�ڽ� */
+.star_top_head .select_list{position:fixed; top:12px; right:40px; z-index:10; /* width:100px */}
+
+/* �α��/�̸��� */
+ul.star_fan_sort{float:left; width:101px; height:25px; background-position:0 -151px}
+ul.star_fan_sort li{float:left}
+ul.star_fan_sort li a{display:block; width:50px; height:25px; line-height:100px; overflow:hidden; background-position:-9999em -9999em}
+ul.star_fan_sort li.on a.best{width:51px; background-position:0 -180px}
+ul.star_fan_sort li.on a.name{width:50px; background-position:-50px -180px}
+
+.star_news_cont:after{display:block; content:""; clear:both}
+/* ��õ��Ÿ & ��Ÿ twitter */
+.starcol .must_view{width:250px}
+.starcol .must_view dl{position:relative; width:248px; height:208px; background-color:#fff}
+.starcol .must_view dl:first-child{margin:0 0 10px}
+.starcol .must_view dt{padding-left:14px; height:37px; line-height:37px; color:#fff; background-color:#97a3ac}
+.starcol .must_view dd > ul > li{background:url('http://image.sbs.co.kr/sbs/common/bg_dot_line.gif') 0 0 repeat-x}
+.starcol .must_view dd > ul > li:first-child{background-image:none}
+.starcol .must_view dd > ul > li .star_photo img{width:33px; height:33px}
+.starcol .must_view .link_more{position:absolute; top:0; right:0; width:38px; height:37px; border-left:1px solid #8d979e}
+.starcol .must_view .link_more a{display:block; width:38px; height:37px; text-indent:-9999em; background-position:-151px 14px}
+
+.recom_star_list li{padding:12px 11px}
+.recom_star_list li [class^='star_']{display:inline-block; margin-left:7px; letter-spacing:-.09em; vertical-align:middle}
+.recom_star_list li .star_photo{margin-left:0}
+.recom_star_list li .star_name{width:31px; font-weight:normal}
+.recom_star_list li .star_info{width:92px; font-weight:bold; color:#767676}
+.recom_star_list li a.star_fan{color:#6dabf8}
+
+.star_twitter li{padding:10px 11px 11px}
+.star_twitter li:after{display:block; content:""; clear:both}
+.star_twitter .star_photo, .star_twitter .twit_info{float:left}
+.star_twitter .star_photo{width:33px; margin:0 8px 0 0}
+.star_twitter .twit_info{width:183px}
+.star_twitter .twit_id{margin:0 0 0 5px; color:#767676}
+.star_twitter .twit_cont{margin:5px 0 0; font-size:11px; letter-spacing:-.09em; line-height:16px}
+.star_twitter .twit_cont a{display:block; height:30px; overflow:hidden}
+/* ���α׷���������� */
+.twit_time{display:block; margin:5px 0 0; padding:0 0 0 14px; font-size:11px; line-height:11px; color:#767676; background-position:-147px -24px}
+
+/* ��� ������(common.css Ȯ��) */
+
+/* ��Ÿ Fan�ϱ� 
+------------------------------------------ */
+.star_fan_list > ul{float:left; margin-right:20px}
+.star_fan_list > ul > li{margin:0 0 10px; width:120px}
+
+.has_fan_box{position:absolute; left:0; bottom:0; height:53px; padding:23px 0 0 177px; border-top:1px solid #d5d9df; background-color:#eaecef}
+.has_fan_inner{overflow:hidden; *zoom:1}
+.has_fan_inner dt{float:left; padding:7px 20px 0 0; letter-spacing:-.09em; color:#767676}
+.has_fan_inner dt strong{margin:0 3px 0 5px; color:#444}
+.has_fan_inner dd{float:left}
+.has_fan_inner dd .fan_star_msg{font-size:12px; line-height:33px; letter-spacing:-.09em; color:#6dabf8}
+.has_fan_inner .profile{position:relative; display:inline-block; width:20px; height:20px}
+.has_fan_inner .profile span{position:absolute; top:0; left:0; z-index:2; display:block; width:20px; height:20px; background:url('http://image.sbs.co.kr/sbs/starcol/bg_mini_profmask.png') 0 0 no-repeat}
+.has_fan_inner .profile img{width:20px; height:20px}
+
+/* �˻���� ����
+------------------------------------------ */
+.srh_result{margin: 0 0 15px; color:#767676}
+.srh_result .bar{margin:0 3px; font-size:10px}
+.srh_result .btn_close_srh{margin:0 0 0 5px}
+
+/* ģ���� ��Ÿ
+------------------------------------------ */
+.fri_star_info{margin:0 0 10px; font-size:12px; color:#444; letter-spacing:-.09em}
+.fri_star_info .profile{position:relative; display:inline-block; width:20px; height:20px}
+.fri_star_info .profile img{width:20px; height:20px}
+.fri_star_info .profile span{position:absolute; top:0; left:0; z-index:2; display:block; width:20px; height:20px; background:url('http://image.sbs.co.kr/sbs/starcol/bg_mini_profmask2.png') 0 0 no-repeat}
+.fri_star_info .info_text{color:#767676}
+
+.fri_fan_list .section{float:left; margin:0 20px 0 0; width:706px; border-bottom:1px solid #d9dad9}
+.fri_star_cell dt, .fri_star_cell dd{float:left}
+.fri_star_cell{border-top:1px solid #d9dad9}
+.fri_star_cell:after{content:""; display:block; clear:both}
+.fri_star_cell dt{width:179px; height:114px; padding:27px 0 0 18px; border-right:1px solid #d9dad9; background:#fff}
+.fri_star_cell dt a{display:block; text-decoration:none}
+.fri_star_cell dt .profile{position:relative; display:inline-block; vertical-align:middle; width:80px; height:80px}
+.fri_star_cell dt .profile img{width:80px; height:80px}
+.fri_star_cell dt .profile span{position:absolute; top:0; left:0; z-index:2; display:block; width:80px; height:80px; background:url('http://image.sbs.co.kr/sbs/starcol/bg_mid_profmask.png') 0 0 no-repeat}
+.fri_star_cell dt .nick_name{display:inline-block; width:70px; margin-left:10px; vertical-align:middle; word-wrap:break-word; font-size:12px; color:#444; letter-spacing:-.09em}
+.fri_star_cell dd{position:relative; padding-left:20px; width:488px; height:141px}
+.fri_star_cell dd .sub_title{margin:15px 0 10px; font-size:12px; color:#767676; letter-spacing:-.09em}
+.fri_star_cell dd .more{position:absolute; right:20px; top:15px; font-size:12px; color:#767676; letter-spacing:-.09em}
+
+.fri_fan_list ul > li{float:left; margin:0 10px 10px 0; width:70px}
+.fri_fan_list ul:after{content:""; display:block; clear:both}
+.fri_fan_list .fan_wrap{position:relative}
+.fri_fan_list .fan_wrap:hover .to_fand{display:block; cursor:pointer}
+.fri_fan_list .fan_wrap img.photo{width:68px; height:68px; border:1px solid #d9dad9}
+.fri_fan_list .fan_wrap span{position:absolute; top:0px; left:0px; text-align:center;}
+.fri_fan_list .fan_wrap .has_fand{padding-top:20px; width:70px; height:50px; background:url('http://image.sbs.co.kr/sbs/common/bg_opacity.png') 0 0 repeat}
+.fri_fan_list .fan_wrap .has_fand2{width:64px; height:64px; font-size:0; border:solid 3px #6dabf8}
+.fri_fan_list .fan_wrap .to_fand{display:none; padding-top:29px; width:70px; height:41px; background:url('http://image.sbs.co.kr/sbs/common/bg_opacity.png') 0 0 repeat}
+.fri_fan_list .star_name{display:block; margin:8px 0 0; width:70px; text-align:center; font-weight:normal; font-size:11px color:#444; letter-spacing:-.09em}
+
+
+/* resize 
+------------------------------------------ */
+/* ���� < 810px */ 
+#wrap.small .activity_log{display:none}
+#wrap.small .starcol_visual{width:450px; height:524px}
+#wrap.small .star_news_cont{height:440px}
+#wrap.small .star_fan_list > ul{height:310px}
+
+/* 810px =< ���� < 1006px */
+#wrap.normal .starcol_visual{width:580px; height:760px}
+#wrap.normal .star_news_cont{height:660px}
+#wrap.normal .star_fan_list > ul{height:610px}
+
+/* ���� >= 1006px */
+#wrap.big .starcol_visual{width:715px; height:956px}
+#wrap.big .star_news_cont{height:910px}
+#wrap.big .star_fan_list > ul{height:760px}
+

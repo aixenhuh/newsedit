@@ -1,0 +1,232 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* LAYOUT */
+#ssports.star_main {}
+
+/* LNB */
+#ssports.star_main #header .gnb {height:38px; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/ssports/bg_gnb.gif) no-repeat 0px 0px;}
+#ssports.sub #header .gnb {height:71px; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/ssports/bg_gnb.gif) no-repeat 0px 0px;}
+#ssports #header .gnb dl dd ul {width:988px; height:32px; overflow:hidden; position:absolute; top:38px; left:0px; display:none;}
+#ssports #header .gnb dl dd ul li {float:left; padding:10px 15px 0 15px; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/common/bu_vertical1.gif) no-repeat 0px 11px;}
+#ssports #header .gnb dl dd ul li:first-child {background:none;}
+#ssports #header .gnb dl dd.on ul {display:block;}
+
+/* 스타스포츠 - 메인 */
+#ssports.star_main #star_aside {margin-top:10px; border-top:3px solid #979ca7; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/common/bg_aside.gif) repeat-y 0px 0px;}
+#ssports.sub #star_aside {border-top:1px solid #dadada; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/common/bg_aside.gif) repeat-y 0px 0px;}
+#ssports #star_aside>div {border-bottom:1px solid #dadada;}
+
+/* 메인 - 헤드라인 */
+#ssports.star_main #star_content .sec_headline {height:358px; padding-top:10px; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/ssports/bu_line.gif) repeat-x 0px 10px; overflow:hidden;}
+#ssports.star_main #star_content .sec_headline .list_hline {position:relative;}
+#ssports.star_main #star_content .sec_headline .list_hline>li.hline_txt,
+#ssports.star_main #star_content .sec_headline .list_hline>li.hline_thum {width:165px; padding-top:12px; border-top:3px solid #d7d7d7; color:#888c95;}
+#ssports.star_main #star_content .sec_headline .list_hline>li.hline_txt p {height:45px; overflow:hidden; margin-top:5px;}
+#ssports.star_main #star_content .sec_headline .list_hline>li.hline_txt a strong {display:block; height:43px; font-size:16px; letter-spacing:-1px; color:#323d5c; overflow:hidden;}
+#ssports.star_main #star_content .sec_headline .list_hline>li.hline_txt a:hover strong {color:#faa727;}
+#ssports.star_main #star_content .sec_headline .list_hline>li.hline_thum a img {margin-bottom:5px;}
+#ssports.star_main #star_content .sec_headline .list_hline>li.hline_thum a strong {display:block; height:35px; font-size:14px; letter-spacing:-1px; color:#323d5c; overflow:hidden;}
+#ssports.star_main #star_content .sec_headline .list_hline>li.hline_thum a:hover strong {color:#faa727;}
+#ssports.star_main #star_content .sec_headline .list_hline>li.hline_thum a .mask {top:12px; left:0px; width:163px; height:95px;}
+#ssports.star_main #star_content .sec_headline .list_hline>li.hline_thum a .play {display:block; width:38px; height:30px; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/ssports/ico_play.png) no-repeat 0px 0px; text-indent:-2000em; position:absolute; top:79px; right:0px;}
+#ssports.star_main #star_content .sec_headline .list_hline>li>ul {margin-top:13px;}
+#ssports.star_main #star_content .sec_headline .list_hline>li>ul>li {height:30px; overflow:hidden; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/ssports/bu_re.gif) no-repeat 0px 2px; padding-left:10px; margin-top:10px;}
+#ssports.star_main #star_content .sec_headline .list_hline>li>ul>li:first-child {margin:0;}
+#ssports.star_main #star_content .sec_headline .list_hline>li>ul>li a {color:#565c6b;}
+#ssports.star_main #star_content .sec_headline .list_hline>li.hline_hot {width:366px;}
+#ssports.star_main #star_content .sec_headline .list_hline>li.hline_hot .label_hot {position:absolute; top:5px; left:-6px; z-index:250;}
+#ssports.star_main #star_content .sec_headline .list_hline>li.hline_hot .txt_hot {display:block; width:346px; height:97px; padding:261px 10px 10px 10px; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/ssports/bg_opacity.png) no-repeat 0px 100%; position:absolute; bottom:0px; left:0px; color:#fff; overflow:hidden;}
+#ssports.star_main #star_content .sec_headline .list_hline>li.hline_hot .txt_hot strong {display:block; font-size:28px; line-height:1; letter-spacing:-2px; word-spacing:-1px; margin-bottom:10px;}
+#ssports.star_main #star_content .sec_headline .list_hline>li.hline_hot a:hover .txt_hot strong {text-decoration:underline; color:#faa727;}
+#ssports.star_main #star_content .sec_headline .list_hline>li.hline_hot .mask {width:364px; height:366px;}
+#ssports.star_main #star_content .sec_headline .list_hline>li.hline_hot .play {display:block; width:38px; height:30px; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/ssports/ico_play.png) no-repeat 0px 0px; text-indent:-2000em; position:absolute; top:221px; right:0px;}
+#ssports.star_main #star_content .sec_headline .list_hline>li.list1 {position:absolute; top:0px; left:0px; border:0;}
+#ssports.star_main #star_content .sec_headline .list_hline>li.list1 ul>li {background:none; padding-left:0px;}
+#ssports.star_main #star_content .sec_headline .list_hline>li.list2 {position:absolute; top:200px; left:0px;}
+#ssports.star_main #star_content .sec_headline .list_hline>li.list3 {position:absolute; top:-10px; left:180px;}
+#ssports.star_main #star_content .sec_headline .list_hline>li.list4 {position:absolute; top:0px; right:0px; border:0;}
+#ssports.star_main #star_content .sec_headline .list_hline>li.list5 {position:absolute; top:200px; right:0px;}
+
+/* 메인-이슈 키워드 */
+#ssports.star_main #star_content dl.kw {height:27px; background:#f6f6f7; border:1px solid #c1c3c9; margin-top:13px;}
+#ssports.star_main #star_content dl.kw dt {width:69px; height:27px; padding-left:13px; float:left; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/ssports/bg_kw.gif) no-repeat 0px 0px; font-size:12px; font-weight:bold; color:#ff492b; line-height:2.4;}
+#ssports.star_main #star_content dl.kw dd {float:left; line-height:2.4; padding-right:12px;}
+
+/* 메인-리뷰,칼럼 */
+#ssports.star_main #star_content .sec_review {margin-top:30px;}
+#ssports.star_main #star_content .sec_review h2 {height:13px; border-bottom:2px solid #6b7181;}
+#ssports.star_main #star_content .sec_review h2 img {padding-right:10px; background:#fff; margin-bottom:-2px;}
+#ssports.star_main #star_content .sec_review ul {overflow:hidden; margin-top:12px;}
+#ssports.star_main #star_content .sec_review ul li {float:left; border:1px solid #d4d5d9; margin-left:14px; position:relative;}
+#ssports.star_main #star_content .sec_review ul li:first-child {margin:0;}
+#ssports.star_main #star_content .sec_review ul li .label_review {display:block; position:absolute; top:12px; left:0px;}
+#ssports.star_main #star_content .sec_review ul li .label_review img {margin-right:3px;}
+#ssports.star_main #star_content .sec_review ul li .label_review span {font-size:11px; color:#da7464;}
+#ssports.star_main #star_content .sec_review ul li .star_reply {overflow:hidden; float:right; margin:5px 3px 0 0;}
+#ssports.star_main #star_content .sec_review ul li .star_reply .like {float:left; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/ssports/bg_like.gif) no-repeat 60px 1px;}
+#ssports.star_main #star_content .sec_review ul li .star_reply .like img {float:left;}
+#ssports.star_main #star_content .sec_review ul li .star_reply .like em {float:left; height:16px; font-style:normal; line-height:1.7; padding-right:5px; margin-left:10px; border:1px solid #c1c1c1; border-left:0; margin-top:1px; font-size:11px; color:#595b62;}
+#ssports.star_main #star_content .sec_review ul li .star_reply .cmt {height:11px; padding:4px 4px 3px 4px; float:left; background:#eceef5; border:1px solid #cad4e7; margin-left:5px;}
+#ssports.star_main #star_content .sec_review ul li .star_reply .cmt em {font-style:normal; padding-left:2px; line-height:1;}
+#ssports.star_main #star_content .sec_review ul li .star_reply a {font-size:11px; color:#595b62;}
+#ssports.star_main #star_content .sec_review ul li .star_reply a:hover {text-decoration:none;}
+
+#ssports.star_main #star_content .sec_review ul li.review_type1 {width:163px; height:159px; padding-top:30px;}
+#ssports.star_main #star_content .sec_review ul li.review_type1 .cnt_review a {color:#323d5c;}
+#ssports.star_main #star_content .sec_review ul li.review_type1 .cnt_review a strong {display:block; height:34px; padding-left:7px; font-size:14px; font-weight:bold; line-height:1.3; overflow:hidden;}
+#ssports.star_main #star_content .sec_review ul li.review_type1 .cnt_review a img {position:absolute; left:0px; bottom:0px; border-top:1px solid #dcdcdc;}
+#ssports.star_main #star_content .sec_review ul li.review_type1 .cnt_review a .tail {display:block; width:9px; height:6px; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/ssports/bu_tail1.gif) no-repeat left top; position:absolute; bottom:91px; left:26px;}
+
+#ssports.star_main #star_content .sec_review ul li.review_type2 {width:364px; height:189px;}
+#ssports.star_main #star_content .sec_review ul li.review_type2:after {content:""; display:block; clear:both;}
+#ssports.star_main #star_content .sec_review ul li.review_type2 .label_review span {width:145px; position:absolute; top:0; left:210px;}
+#ssports.star_main #star_content .sec_review ul li.review_type2 .cnt_review a img {float:left; margin-right:7px; border-right:1px solid #dcdcdc;}
+#ssports.star_main #star_content .sec_review ul li.review_type2 .cnt_review a strong {float:left; width:145px; height:34px; font-size:14px; font-weight:bold; line-height:1.3; overflow:hidden; margin:30px 0 10px 0;}
+#ssports.star_main #star_content .sec_review ul li.review_type2 .cnt_review a:hover strong {text-decoration:underline;}
+#ssports.star_main #star_content .sec_review ul li.review_type2 .cnt_review a .tail {display:block; width:6px; height:9px; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/ssports/bu_tail2.gif) no-repeat left top; position:absolute; top:25px; left:196px;}
+#ssports.star_main #star_content .sec_review ul li.review_type2>p {width:145px; height:82px; color:#565c6b; margin-bottom:5px; overflow:hidden;}
+
+/* 메인-최신뉴스 */
+#ssports.star_main #star_content .sec_news {margin-top:25px;}
+#ssports.star_main #star_content .sec_news h2 {height:13px; border-bottom:2px solid #6b7181;}
+#ssports.star_main #star_content .sec_news h2 img {padding-right:10px; background:#fff; margin-bottom:-2px;}
+#ssports.star_main #star_content .sec_news>div {padding:16px 16px 40px 16px; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/ssports/bg_timeline.gif) no-repeat 50% top #fdfcfc; border:1px solid #d4d5d9; margin-top:11px; overflow:hidden; position:relative;}
+#ssports.star_main #star_content .sec_news dl {float:left;}
+#ssports.star_main #star_content .sec_news dl dt {font-size:14px; font-weight:bold;}
+#ssports.star_main #star_content .sec_news dl dd {width:332px; margin-top:13px;}
+#ssports.star_main #star_content .sec_news dl dd>div {position:relative;}
+#ssports.star_main #star_content .sec_news dl.list_enm {padding-right:12px;}
+#ssports.star_main #star_content .sec_news dl.list_enm dt {color:#da7464;}
+#ssports.star_main #star_content .sec_news dl.list_enm dd {background:url(http://img.sbs.co.kr/sw11/news/news2013/images/ssports/bg_bx3.gif) no-repeat 0% 100%;}
+#ssports.star_main #star_content .sec_news dl.list_enm dd>div {padding:20px 24px 15px 18px; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/ssports/bg_bx1.gif) no-repeat 0px 0px;}
+#ssports.star_main #star_content .sec_news dl.list_enm dd.thum_type1>div p {width:120px; height:98px; overflow:hidden; position:absolute; top:67px; right:24px;}
+#ssports.star_main #star_content .sec_news dl.list_enm dd.thum_type2>div p {width:193px; height:98px; overflow:hidden; position:absolute; top:67px; right:24px;}
+#ssports.star_main #star_content .sec_news dl.list_sports {padding-left:12px;}
+#ssports.star_main #star_content .sec_news dl.list_sports dt {color:#6485da;}
+#ssports.star_main #star_content .sec_news dl.list_sports dd {background:url(http://img.sbs.co.kr/sw11/news/news2013/images/ssports/bg_bx3.gif) no-repeat right bottom;}
+#ssports.star_main #star_content .sec_news dl.list_sports dd>div {padding:20px 18px 15px 24px; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/ssports/bg_bx2.gif) no-repeat 0px 0px;}
+#ssports.star_main #star_content .sec_news dl.list_sports dd.thum_type1>div p {width:114px; height:98px; overflow:hidden; position:absolute; top:67px; right:24px;}
+#ssports.star_main #star_content .sec_news dl.list_sports dd.thum_type2>div p {width:187px; height:98px; overflow:hidden; position:absolute; top:67px; right:24px;}
+#ssports.star_main #star_content .sec_news dl dd>div a img {margin-bottom:10px; border:1px solid #ddd;}
+#ssports.star_main #star_content .sec_news dl dd>div a strong {display:block; font-size:14px; line-height:1.2; font-weight:bold; color:#323d5c; margin-bottom:10px; height:35px;}
+#ssports.star_main #star_content .sec_news dl dd>div a:hover strong {color:#faa727;}
+#ssports.star_main #star_content .sec_news dl dd>div ul {}
+#ssports.star_main #star_content .sec_news dl dd>div ul li {font-size:11px; color:#6e6e6e; text-overflow:ellipsis; overflow:hidden; white-space:nowrap; margin-bottom:5px;}
+#ssports.star_main #star_content .sec_news dl dd>div ul li strong {color:#9195a7; margin-right:10px;}
+#ssports.star_main #star_content .sec_news dl dd>div .star_reply {height:20px; text-align:right; display:block;}
+#ssports.star_main #star_content .sec_news dl dd>div .star_reply .cmt {display:inline-block; height:11px; padding:4px 4px 3px 4px; background:#eceef5; border:1px solid #cad4e7;}
+#ssports.star_main #star_content .sec_news dl dd>div .star_reply .cmt em {font-style:normal; padding-left:2px; line-height:1;}
+#ssports.star_main #star_content .sec_news dl dd>div .star_reply a {font-size:11px; color:#595b62;}
+#ssports.star_main #star_content .sec_news dl dd>div .star_reply a:hover {text-decoration:none;}
+#ssports.star_main #star_content .sec_news dl dd>div .time {padding-top:11px; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/ssports/bu_dot.gif) no-repeat 50% 0px; font-size:11px; font-weight:bold; color:#626678; position:absolute;}
+#ssports.star_main #star_content .sec_news dl.list_enm dd>div .time {top:10px; right:-28px;}
+#ssports.star_main #star_content .sec_news dl.list_sports dd>div .time {top:10px; left:-28px;}
+#ssports.star_main #star_content .sec_news>div .btn_more1 {font-size:11px; color:#a2a2a2; padding-right:6px; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/common/bu_arrow1.gif) no-repeat 100% 3px; position:absolute; left:300px; bottom:5px;}
+#ssports.star_main #star_content .sec_news>div .btn_more2 {font-size:11px; color:#a2a2a2; padding-right:6px; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/common/bu_arrow1.gif) no-repeat 100% 3px; position:absolute; left:665px; bottom:5px;}
+
+/* 메인 - 하이라이트 */
+#ssports.star_main #star_content .sec_highlight {margin-top:30px;}
+#ssports.star_main #star_content .sec_highlight h2 {height:13px; border-bottom:2px solid #6b7181;}
+#ssports.star_main #star_content .sec_highlight h2 img {padding-right:10px; background:#fff; margin-bottom:-2px;}
+#ssports.star_main #star_content .sec_highlight ul {overflow:hidden; margin:13px 0 0 -19px;}
+#ssports.star_main #star_content .sec_highlight ul li {width:168px; height:150px; float:left; margin-left:18px; position:relative;}
+#ssports.star_main #star_content .sec_highlight ul li .label_hlignt {position:absolute; top:10px; left:0px;}
+#ssports.star_main #star_content .sec_highlight ul li a {color:#323d5c;}
+#ssports.star_main #star_content .sec_highlight ul li a img {margin-bottom:5px;}
+#ssports.star_main #star_content .sec_highlight ul li a .play {display:block; width:38px; height:30px; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/ssports/ico_play.png) no-repeat 0px 0px; text-indent:-2000em; position:absolute; top:81px; right:0px;}
+#ssports.star_main #star_content .sec_highlight ul li a .mask {width:166px; height:109px;}
+
+/* 스타스포츠 우측-많이본뉴스 탭,넘버링 리스트 */
+#ssports #star_aside .aside_issue {}
+#ssports #star_aside .aside_issue h2 {height:11px; padding:12px; font-size:12px; color:#555d71;}
+#ssports #star_aside .list_type1 {padding-top:25px; position:relative;}
+#ssports #star_aside .list_type1 dt {width:124px; height:25px; text-align:center; position:absolute; top:0px; overflow:hidden;}
+#ssports #star_aside .list_type1 dt a {height:23px; display:block; color:#454545; line-height:2.1; border-top:1px solid #eaeaea; border-bottom:1px solid #939393;}
+#ssports #star_aside .list_type1 dt a:hover {text-decoration:none;}
+#ssports #star_aside .list_type1 dt.on a {height:24px; font-weight:bold; border-top:1px solid #939393; border-left:1px solid #939393;}
+#ssports #star_aside .list_type1 dt.tab1 {left:0px;}
+#ssports #star_aside .list_type1 dt.tab2 {left:124px;}
+#ssports #star_aside .list_type1 dd {display:none;}
+#ssports #star_aside .list_type1 dd.on {display:block;}
+#ssports #star_aside .list_type1 dd ol {padding:15px 15px 15px 13px;}
+#ssports #star_aside .list_type1 dd ol li {height:15px; padding-left:25px; margin-bottom:5px; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+#ssports #star_aside .list_type1 dd ol li a {color:#202020;}
+#ssports #star_aside .list_type1 dd ol li.no1 {background:url(http://img.sbs.co.kr/sw11/news/news2013/images/common/bg_num.gif) no-repeat 0px 0px;}
+#ssports #star_aside .list_type1 dd ol li.no2 {background:url(http://img.sbs.co.kr/sw11/news/news2013/images/common/bg_num.gif) no-repeat 0px -15px;}
+#ssports #star_aside .list_type1 dd ol li.no3 {background:url(http://img.sbs.co.kr/sw11/news/news2013/images/common/bg_num.gif) no-repeat 0px -30px;}
+#ssports #star_aside .list_type1 dd ol li.no4 {background:url(http://img.sbs.co.kr/sw11/news/news2013/images/common/bg_num.gif) no-repeat 0px -45px;}
+#ssports #star_aside .list_type1 dd ol li.no5 {background:url(http://img.sbs.co.kr/sw11/news/news2013/images/common/bg_num.gif) no-repeat 0px -60px;}
+#ssports #star_aside .list_type1 dd ol li.no6 {background:url(http://img.sbs.co.kr/sw11/news/news2013/images/common/bg_num.gif) no-repeat 0px -75px;}
+#ssports #star_aside .list_type1 dd ol li.no7 {background:url(http://img.sbs.co.kr/sw11/news/news2013/images/common/bg_num.gif) no-repeat 0px -90px;}
+#ssports #star_aside .list_type1 dd ol li.no8 {background:url(http://img.sbs.co.kr/sw11/news/news2013/images/common/bg_num.gif) no-repeat 0px -105px;}
+#ssports #star_aside .list_type1 dd ol li.no9 {background:url(http://img.sbs.co.kr/sw11/news/news2013/images/common/bg_num.gif) no-repeat 0px -120px;}
+#ssports #star_aside .list_type1 dd ol li.no10 {background:url(http://img.sbs.co.kr/sw11/news/news2013/images/common/bg_num.gif) no-repeat 0px -135px;}
+
+/* 스타스포츠 우측-스코어보드 */
+#ssports #star_aside .score {padding-top:25px; position:relative;}
+#ssports #star_aside .score h2 {padding:0 0 6px 13px; font-size:12px; color:#555d71;}
+#ssports #star_aside .score>p {font-size:11px; font-weight:bold; color:#8f8f8f; position:absolute; top:23px; right:10px;}
+#ssports #star_aside .score dl {padding-top:26px; position:relative;}
+#ssports #star_aside .score dl dt {width:83px; height:24px; text-align:center; position:absolute; top:0px;}
+#ssports #star_aside .score dl dt a {height:24px; display:block; font-size:11px; line-height:2.4; color:#454545; border-top:1px solid #d7d7d7; border-bottom:1px solid #41495e; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/common/bu_vertical1.gif) no-repeat 100% 6px; background-size:1px 12px;}
+#ssports #star_aside .score dl dt a:hover {text-decoration:none;}
+#ssports #star_aside .score dl dt.tab1 {left:0px;}
+#ssports #star_aside .score dl dt.tab2 {left:83px;}
+#ssports #star_aside .score dl dt.tab3 {width:82px; left:166px;}
+#ssports #star_aside .score dl dt.tab3 a {background:none;}
+#ssports #star_aside .score dl dt.on a {border-top:1px solid #41495e; background:#41495e; font-weight:bold; color:#fff;}
+#ssports #star_aside .score dl dd {height:31px; padding:13px 20px; background:#f0f0f2; display:none; overflow:hidden; position:relative;}
+#ssports #star_aside .score dl dd>span {float:left;}
+#ssports #star_aside .score dl dd .team {display:block; width:60px; height:35px; font-weight:bold; font-size:14px; color:#41495e; overflow:hidden; float:right;}
+#ssports #star_aside .score dl dd .team:first-child {float:left;}
+#ssports #star_aside .score dl dd .txt_score {font-size:11px; color:#989ca6; text-align:center; position:absolute; top:15px; left:40%;}
+#ssports #star_aside .score dl dd .txt_score span {display:block; font-size:13px; font-weight:bold; color:#ff492b;}
+#ssports #star_aside .score dl dd .txt_score span strong {padding:0 5px;}
+#ssports #star_aside .score dl dd.on {display:block;}
+
+/* 스타스포츠 우측-EPL칼럼 */
+#ssports #star_aside .epl {padding-top:25px; padding-bottom:20px;}
+#ssports #star_aside .epl h2 {padding:0 0 6px 13px; font-size:12px; color:#555d71;}
+#ssports #star_aside .list_type3 {padding:0 13px;}
+#ssports #star_aside .list_type3 li {height:14px; margin-top:6px; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/common/bu_dot.gif) no-repeat 0px 5px; padding-left:8px; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+#ssports #star_aside .list_type3 li.thum {height:67px; overflow:hidden; padding:0; background:none; position:relative; white-space:normal;}
+#ssports #star_aside .list_type3 li.thum a:hover strong {text-decoration:underline;}
+#ssports #star_aside .list_type3 li.thum a img {float:left;}
+#ssports #star_aside .list_type3 li.thum a strong {width:112px; height:65px; float:right; font-size:13px; line-height:1.3; overflow:hidden; }
+#ssports #star_aside .list_type3 li.thum a .mask {width:98px; height:65px;}
+
+/* 스타스포츠 우측-비하인드스토리 */
+#ssports #star_aside .behind {padding-top:25px; padding-bottom:20px;}
+#ssports #star_aside .behind h2 {padding:0 0 6px 13px; font-size:12px; color:#555d71;}
+#ssports #star_aside .behind .list_type4 {margin-left:-4px; overflow:hidden;}
+#ssports #star_aside .behind .list_type4 li {width:100px; float:left; margin-left:17px; position:relative;}
+#ssports #star_aside .behind .list_type4 li a img {margin-bottom:5px;}
+#ssports #star_aside .behind .list_type4 li a span {display:block; height:33px; overflow:hidden;}
+#ssports #star_aside .behind .list_type4 li a .mask {width:98px; height:65px;}
+#ssports #star_aside .behind .list_type4 li .star_reply {height:20px; text-align:right; display:block; margin-top:2px;}
+#ssports #star_aside .behind .list_type4 li .star_reply .cmt {display:inline-block; height:11px; padding:4px 4px 3px 4px; background:#eceef5; border:1px solid #cad4e7;}
+#ssports #star_aside .behind .list_type4 li .star_reply .cmt em {font-style:normal; padding-left:2px; line-height:1;}
+#ssports #star_aside .behind .list_type4 li .star_reply a {font-size:11px; color:#595b62;}
+#ssports #star_aside .behind .list_type4 li .star_reply a:hover {text-decoration:none;}
+
+/* 스타스포츠 우측-연예톡톡 */
+#ssports #star_aside .toctoc {padding-top:25px; padding-bottom:20px;}
+#ssports #star_aside .toctoc h2 {padding:0 0 6px 13px; font-size:12px; color:#555d71;}
+#ssports #star_aside .list_type2 {padding:0 13px;}
+#ssports #star_aside .list_type2 li {height:14px; margin-top:6px; background:url(http://img.sbs.co.kr/sw11/news/news2013/images/common/bu_dot.gif) no-repeat 0px 5px; padding-left:8px;}
+#ssports #star_aside .list_type2 li a {color:#202020;}
+
+/* 스타스포츠 우측-기자트위터 */
+#ssports #star_aside .list_twit {padding-top:25px; padding-bottom:20px;}
+#ssports #star_aside .list_twit h2 {padding:0 0 6px 13px; font-size:12px; color:#555d71;}
+#ssports #star_aside .list_twit ul {padding:3px 13px;}
+#ssports #star_aside .list_twit ul li {min-height:52px; padding:0 0 20px 58px; line-height:1.3; position:relative;}
+#ssports #star_aside .list_twit ul li>div {position:absolute; top:0px; left:0px;}
+#ssports #star_aside .list_twit ul li strong {display:block; font-size:11px; font-weight:normal; color:#827d7d;}
+#ssports #star_aside .list_twit ul li span {display:block; font-size:11px; margin:1px 0 2px 0;}
+#ssports #star_aside .list_twit ul li span a {color:#585beb;}
+
+/* 뉴스-리스트페이지 */
+#ssports.sub #star_content.listpage .path {border-bottom:2px solid #008dd0;}
+#ssports.sub #star_content.listpage .path span strong {color:#8480ef;}

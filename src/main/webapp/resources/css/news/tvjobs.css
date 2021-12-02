@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* ------------------------------------------
+* Filename: tvjobs.css
+* Description: 티브이잡스 스타일
+* Author: Fu:z
+------------------------------------------ */
+
+/* 티브이잡스 인풋요소 */
+.tvjobs input[type="text"], .tvjobs input[type="file"]{height:25px; line-height:25px; vertical-align:middle; padding:0 5px; color:#7a7c80; border:solid 1px #c7c9ce}
+
+/* Main 
+------------------------------------------ */
+.tvjobs [class^='section']{float:left; padding:30px 40px 0 0; width:510px}
+.tvjobs .section01{padding-left:40px}
+.tvjobs div.module_box{margin-bottom:10px}
+.tvjobs ul.module_box{width:520px; +margin:0 0 10px}
+.tvjobs ul.module_box:after{display:block; content:""; clear:both}
+.tvjobs ul.module_box li.module_cell{float:left; margin:0 10px 10px 0}
+.tvjobs .section01 .module_type_e{margin-bottom:10px}
+.tvjobs [class^='section'] div.module_box{position:relative; width:520px; margin:0 0 10px; overflow:hidden}
+
+.tvjobs .tab_type03{width:508px; height:208px}
+.tvjobs .tab_type03 h2{float:left; padding:0}
+
+/* Sub 
+------------------------------------------ */
+.tvjobs_top_head .select_list{position:absolute; margin:-5px 0 0 20px}
+
+/* 스튜디오 소개 */
+.sub_item{padding:34px 29px 29px; width:450px; height:365px; letter-spacing:-.09em}
+.sub_item .item_title{font-weight:bold; font-size:24px; color:#222}
+.sub_item .intro_text{margin-top:30px; line-height:20px; font-size:15px; color:#6dabf8}
+.sub_item .normal_text{margin-top:15px; line-height:21px; color:#7a7c80}
+.sub_item .about_tvjobs{margin-top:25px; background:url('http://image.sbs.co.kr/sbs/tvjobs/bg_about_tvjobs.png') no-repeat 300px bottom}
+.sub_item .about_tvjobs dt, .sub_item .about_tvjobs dd{width:230px}
+.sub_item .about_tvjobs dt{padding-top:29px; width:230px; border-top:dashed 1px #dcdfe4; font-weight:bold; font-size:15px; color:#404040}
+.sub_item .ucc_progress{margin:30px 0 35px}
+.sub_item .ucc_progress:after{content:""; display:block; clear:both}
+.sub_item .ucc_progress dt, .sub_item .ucc_progress dd{float:left; line-height:21px}
+.sub_item .ucc_progress dt{width:65px; font-weight:bold; color:#404040}
+.sub_item .ucc_progress dd{width:375px; color:#7a7c80}
+.sub_item .ucc_sequence{padding-top:65px; overflow:hidden; *zoom:1; background:url('http://image.sbs.co.kr/sbs/tvjobs/bg_ucc_sequence.png') no-repeat 38px top}
+.sub_item .ucc_sequence li{float:left; width:84px; margin-left:10px; text-align:center}
+.sub_item .ucc_sequence li.type1{width:124px}
+.sub_item .ucc_sequence li.type2{width:104px}
+.sub_item .ucc_sequence li dt, .sub_item .ucc_sequence .sub_text{color:#7a7c80}
+.sub_item .ucc_sequence li dd{margin-top:10px; padding-top:15px; height:30px; line-height:15px; background-color:#f7f7f7}
+.sub_item .ucc_sequence li.type1 dd, .sub_item .ucc_sequence li.type2 dd{padding-top:7px; height:38px}
+
+/* 참여하기 */
+.join_info .sub_item_wrap{float:left; margin-left:40px}
+.join_info .sub_item_wrap:first-child{margin-left:0}
+.join_info .sub_item.bg{background-color:#efefef}
+.join_info .sub_item .item_title{line-height:30px; letter-spacing:-.09em}
+.join_info .sub_item .ucc_progress{margin:20px 0 0}
+.join_info .down_area{position:relative; width:450px; height:140px}
+.join_info .down_area .btn_type_b{position:absolute; left:0; bottom:0}
+.join_info .down_area .vod_thumb{position:absolute; right:0; bottom:0}
+
+.join_info .making_type{padding:29px 0 29px 29px; width:370px; border-bottom:dashed 1px #dee1e6}
+.join_info .making_type.last{border-bottom:0}
+.join_info .making_type:after{content:""; display:block; clear:both}
+.join_info .making_type .type_title, .making_type .ucc_progress{float:left}
+.join_info .making_type .ucc_progress{margin-top:0; width:295px}
+.join_info .making_type .ucc_progress dd{width:230px}
+.join_info .making_type .type_title{padding:3px 31px 0 0}
+
+.join_info .notes{margin-top:25px; height:314px; background:url('http://image.sbs.co.kr/sbs/tvjobs/bg_notes.png') no-repeat 264px 167px}
+.join_info .notes > strong{line-height:20px; letter-spacing:-.09em; font-weight:normal; font-size:15px}
+.join_info .notes > .list_type01{margin-top:15px}
+
+.join_info .cont_upload{position:relative}
+.join_info .cont_upload:after{content:""; display:block; clear:both}
+.join_info .cont_upload .notice_report{padding:0 20px 18px 0; border-bottom:solid 1px #e6e6e6}
+.join_info .cont_upload .notice_report em{font-weight:bold; font-size:13px; color:#ff4445}
+.join_info .cont_upload .tbl_data{margin-bottom:20px}
+.join_info .cont_upload td.gender label{margin-right:15px}
+.join_info .cont_upload td.upload .btn_type_i{margin-right:3px; background-color:#f0f0f0}
+.join_info .cont_upload .agree_area{float:left; height:40px; line-height:40px; color:#7a7c80}
+.join_info .cont_upload .btn_type_a{float:right}
+.join_info .cont_upload .text_link_b{position:absolute; top:35px; right:29px}
+
+/* 팝업 */
+.file_popup .popup_title{padding-left:20px; height:50px; line-height:50px; font-size:16px; color:#fff; background-color:#6dabf8}
+.file_popup .popup_contents{padding:18px}
+.file_popup .upload_file{width:364px}
+.file_popup .upload_file:after{content:""; display:block; clear:both}
+.file_popup .upload_file dt, .file_popup .upload_file dd{float:left}
+.file_popup .upload_file dt{width:69px; height:27px; line-height:27px; font-weight:bold; color:#222}
+.file_popup .upload_file dt.tall{height:47px; line-height:47px}
+.file_popup .upload_file dd.first{padding-bottom:18px}
+.file_popup .upload_file dd{width:295px}
+.file_popup .upload_file dd .upload_box{padding:6px 9px; margin-bottom:5px; width:275px; height:33px; overflow-y:scroll; border:solid 1px #c7cacf}
+.file_popup .upload_file dd .upload_box li{margin-top:5px}
+.file_popup .upload_file dd .upload_box li:first-child{margin-top:0}
+.file_popup .upload_file dd .btn_type_i{margin-right:3px}
+.file_popup .upload_file dd .list_type01{margin-top:5px}
+.file_popup .upload_file dd .list_type01 li{padding-left:4px; margin-bottom:1px; letter-spacing:-.09em; font-size:11px}
+.file_popup .submit_wrap{margin-top:18px; text-align:center}
+.file_popup .submit_wrap .btn_type_g{margin-right:3px}
+
+/* resize 
+------------------------------------------ */
+/* 높이 < 810px */ 
+.tvjobs #wrap.small .section01 .module_box{height:430px}
+.tvjobs #wrap.small .moudle_ad_group{display:none}
+
+.tvjobs #wrap.small .module_type_e h3{display:none}
+.tvjobs #wrap.small .sub_item{float:left; margin-right:40px}
+.tvjobs #wrap.small .sub_item:after{content:""; display:block; clear:both}
+.tvjobs #wrap.small .join_info .sub_item{float:none; margin-right:0}
+
+.tvjobs #wrap.small .tab_type03 .tab{width:169px}
+
+/* 810px =< 높이 < 1006px */
+.tvjobs #wrap.normal .sub_item{float:left; margin-right:40px}
+.tvjobs #wrap.normal .sub_item:after{content:""; display:block; clear:both}
+.tvjobs #wrap.normal .join_info .sub_item{float:none; margin-right:0}
+.tvjobs #wrap.normal .tab_type03 .tab{width:254px}
+
+
+/* 높이 >= 1006px */
+.tvjobs #wrap.big .module_type_a .list_paging_nav{display:none}
+.tvjobs #wrap.big .sub_item{margin-bottom:10px}

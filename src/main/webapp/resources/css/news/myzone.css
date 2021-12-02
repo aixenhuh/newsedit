@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* ------------------------------------------
+* Filename: myzone.css
+* Description: 마이존
+* Author: Fu:z
+------------------------------------------ */
+
+/* container
+------------------------------------------ */
+/* 공통 */
+.section_title{color:#222; font-size:24px; letter-spacing:-.09em; font-weight:normal}
+.notify_guide{font-size:16px; line-height:23px; letter-spacing:-.09em}
+.notify_guide strong{color:#6dabf8}
+.btn_pay{display:inline-block; padding:0 5px; border:1px solid #c7cacf; height:18px; line-height:18px; vertical-align:middle}
+.btn_pay span{color:#7a7c80; font-size:11px; letter-spacing:-.09em}
+.text_info_wrap > li{margin:15px 0 0}
+.text_info_wrap > li:first-child{margin:0}
+.text_info_wrap strong{display:block; margin:0 0 6px; font-size:14px; color:#222; line-height:21px}
+.amount{margin:0 5px 0 0; font-family:Verdana; letter-spacing:-.09em}
+
+/* Main */
+
+
+
+/* resize 
+------------------------------------------ */
+/* 높이 < 810px */ 
+#wrap.small{}
+
+/* 810px =< 높이 < 1006px */
+#wrap.normal{}
+
+/* 높이 >= 1006px */
+#wrap.big{}

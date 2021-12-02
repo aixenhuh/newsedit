@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* ------------------------------------------
+* Filename: tvview.css
+* Description: 방송보기
+* Author: Fu:z
+------------------------------------------ */
+
+/* container
+------------------------------------------ */
+.tvview_cont_list{overflow:hidden; *zoom:1}
+
+/* resize 
+------------------------------------------ */
+/* 높이 < 810px */ 
+#wrap.small .tvview_cont_list{width:1560px}
+
+/* 810px =< 높이 < 1006px */
+#wrap.normal .tvview_cont_list{width:1060px}
+
+/* 높이 >= 1006px */
+#wrap.big .tvview_cont_list{width:780px}
+
+
+
+
+
+
+/* myzone 2013-12-04 */
+.myzone_contents .cont_title{margin:18px 0}
+.myzone_contents .myinfo{padding:18px; width:663px; height:388px}
+.myzone_contents .myinfo .login_wrap{width:340px; margin:0 auto; padding:20px 0}
+.myzone_contents .myinfo .login_wrap:after{content:""; display:block; clear:both}
+.myzone_contents .myinfo .login_wrap dt{float:left; width:69px; height:20px; padding:8px 0 0 0; margin:0 0 10px 0; font-weight:bold; font-size:14px; color:#404040}
+.myzone_contents .myinfo .login_wrap dd{float:left; height:28px; margin:0 0 10px 0}
+.myzone_contents .myinfo .login_wrap dd input{height:18px; padding:4px 5px; border:solid 1px #d8dade; color:#828f9d}
+.myzone_contents .myinfo .box_bg{margin:20px 0; padding:20px 30px 16px; overflow:hidden; background-color:#f7f8f9}
+.myzone_contents .myinfo .text_info_wrap a{font-weight:bold}
+.myzone_contents .myinfo .text_info_wrap em{font-weight:bold; color:#404040}
+.myzone_contents .myinfo .btns_wrap{margin:20px 0 0 0; text-align:center}
+
+
+
+
+
+
+

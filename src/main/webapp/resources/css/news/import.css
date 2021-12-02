@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* ------------------------------------------
+* Filename: import.css
+* Description: Import css
+* Author: Fu:z
+------------------------------------------ */
+@import url('../news/common.css');		/* css 초기화 & 공통요소 */
+@import url('../news/layout.css');		/* layout */

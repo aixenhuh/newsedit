@@ -1,0 +1,260 @@
+/* endpage */
+.endpage .view_post_comt, .endpage .view_post_cont{float:left}
+.endpage .view_post_comt{width:1098px; /*padding-left:39px; padding-right:39px;*/ border:solid #e9e9e9; border-width:0 1px; background-color:#fff}
+
+
+/****************** 인기/관련 ******************/
+/************ 뉴스 ************/
+/* (중간/큰 해상도) */
+.news_post_box{position:fixed; top:0; left:256px; width:100%; padding:1px 1px 2px; height:58px; overflow:hidden; background-color:#383838; z-index:10;}
+.news_post_box h4{width:60px}
+.news_post_box .tab_cont{width:1309px}
+.news_post_box .post_list{float:left}
+.news_post_box .post_list li{float:left; width:238px}
+.news_post_box .post_list li a{float:left; display:block; padding:8px 12px 7px; color:#fff; opacity:0.5; filter:alpha(opacity=50)}
+.news_post_box .post_list li.on a, .news_post_box .post_list li a:hover{opacity:1; filter:alpha(opacity=100); background-color:#272727}
+.news_post_box .thumbnail{display:block; float:left; position:relative; margin:0 10px 0 0}
+.news_post_box .thumbnail img.thumb{width:76px; height:43px}
+.news_post_box .post_title{display:block; float:right; padding:2px 0 0; overflow:hidden; width:128px; height:36px; line-height:18px; font-weight:bold}
+.news_post_box .post_list li.on a .post_title, .news_post_box a:hover .post_title{text-decoration:underline}
+.news_post_box .post_list li.on a .thumbnail, .news_post_box a:hover .thumbnail{width:72px; height:39px; border:2px solid #fff; overflow:hidden}
+.news_post_box .post_list li.on a .thumbnail img.thumb, .news_post_box a:hover .thumbnail img.thumb{margin:-2px 0 0 -2px}
+.news_post_box .list_paging_nav{float:right; margin:-1px 0 0}
+.news_post_box .list_paging_nav button{float:left; height:60px; line-height:200px; overflow:hidden}
+.news_post_box .list_paging_nav .prev{width:60px; background-position:0 -288px}
+.news_post_box .list_paging_nav .next{width:59px; background-position:-1px -349px}
+
+/* (작은 해상도) */
+.endpage .prog_photo_movie{float:left; padding:17px 0 0 40px; position:relative; width:780px;}
+.endpage .prog_photo_movie ul.tab_type01{margin:0 0 16px -10px}
+.endpage .prog_photo_movie .list_paging_wrap{position:absolute; top:19px; right:10px}
+
+/* 기타 항목 */
+.other_j{width:100%; margin:0 0 0 62px}
+.other_j:after{content:''; display:block; clear:both}
+.other_j li{float:left; margin:0 1px 1px 0}
+.other_j li a{display:block; position:relative; width:100%}
+.other_j li a span{display:none; position:absolute; top:0; left:0; width:100%; height:100%; background:url(http://image.sbs.co.kr/sbs/endpage/bg_other_dim.png)}
+.other_j li a span strong{display:block; margin:12px 8px; font-size:11px; font-weight:normal; line-height:1.6; color:#fff}
+.other_j li a:hover span{display:block}
+
+.news_post_box > .prev{position:absolute; top:0; left:0}
+.news_post_box > .next{position:fixed; top:0; right:0}
+
+
+/************ 방송 ************/
+/* (중간/큰 해상도) */
+.tv_post_box{position:fixed; top:0; left:256px; width:100%; padding:1px 1px 2px; height:58px; overflow:hidden; background-color:#383838; z-index:10;}
+.tv_post_box h4{position:absolute; top:0; background:#5b626c; height:60px;}
+.tv_post_box h4.st_tab{left:0px; width:53px; border-left:solid 1px #525860; text-align:right;}
+.tv_post_box h4.st_tab input { background:url(http://image.sbs.co.kr/sbs/endpage/other_en_tab.png) no-repeat;}
+.tv_post_box .on h4.st_tab input { background:url(http://image.sbs.co.kr/sbs/endpage/other_st_tab.png) no-repeat;}
+.tv_post_box h4.en_tab{left:52px; width:53px; border-right:solid 1px #51565e; text-align:left;}
+.tv_post_box h4.en_tab input {background:url(http://image.sbs.co.kr/sbs/endpage/other_st_tab.png) no-repeat; background-position:-39px 0;}
+.tv_post_box .on h4.en_tab input {background:url(http://image.sbs.co.kr/sbs/endpage/other_en_tab.png) no-repeat; background-position:-39px 0;}
+.tv_post_box h4 input {width:38px; height:32px; border:0; margin:14px 0 0 0; font-weight:bold; font-size:11px; color:#fff;}
+.tv_post_box .on .tab_cont {display:block;}
+.tv_post_box .tab_cont {display: none;}
+
+/* (작은 해상도) */
+.endpage .prog_photo_movie{float:left; padding:17px 0 0 40px; position:relative; width:780px;}
+.endpage .prog_photo_movie ul.tab_type01{margin:0 0 16px -10px}
+.endpage .prog_photo_movie .list_paging_wrap{position:absolute; top:19px; right:10px}
+
+/* 기타 항목 */
+.tv_other_j{width:100%; margin:0 0 0 168px}
+.tv_other_j:after{content:''; display:block; clear:both}
+.tv_other_j li{float:left; margin:0 1px 1px 0}
+.tv_other_j li a{display:block; position:relative; width:100%}
+.tv_other_j li a span{display:none; position:absolute; top:0; left:0; width:100%; height:100%; background:url(http://image.sbs.co.kr/sbs/endpage/bg_other_dim.png)}
+.tv_other_j li a span strong{display:block; margin:12px 8px; font-size:11px; font-weight:normal; line-height:1.6; color:#fff}
+.tv_other_j li a:hover span{display:block}
+
+.tv_post_box > .prev{position:absolute; top:0; left:106px;}
+.tv_post_box > .next{position:fixed; top:0; right:0}
+
+
+/* 광고 */
+.moudle_ad_end01{margin:0 0 15px; overflow:hidden;}
+.moudle_ad_end02{margin:30px 0 0; overflow:hidden;}
+
+/* 기사내용 */
+.news_top_info{*zoom:1; line-height:12px;}
+.news_top_info:after{display:block; content:""; clear:both}
+.news_top_info .post_cate{display:block; float:left; font-size:13px; color:#6dabf8; letter-spacing:-.09em}
+.news_top_info .breadcrumb{float:right; font-size:12px; height:12px;}
+.news_top_info .breadcrumb a{color:#222}
+.news_top_info .breadcrumb span{margin:0 5px; color:#959595}
+h4.post_title_tv{margin:10px 0 0; font-size:28px; color:#222; line-height:34px; letter-spacing:-1px; font-weight:normal}
+h4.post_title_news{margin:5px 0 0 0; font-size:32px; color:#222; line-height:120%; letter-spacing:-1px; font-weight:normal;}
+.sub_title{padding:10px 0; font-size:13px; color:#222; line-height:18px; letter-spacing:-.09em; display:block;}
+/* 기사상단/하단 옵션 */
+.post_meta{*zoom:1; margin-top:4px;}
+.post_meta:after{display:block; content:""; clear:both}
+.author {float:left; font-size:13px; font-weight:bold; color:#7a7c80; letter-spacing:-.09em}
+[class$='fan_flag']{vertical-align:middle; background:url(http://image.sbs.co.kr/sbs/endpage/fan_bg.png) no-repeat;}
+.author strong{margin:0 10px 0 5px}
+.post_info{float:right}
+.post_info .post_view{float:left}
+.post_info .post_func{float:right}
+.post_info .post_func li{float:left}
+.post_func button{width:23px; height:24px; line-height:100px; overflow:hidden}
+.post_func .post_print{width:24px !important; background-position:-165px -143px}
+.post_func .text_bigger{background-position:-189px -143px}
+.post_func .text_smaller{background-position:-212px -143px}
+.post_meta .view{margin:0 14px 0 0; padding:0 0 0 20px; line-height:20px; font-family:Verdana; font-size:11px; color:#959595; background-position:-88px -52px}
+.post_info .date{line-height:14px; color:#222; letter-spacing:-.09em; font-size:13px;}
+.post_info .date span{margin:0 0 0 5px; font-family:Verdana; font-size:11px; color:#404040;}
+.post_copyright{clear:both; padding:5px 0 0; color:#222; font-size:11px; line-height:normal;}
+
+/* 하단 옵션 */
+.post_meta_end{*zoom:1; margin-top:30px;}
+.post_meta_end:after{display:block; content:""; clear:both}
+.post_meta_end .view{margin:0 14px 0 0; padding:0 0 0 20px; line-height:20px; font-family:Verdana; font-size:11px; color:#959595; background-position:-88px -52px}
+
+/* 동영상/이미지 */
+/*#post_cont_wrap{margin:0 0 20px}*/
+/*#post_cont_wrap */.post_video/*, #post_cont_wrap >*/ img{margin:12px 0}
+/*#post_cont_wrap */.post_video img{margin:0}
+/*#post_cont_wrap > */img{max-width:100%}
+/* 텍스트 */
+.post_type01{font-size:15px; color:#404040; letter-spacing:-1px; line-height:26px;}
+.post_type02{font-size:17px; color:#404040; letter-spacing:-1px; line-height:28px;}
+
+.post_type02 .sub_title{padding:10px 0; font-size:17px; color:#222; line-height:18px; letter-spacing:-.09em; display:block; font-weight:bold;}
+/* 하단공유 */
+.post_uitility{margin:30px 0 51px 0; padding:9px; border:1px solid #dfe1e3; background-color:#eee; *zoom:1}
+.post_uitility:after{display:block; content:""; clear:both}
+.post_uitility .post_user, 
+.post_uitility .post_user ul, 
+.post_uitility .post_user .btn_more{float:left}
+.post_uitility .post_user ul li{float:left; margin:0 3px 0 0}
+.post_uitility .post_user .btn_more a{display:block; width:24px; height:24px; text-indent:-9999em; background-position:-150px -20px}
+.post_uitility .share_box{float:right; padding:6px 10px 0 0; height:20px;}
+.post_uitility .like_share_view {width:231px;}
+.post_uitility .like_share_view > li{float:left; margin-left:13px; padding-left:13px; border-left:1px solid #d7d7d8; font-family:Verdana; font-size:11px; color:#959595; line-height:11px;}
+.post_uitility .like_share_view > li:first-child{margin:0; border-left:0}
+.post_uitility .news_like_share {width:149px;}
+.post_uitility .news_like_share > li{float:left; margin-left:13px; padding-left:13px; border-left:1px solid #d7d7d8; font-family:Verdana; font-size:11px; color:#959595; line-height:11px;}
+.post_uitility .news_like_share > li:first-child{margin:0; border-left:0}
+.post_uitility .share_box li.like a, 
+.post_uitility .share_box li.view span{display:inline-block; width:18px; height:14px; text-indent:-9999em;}
+.post_uitility .share_box li.share > a{padding-left:20px; color:#959595; background-position:-28px 2px}
+.post_uitility .share_box li.share > a span{background-color:#eee}
+.post_uitility .share_box li.share{position:relative}
+.post_uitility .select_sns{position:absolute; top:15px; left:-138px; padding:8px 0 0; width:235px; height:49px; background-position:0px -474px}
+.post_uitility .sns_list{/*padding:4px 3px 3px 4px; */border:solid #b3b3b3; border-width:0 1px 1px; width:233px; height:48px; background-color:#fff; background-position:-5px -426px}
+.post_uitility .sns_list:after{display:block; content:"";/* clear:both*/}
+.post_uitility .sns_list li{float:left; width:58px; height:48px}
+.post_uitility .sns_list li a{display:block; padding:30px 0 0; width:58px; height:18px; color:#222; text-align:center; background-image:none; line-height:11px;}
+
+
+
+
+.end_img_text {margin:30px 0 10px 0; padding:0; clear:both; line-height:16px;}
+.end_img_text img {padding-bottom:10px;}
+.end_img_text span {font-size:11px; color:#7a7c80; letter-spacing:0; overflow:hidden;}
+
+
+.end_related_story {border-top:solid 1px #dfe1e3; margin-top:20px; padding-top:20px; overflow:hidden;}
+.end_related_story h5 {margin-bottom:15px; font-size:13px; font-weight:normal;}
+.end_related_story ul {}
+.end_related_story ul li {font-weight:bold; line-height:28px; letter-spacing:-1px; font-size:16px; background:url(http://image.sbs.co.kr/sbs/common/bul_2x2_gray.gif) no-repeat 0 center; padding-left:10px;}
+
+
+.blue_txt{color:#6aacf0 !important}
+
+.news_module_header{width:100%; margin-bottom:6px; overflow:hidden}
+
+.module_header_type01{width:100%; height:105px; margin-bottom:20px; overflow:hidden}
+.module_header_type01 .top{position:relative; width:100%; height:70px; overflow:hidden; line-height:1.3; background:#eee}
+.module_header_type01 .top .title{width:320px; margin:15px; font-size:16px; font-weight:bold}
+.module_header_type01 .top .name{position:absolute; top:50%; right:15px; margin-top:-12px; font-weight:bold; color:#7a7c80; font-size:12px;}
+.module_header_type01 .btns{position:relative; width:100%; margin-top:15px}
+.module_header_type01 .btns ul{width:150px; height:16px; padding-top:4px}
+.module_header_type01 .btns ul:after{content:''; display:block; clear:both}
+.module_header_type01 .btns ul li{float:left; margin-right:3px}
+.module_header_type01 .btns ul li a{padding:2px 4px; border:1px solid #c6c9ce; background:#f1f1ef; font-size:12px; line-height:12px;}
+.module_header_type01 .btns div{position:absolute; right:0; top:50%; margin-top:-14px; line-height:12px;}
+.module_header_type01 .btns div .hits{margin-right:10px; padding-left:20px; background:url(http://image.sbs.co.kr/sbs/common/bg_hits.png) no-repeat left center; font-size:11px;}
+.module_header_type01 .btns div span a img{border:1px solid #c6c9ce; border-left:0}
+.module_header_type01 .btns div span a:first-child img{border-left:1px solid #c6c9ce}
+
+.module_end_type01{margin-top:30px}
+.module_end_type01 .dor{margin-bottom:15px}
+.module_end_type01 .dor span{font-family:Verdana, Dotum; font-size:11px}
+.module_end_type01 .end_spec{margin-bottom:30px; color:#626262; display:block;}
+.module_end_type01 .spec span{display:block; margin-top:5px}
+.module_end_type01 ul.util_btns{width:150px}
+.module_end_type01 ul.util_btns:after{content:''; display:block; clear:both}
+.module_end_type01 ul.util_btns li{float:left; margin-right:3px}
+.module_end_type01 ul.util_btns li a{padding:2px 4px; border:1px solid #c6c9ce; background:#f1f1ef}
+.module_end_type01 .post_uitility{margin:20px 0 0}
+
+.module_header_type01.sympathy .top .name{right:auto; left:15px}
+.module_header_type01.sympathy .top .con{position:absolute; top:50%; right:5px; margin-top:-30px}
+.module_header_type01.sympathy .top .con span{color:#7a7c80}
+.module_header_type01.sympathy .top .con img{margin-left:5px; border:1px solid #d9d9d9}
+
+.module_header_type03{overflow:hidden}
+.module_header_type03 .top{position:relative; width:100%; margin-bottom:18px}
+.module_header_type03 .top .title{margin-bottom:15px; font-size:24px; font-weight:bold}
+.module_header_type03 .top .airdate span{font-family:Verdana, Dotum; font-size:11px}
+.module_header_type03 .top div{position:absolute; bottom:-6px; right:0}
+.module_header_type03 .top div .hits{margin-right:10px; padding-left:20px; background:url(http://image.sbs.co.kr/sbs/common/bg_hits.png) no-repeat left center}
+.module_header_type03 .top div a img{border:1px solid #c6c9ce; border-left:0}
+.module_header_type03 .top div a:first-child img{border-left:1px solid #c6c9ce}
+.module_header_type03 .top div a.caption{position:relative; top:1px; margin-left:10px; padding:4px 3px; border:1px solid #c6c9ce; color:#7a7c80; background:#fff}
+.module_header_type03 .btns{width:100%; height:19px; margin-top:15px; padding-top:6px}
+.module_header_type03 .btns:after{content:''; display:block; clear:both}
+.module_header_type03 .btns li{float:left; margin-left:5px}
+.module_header_type03 .btns li a{padding:5px 8px 6px 7px; color:#fff; background:#989fa7}
+.module_header_type03 .btns li:first-child{margin:0}
+.module_header_type03 .btns li:first-child a,
+.module_header_type03 .btns li:first-child + li a{background:#6aacf8}
+
+
+
+
+/* contents */
+#contents_end {float:left;/* padding-left:30px;*/}
+.endpage_normal {/*padding-right:50px; */width:500px;}
+.endpage_small {padding-right:50px; width:500px;}
+.starcol #contents_end.special{padding-left:175px}
+
+#contents_end [class$='_top_head']{position:relative; z-index:1; padding:17px 0; *zoom:1}
+#contents_end [class$='_top_head']:after{content:""; display:block; clear:both}
+#contents_end [class$='_top_head'] .page_title, #contents_end [class$='_top_head'] ul.tab_type01{float:left}
+#contents_end [class$='_top_head'] .page_title{margin:0 25px 0 0; height:14px; font-size:14px}
+#contents_end [class$='_top_head'] .page_title img{vertical-align:top}
+#contents_end [class$='_top_head'] .top_head_prf{position:absolute; top:12px; right:0; *zoom:1/* overflow:hidden; *display:inline */}
+#contents_end .cont_title{margin-bottom:16px; height:14px}
+
+
+#contents_end .multi_column:after{display:block; content:""; clear:both}
+#contents_end .multi_column .column_list{float:left; margin:0 10px 10px 0}
+#contents_end .multi_column .column_list .column_cell{margin:10px 0 0}
+#contents_end .multi_column .column_list .column_cell:first-child{margin:0}
+
+#contents_end ul.multi_column_wrap > li{display:none}
+#contents_end ul.multi_column_wrap > li.on{display:block}
+
+
+
+/* contents_sub */
+#contents_sub{float:left;}
+#contents_sub.special{padding-left:175px}
+#contents_sub [class$='_top_head']{position:relative; z-index:1; padding:17px 0; *zoom:1}
+#contents_sub [class$='_top_head']:after{content:""; display:block; clear:both}
+#contents_sub [class$='_top_head'] .page_title, #contents_sub [class$='_top_head'] ul.tab_type01{float:left}
+#contents_sub [class$='_top_head'] .page_title{margin:0 25px 0 0; height:14px; font-size:14px}
+#contents_sub [class$='_top_head'] .page_title img{vertical-align:top}
+#contents_sub [class$='_top_head'] .top_head_prf{position:absolute; top:12px; right:0; overflow:hidden; *display:inline}
+#contents_sub .cont_title{margin-bottom:16px; height:14px}
+#contents_sub .multi_column:after{display:block; content:""; clear:both}
+#contents_sub .multi_column .column_list{float:left; margin:0 10px 10px 0}
+#contents_sub .multi_column .column_list .column_cell{margin:10px 0 0}
+#contents_sub .multi_column .column_list .column_cell:first-child{margin:0}
+
+#contents_sub ul.multi_column_wrap > li{display:none}
+#contents_sub ul.multi_column_wrap > li.on{display:block}

@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/* 아래 있는 css는 다른곳에 기본 설정되어있으므로 실제 필요한 css만 가져다 쓰세요 */
+a{border:none;}
+img{border:none;}
+
+/* 실제 필요한 css */
+#tab_style_type01{list-style:none;overflow:hidden;width:990px;height:39px;margin:0 auto;padding:0;font:0/0 Arial;background:url(http://img.sbs.co.kr/s9/common/headfoot/bg_tab_bar.gif) no-repeat;}
+#tab_style_type01 li{float:left;margin:0;padding:0;}
+#tab_style_type01 li.main_menu{float:right;}
+
+#tab_style_type02{list-style:none;overflow:hidden;width:990px;height:39px;margin:0 auto;padding:0;font:0/0 Arial;background:url(http://img.sbs.co.kr/s9/common/headfoot/bg_tab_radiobar.gif) no-repeat;}
+#tab_style_type02 li{float:left;margin:0;padding:0;}
+#tab_style_type02 li.main_menu{float:right;}
+
+#tab_style_type03{list-style:none;overflow:hidden;width:990px;height:39px;margin:0 auto;padding:0;font:0/0 Arial;background:url(http://img.sbs.co.kr/s9/common/headfoot/bg_tab_m2m.gif) no-repeat;}
+#tab_style_type03 li{float:left;margin:0;padding:0;}
+#tab_style_type03 li.main_menu{float:right;}
+
+#tab_style_type04{text-align:center;list-style:none;overflow:hidden;width:990px;height:39px;margin:0 auto;padding:0;font:0/0 Arial;background:url(http://img.sbs.co.kr/s9/common/headfoot/bg_tab_newsbar.gif) no-repeat;}
+#tab_style_type04 li{float:left;margin:0;padding:0;}
+#tab_style_type04 li.main_menu{float:right;}
+
+#tab_style_type05{_overflow:hidden;position:relative;clear:both;width:990px;height:29px;margin:0 auto 4px;padding:0; border-bottom:1px solid #d8e5f3;}
+.tabMenu_mar{margin-left:0;*margin-left:40px !important;}/* 비표준 적용시 사용 */
+#tab_style_type05 ul{overflow:hidden;list-style:none;float:left;width:auto;margin:0;padding:0;font-weight:bold;letter-spacing:-1px;}
+#tab_style_type05 li{float:left; margin:0;font-size:14px;font-family:Dotum, Arial; background:url(http://img.sbs.co.kr/s9/common/headfoot/tab_bullet_graybar.gif) no-repeat left 10px;}
+#tab_style_type05 li a{display:block;padding:10px 10px 3px 10px;font-size:14px;font-family:Dotum, Arial;text-decoration:none; color:#000;}
+#tab_style_type05 li a:hover, #tab_style_type02 li a:active{color:#0065D3;}
+#tab_style_type05 li.on a{background:url(http://img.sbs.co.kr/s9/common/headfoot/tab_point.gif) no-repeat center bottom; color:#0065D3;}
+#tab_style_type05 li.first{background:none;}
+#tab_style_type05 .type05_01 a{padding-left:8px;padding-right:8px;}
+#tab_style_type05 .type05_02{padding-left:154px;}
+#tab_style_type05 .type05_03{padding-left:240px;}
+#tab_style_type05 .type05_04{float:right;}
+#tab_style_type05 .type05_11{padding-left:370px;}
+#tab_style_type05 .weather{position:relative;float:right;width:140px;margin:0;padding:0;}
+#tab_style_type05 .weather span{float:left;padding:10px 7px 0 0;color:#4379B5;font-size:12px;background:url(http://img.sbs.co.kr/s9/common/headfoot/tab_news_bluearrow.gif) no-repeat right 13px;}
+#tab_style_type05 .weather img{position:absolute;top:0;right:10px;}
+
+/* 스포츠 하위메뉴 추가시 작성된 내용 */
+#tab_style_type05 li a {
+	float: left;
+}
+#tab_style_type05 li a:hover span {
+	color: #0065D3;
+	cursor: pointer;
+}
+#tab_style_type05 li a span {
+	color: #000;
+	float: left;
+	font-size:14px;
+	font-family: Dotum, "돋움";
+}
+#tab_style_type05 li span.new img {
+	margin: 10px 0 0;
+}
+
+#tab_style_search{clear:both;width:990px;height:70px;margin:0 auto;padding:0;text-align:center;}
+#tab_style_search .top_area{width:970px;height:39px;margin:0 auto;padding:0 0 0 20px;background:url(http://img.sbs.co.kr/s9/common/headfoot/bg_tab_bar.gif) no-repeat;}
+#tab_style_search .top_area01{*width:990px;}/* 비표준 적용 css */
+#tab_style_search form{float:left;width:789px;height:39px;margin:0;padding:0;}
+#tab_style_search form fieldset{margin:0;padding:0;border:none;}
+#tab_style_search form fieldset legend{display:none;}
+#tab_style_search .top_menu{list-style:none;width:181px;float:right;height:39px;margin:0;padding:0;font:0/0 Arial;}
+#tab_style_search .top_menu li{float:left;margin:0;padding:0;}
+/* 2009-08-10 수정 */
+#tab_style_search .category_area{position:relative;float:left;width:78px;height:21px;margin:9px 5px 0 0;text-align:left;background:url(http://img.sbs.co.kr/s9/common/headfoot/bg_tab_selectbox.gif) no-repeat;z-index:99;cursor: pointer;}
+#tab_style_search .category_area span{font-size:12px;color:#777;}
+#tab_style_search .category_area span a{display:block;padding:5px 0 5px 14px;color:#777;text-decoration:none;text-align:left; line-height:12px;}
+#tab_style_search .category_list{position:absolute;top:21px;list-style:none;overflow:hidden;width:76px;height:auto;margin:0;padding:0;border:1px solid #e0e0e0;border-top:none;background:#fff;}
+#tab_style_search .category_list li{font-size:12px;color:#777;text-align:left;}
+#tab_style_search .category_list li a{display:block;height:14px;padding:6px 0 3px 5px;color:#777;text-decoration:none;}
+#tab_style_search .top_area01 .category_list{*width:78px;}/* 비표준 적용 css */
+#tab_style_search .category_list li a:hover, #tab_style_search .category_list li a:active{background:#f4f4f4;}
+#tab_style_search .search_bar{position:relative;float:left;width:298px;height:20px;margin:9px 5px 0 0;padding:1px 0 0 5px;background:url(http://img.sbs.co.kr/s9/common/headfoot/bg_search_bar.gif) no-repeat;}
+#tab_style_search .top_area01 .search_bar{*width:303px;}/* 비표준 적용 css */
+#tab_style_search .search_bar .input_txt{float:left;width:278px;height:14px;padding:3px 0 0 0;border:transparent;border:none;font-size:12px;vertical-align:top;}
+#tab_style_search .top_area01 .search_bar .input_txt{*width:274px;*height:17px;}/* 비표준 적용 css */
+#tab_style_search .search_bar .btn_search_view{float:left;}
+#tab_style_search .top_area01 .search_bar .btn_search_view{position:absolute;top:0;right:0;}
+#tab_style_search .btn_search{float:left;margin-top:9px;}
+#tab_style_search .main_menu{clear:both;list-style:none;width:990px;height:31px;margin:0 auto;padding:0;background:#f9f9f9;}
+#tab_style_search .main_menu li{float:left;color:#000;font-size:12px;font-weight:bold;background:url(http://img.sbs.co.kr/s9/common/headfoot/tab_bullet_graybar.gif) no-repeat left 10px;}
+#tab_style_search .main_menu li a{display:block;padding:10px 13px 7px 13px;color:#000;text-decoration:none;}
+#tab_style_search .main_menu li a:hover, #tab_style_search .main_menu li a:active{color:#1660ae;}
+#tab_style_search .main_menu li.first{background:none;}
+#tab_style_search .main_menu li.on a{color:#1660ae;}
+
+/* 2011-11-24 추가 */
+.gnb_issue {width:960px; height:18px; background:#0077b9; color:#fff; padding:7px 15px;}
+.gnb_issue span {padding:0 20px 0 10px; vertical-align:middle;}
+.gnb_issue img {vertical-align:middle;}
+.gnb_issue a {height:17px; display:inline-block; font:11px/1.7 dotum; color:#fff;}
+.gnb_issue a:hover {color:#fff !important;}

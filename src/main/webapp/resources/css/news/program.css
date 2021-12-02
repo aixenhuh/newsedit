@@ -1,0 +1,419 @@
+@charset "utf-8";
+/* ------------------------------------------
+* Filename: program.css
+* Description: 프로그램 
+* Author: Fu:z
+------------------------------------------ */
+
+/* 이미지형에 관한 스타일을 .img_type 
+클래스명으로 리스트형과 다른 부분을 적용함 */
+
+
+/* backgrounds */
+.prog_discuss .twitter_box .btn_more a,
+.prog_discuss .like_area .btn_more a,
+.program_visual .share_box li a{background-image:url('http://image.sbs.co.kr/sbs/tv/program_sub/bg_program.png'); background-repeat:no-repeat}
+
+
+/* visual
+------------------------------------------ */
+.program_visual{position:relative; width:750px}
+.program_visual img.bg_image{width:100% !important; height:auto}
+
+.program_info{position:absolute; bottom:28px; left:0; width:100%; text-align:center}
+.program_info dl, .program_info dt, .program_info dd{display:inline-block; +display:inline}
+.program_info dl{color:#cdccca; letter-spacing:-.09em}
+.program_info dt{padding:0 0 0 10px; background:url('http://image.sbs.co.kr/sbs/common/bg_separate_line.png') 0 80% no-repeat}
+.program_info dl dt:first-child{background-image:none}
+.program_info dd{padding:0 8px 0 6px}
+
+.program_visual .share_box{position:absolute; right:20px; top:19px; z-index:5}
+.program_visual .share_box li{float:left; margin-left:11px}
+.program_visual .share_box li a{display:block; width:22px; height:22px; line-height:100px; overflow:hidden}
+.program_visual .share_box li.like a{background-position:0 -76px}
+.program_visual .share_box li.like a:hover, .program_visual .share_box li.like a.liked{background-position:0 -104px}
+.program_visual .share_box li.share a{background-position:-32px -76px}
+.program_visual .share_box li.share a:hover{background-position:-32px -104px}
+
+.program_visual.img_type .share_box{right:224px}
+
+
+/* contents
+------------------------------------------ */
+.program_contents{padding:0 !important}
+.program_contents:after{content:""; display:block; clear:both}
+.program_contents > div{float:left}
+.program_contents .prog_discuss{width:301px; padding:17px 40px 0; background-color:#fff; color:#ccc}
+.img_type .prog_discuss{position:absolute; top:0; right:0; width:260px; padding:0 20px; border-left:1px solid #505253; background:url('http://image.sbs.co.kr/sbs/common/bg_opacity05.png') 0 0 repeat}
+.program .list_paging_wrap{position:absolute; right:40px; top:19px}
+.program_top_head{position:relative; overflow:hidden; *display:inline}
+
+/* from 스타, PD */
+.from_star_pd .from_list{position:relative; width:300px; height:240px}
+.from_star_pd .from_list h3{float:left; height:13px; line-height:13px; vertical-align:top; padding:0 8px; border-left:1px solid #bbb; overflow:hidden}
+.from_star_pd .from_list h3 .tab{height:13px; vertical-align:top}
+.from_star_pd .from_list h3 .tab img{vertical-align:top; margin:-15px 0 0}
+.from_star_pd .from_list li.on h3 .tab img{margin:-1px 0 0}
+.from_star_pd .from_list li:first-child h3{padding-left:0; border:0}
+
+.from_star_pd .tab_cont{position:absolute; top:30px; left:0; width:300px; /* height:210px; */ margin:0}
+.from_star_pd .post_list .post_item{display:none}
+.from_star_pd .post_list .post_item.on{display:block}
+.from_star_pd .post_meta{position:absolute; left:0; bottom:0; padding:12px; width:276px; cursor:pointer; background:url('http://image.sbs.co.kr/sbs/common/bg_opacity02.png') repeat}
+.from_star_pd .post_title{display:block; padding:0; font-weight:normal; font-size:13px; line-height:18px; height:18px; color:#ccc; overflow:hidden}
+.from_star_pd .post_title .star_name{margin-right:6px; font-size:18px; font-weight:bold; color:#fff}
+.from_star_pd .post_info{display:block; margin:8px 0 0; line-height:17px; letter-spacing:-.09em; color:#ccc}
+.from_star_pd .post_info a{color:#ccc}
+.from_star_pd .post_thumb{width:300px}
+
+.from_star_pd .list_paging_nav{position:absolute; top:58px; left:0; width:264px; padding:0 18px; overflow:hidden; *zoom:1}
+.from_star_pd .list_paging_nav button{display:block; width:16px; height:31px; line-height:100px; overflow:hidden; background-image:url('http://image.sbs.co.kr/sbs/common/bg_common.png'); background-repeat:no-repeat}
+.from_star_pd .list_paging_nav button.prev{float:left; background-position:0 -19px}
+.from_star_pd .list_paging_nav button.next{float:right; background-position:-18px -19px}
+.from_star_pd .list_paging_info{position:absolute; right:19px; bottom:55px; font-family:Verdana; font-size:11px; color:#fff}
+
+/* 트위터 */
+.prog_discuss .twitter_box{position:relative; margin-top:24px}
+.prog_discuss .twitter_box div.twit,
+.prog_discuss .twitter_box li{padding:12px 0 11px; background:url('http://image.sbs.co.kr/sbs/common/bg_dot_line.gif') repeat-x 0 100%; overflow:hidden}
+.prog_discuss .twitter_box .photo, .prog_discuss .twitter_box .twit_info{float:left}
+.prog_discuss .twitter_box .photo{width:50px; margin:0 10px 0 0}
+.prog_discuss .twitter_box .photo img{width:50px; height:50px}
+.prog_discuss .twitter_box .twit_info{margin:-4px 0 0; width:240px; color:#333; line-height:16px; letter-spacing:-.00em}
+.prog_discuss .twitter_box .twit_cont a{display:block; height:33px; overflow:hidden}
+.prog_discuss .twitter_box .twit_id{color:#999}
+.prog_discuss .twitter_box .btn_more{position:absolute; height:19px; right:0; top:-4px}
+.prog_discuss .twitter_box .btn_more a{display:block; width:19px; height:19px; line-height:100px; overflow:hidden; vertical-align:top; background-position:0 0}
+
+.img_type .prog_discuss .twitter_box{margin:78px 0 0}
+.img_type .prog_discuss .twitter_box li{padding-bottom:10px; background-image:none; border-bottom:1px dotted #404245}
+.img_type .prog_discuss .twitter_box .twit_name{color:#fff}
+.img_type .prog_discuss .twitter_box .twit_cont a{color:#ccc}
+.img_type .prog_discuss .twitter_box .twit_info{width:200px}
+.img_type .prog_discuss .twitter_box .twit_id{color:#777}
+.img_type .prog_discuss .twitter_box .twit_time{background-position:-147px -44px}
+.img_type .prog_discuss .twitter_box .btn_more a{background-position:-19px 0}
+
+/* like */
+.prog_discuss .like_area{position:relative; margin:8px 0 0}
+.prog_discuss .like_area .like_wrap{display:inline-block; +display:inline; font-family:Verdana; font-size:11px; color:#404040}
+.prog_discuss .like_area .like_wrap span{display:inline-block; width:15px; height:12px; line-height:100px; overflow:hidden; vertical-align:middle; background:url('http://image.sbs.co.kr/sbs/tv/main/bg_drama_images.png'); background-position:-48px -314px}
+.prog_discuss .like_user_list{margin:8px 0 0}
+.prog_discuss .like_user_list:after{display:block; content:""; clear:both}
+.prog_discuss .like_user_list li{float:left; margin-left:5px}
+.prog_discuss .like_user_list li:first-child{margin:0 !important}
+.prog_discuss .like_user_list li img{width:29px}
+.prog_discuss .like_area .btn_more{position:absolute; right:0; top:0; height:13px}
+.prog_discuss .like_area .btn_more a{display:block; width:13px; height:13px; line-height:100px; overflow:hidden; vertical-align:top; background-position:-38px 0}
+
+.img_type .prog_discuss .like_area .like_wrap{color:#e9e9e9}
+.img_type .prog_discuss .like_user_list li{margin-left:4px}
+.img_type .prog_discuss .like_area .btn_more a{background-position:-51px 0}
+
+/* 공지사항 */
+.prog_discuss .notice_area{position:relative; margin-top:25px; color:#404040; height:20px; line-height:17px}
+.prog_discuss .notice_list li{display:none; width:230px; padding:0 0 0 6px; background:url('http://image.sbs.co.kr/sbs/common/bul_2x2_black.gif') 0 8px no-repeat}
+.prog_discuss .notice_list li.on{display:block}
+.prog_discuss .notice_list li strong{margin:0 5px 0 0; font-size:13px}
+.prog_discuss .notice_area .list_paging_wrap{top:0; right:0}
+
+.img_type .prog_discuss .notice_list li{width:190px; padding:0; background:none}
+.img_type .prog_discuss .notice_list li a{color:#ccc}
+.img_type .prog_discuss .notice_list li strong{#fff}
+.img_type .list_paging_wrap .list_paging_nav button.prev{background-position:-198px -19px}
+.img_type .list_paging_wrap .list_paging_nav button.next{background-position:-217px -19px}
+.img_type .list_paging_wrap .list_paging_info{color:#777}
+.img_type .list_paging_wrap .list_paging_info strong{color:#ccc}
+
+/* 광고 */
+.prog_discuss .moudle_ad_two{margin-top:25px}
+.img_type .prog_discuss .moudle_ad_two{position:absolute; left:0; bottom:0}
+
+/* 포토 무비 */
+.prog_photo_movie{position:relative; padding:17px 30px 0 40px; width:780px; /* background-color:#f6f7f8 */}
+
+/* 시청자 의견 */
+.prog_comment{position:relative; padding:17px 30px 0 40px; background-color:#fff}
+
+.comment_area:after{content:""; display:block; clear:both}
+.comment_area .multi_column_wrap{float:left; width:1110px}
+.comment_area .comment_wrap{float:left; margin-right:10px; width:358px}
+.comment_area .comment_wrap .comment_info{height:214px; line-height:214px; text-align:center; background-color:#e8eaec}
+
+/* 열린 게시판 */
+.open_forum{padding:17px 40px 0; width:300px; background-color:#fff}
+.about_forum{margin-bottom:10px}
+.about_forum .forum_info{position:relative; border-bottom:solid 1px #ddd}
+.about_forum .forum_info ul li{display:none}
+.about_forum .forum_info ul li.on{display:block}
+.about_forum .forum_info .list_paging_wrap{position:absolute; right:18px; top:18px}
+.about_forum .forum_info .cont_link{display:block; position:relative; width:298px; height:135px}
+.about_forum .forum_info .cont_link > .text_title{position:absolute; left:18px; top:12px; letter-spacing:-.09em; font-weight:bold; line-height:30px; font-size:15px; color:#222}
+.about_forum .forum_info .cont_link > .text_title strong{font-size:25px}
+.about_forum .forum_info .cont_link > .text_info{position:absolute; left:18px; top:80px; width:172px; letter-spacing:-.09em; line-height:16px; font-size:12px; color:#7a7c80}
+
+.about_forum.big .forum_info .cont_link{height:297px}
+.about_forum.big .forum_info{border-bottom:0}
+.about_forum.big .forum_info .cont_link > .text_title{line-height:30px; font-size:14px}
+.about_forum.big .forum_info .cont_link > .text_title strong{font-size:30px}
+.about_forum.big .forum_info .cont_link > .text_info{line-height:18px; font-weight:bold; font-size:13px; color:#404040}
+
+.about_forum.mid .forum_info .cont_link{height:208px}
+.about_forum.mid .forum_info .cont_link > .text_title{top:8px; line-height:38px}
+.about_forum.mid .forum_info .cont_link > .text_title strong{font-size:25px}
+.about_forum.mid .forum_info .cont_link > .text_info{top:100px}
+
+.about_forum .post_box{width:268px; padding:0 15px; overflow:hidden; height:33px; line-height:33px; letter-spacing:-.09em; border-top:solid 1px #c5c6c8; background-color:#fefefe}
+.about_forum .post_box span{float:left}
+.about_forum .post_box label{font-weight:bold; color:#6dabf8}
+.about_forum .post_box .text_link_a{float:right; background-position:100% -21px}
+
+.forum_comment{padding:0 40px; position:relative}
+.forum_comment .program_top_head{width:1110px}
+.program_top_head .top_head_prf{padding:0 10px 0 0}
+.program_top_head .select_list{float:left;/*  width:87px */}
+.program_top_head div.search{float:left; margin-left:8px}
+.program_top_head div.search input[type="text"]{width:230px}
+.program_top_head .admin_wrap{float:left; margin-right:20px; line-height:25px}
+.program_top_head .admin_wrap .bar{margin:0 6px; font-size:10px; color:#dbdbdb}
+.program_top_head .admin_wrap a{padding-left:17px; letter-spacing:-.09em; font-weight:bold; background:url('http://image.sbs.co.kr/sbs/tv/program_sub/bg_program.png') no-repeat}
+.program_top_head .admin_wrap a.old_forum{background-position:0 -130px}
+.program_top_head .admin_wrap a.admin{background-position:0 -148px}
+.program_top_head .admin_wrap a.write{background-position:0 -165px}
+
+/* 진행중인 이벤트 */
+.prog_event{padding:0 40px 0 !important; background-color:#fff}
+.prog_event .program_top_head{width:1300px}
+.prog_event .program_top_head div.search input[type="text"]{width:215px}
+
+/* 고릴라 게시판 */
+.button_list{width:307px; padding:0 0 3px; overflow:hidden}
+.button_list:after{content:""; display:block; clear:both}
+.button_list li{float:left; padding:0 7px 7px 0}
+
+/* 공지사항 */
+.head_cont{position:relative; padding:17px 30px 0 40px; background-color:#fff}
+.head_cont > .list_paging_wrap{position:absolute; top:15px; right:40px}
+
+/* 이미지 동영상 게시판 (다시보기 등) */
+.full_list{padding:0 40px; position:relative}
+.full_list .program_top_head{width:780px}
+.full_list .program_top_head .select_list{float:left;/*  width:71px */}
+.full_list .program_top_head div.search input[type="text"]{width:136px}
+
+.category_area{position:relative; height:375px; padding:24px 0 0 24px}
+.category_area .list_paging_wrap{position:absolute; right:24px; bottom:24px; top:auto}
+.category_area .category_list > li{display:none}
+.category_area .category_list > li.on{display:block}
+.category_area .txt_list > li{margin-bottom:5px}
+.category_area .txt_list > li a{display:block; padding-left:10px; width:240px; height:34px; line-height:34px; font-weight:bold; font-size:13px; background-color:#f8f8f8;}
+.category_area .txt_list > li.on a{padding-left:7px; width:237px; height:28px; line-height:28px; color:#6dabf8; border:solid 3px #6dabf8}
+.category_area .img_list{width:274px}
+.category_area .img_list:after{content:""; display:block; clear:both}
+.category_area .img_list > li{float:left; width:112px; margin:0 25px 25px 0}
+.category_area .img_list .module_starfan [class$='fan_flag']{top:10px; right:10px}
+.category_area .img_list .module_starfan img.photo{width:110px}
+.category_area .img_list .module_starfan .select{position:absolute; left:0; top:0; width:106px; height:106px; line-height:1000px; overflow:hidden; border:solid 3px #6dabf8}
+
+/* 프로그램 개요_개요 */
+.prog_outline { padding:17px 40px 0; background-color:#fff; height:1006px; }
+.prog_outline .prog_outline_area { float:left; margin:0 40px 0 0; }
+.prog_outline .prog_outline_last { float:left; }
+
+.prog_outline .box { clear:both; width:460px; padding:24px; }
+.prog_outline .box:after { content:""; height:0; display:block; visibility:hidden; clear:both; }
+.prog_outline .intro { position:relative; margin:0 0 10px 0; height:380px; }
+.prog_outline .intro h5 { float:left; font-size:24px; color:#222; }
+.prog_outline .intro .share { float:left; margin:4px 0 0 12px; }
+.prog_outline .intro  dl { clear:both; width:208px; padding:18px 0 0 0; }
+.prog_outline .intro  dl dt { float:left; height:12px; width:64px; padding:7px 0 6px 5px; font-weight:bold; color:#222; border-top:dashed 1px #e0e1e5; }
+.prog_outline .intro  dl dd { float:right; height:12px; width:139px; padding:7px 0 6px; border-top:dashed 1px #e0e1e5; }
+.prog_outline .intro .border_none { border:0; }
+.prog_outline .intro .moudle_ad_small img { position:absolute; left:25px; bottom:25px; }
+.prog_outline .intro .photo { position:absolute; right:25px; bottom:25px; width:212px; height:343px; }
+.prog_outline .intro .text_link_b { position:absolute; top:25px; right:25px; }
+.prog_outline .prog_desc { position:relative; height:380px; }
+.prog_outline .prog_desc h6 { float:left; }
+.prog_outline .box .tab_cont li { display:none; }
+.prog_outline .box .tab_cont li.on { display:block; }
+.prog_outline .box .tab_cont em { display:inline-block; margin:24px 0 15px; font-weight:bold; }
+.prog_outline .box .tab_cont p { line-height:21px; color:#7a7c80; }
+.prog_outline .box .tab_cont .list_paging_wrap { top:auto; bottom:0; right:0; }
+
+.open_forum_outline { background-color:#fafafa; }
+.forum_comment_outline { padding:45px 40px 0; background-color:#fff; }
+
+/* 프로그램 개요_등장인물 */
+.prog_outline .character { position:relative; width:300px; padding:0; }
+.prog_outline .character_tab { position:relative; height:50px; background-color:#6dabf8; overflow:hidden; }
+.prog_outline .character_tab .tab_area { width:250px; margin:0 auto; overflow:hidden; }
+.prog_outline .character_tab ul { width:10000px; }
+.prog_outline .character_tab li { float:left; padding:0 10px; }
+.prog_outline .character_tab li button { margin:18px 0 0 0; font-size:13px; font-weight:bold; color:#fff; }
+.prog_outline .character_tab li button.on { color:#ffeb43; }
+.prog_outline .character_tab .btns { position:absolute; top:15px; width:10px; height:19px; font:arial 0/0; text-indent:-99999px; overflow:hidden; background:url('http://image.sbs.co.kr/sbs/tv/program_sub/set_tab_character.png') no-repeat; }
+.prog_outline .character_tab .prev { left:15px; }
+.prog_outline .character_tab .next { right:15px; background-position:right 0; }
+.character_cont{padding:25px 0 0 25px}
+.character_cont .character_list > li{display:none}
+.character_cont .character_list > li.on{display:block}
+.prog_outline .character .module_wrap { width:300px; overflow:hidden; +padding-bottom:25px}	
+.prog_outline .character .module_wrap .module_starfan { float:left; margin:0 20px 25px 0; }
+.prog_outline .character .module_starfan .photo { width:108px; height:108px; }
+.prog_outline .character .module_starfan .star_name { color:#959595; }
+.prog_outline .character .module_starfan .star_name em { color:#404040; }
+.prog_outline .character .fan_flag, .prog_outline .character .im_fan_flag { top:10px; right:20px; }
+.prog_outline .character .has_fand { width:108px; height:68px; }
+.prog_outline .character .list_paging_wrap { position:static; float:right; margin:0 24px 24px 0; }
+
+.prog_outline .moudle_ad_two img { margin:10px 0 0 0; }
+
+.prog_outline .char_intro { margin:30px 0 10px; }
+.prog_outline .char_intro h5 em { display:block; float:left; padding:0 10px 0 0; margin:0 10px 0 0; color:#6dabf8; background:url('http://image.sbs.co.kr/sbs/tv/program_sub/icon_bar_gray.png') no-repeat right; }
+.prog_outline .profile_photo { position:absolute; bottom:25px; }
+.prog_outline .profile_photo em { font-weight:bold; font-size:13px; color:#222; }
+.prog_outline .profile_photo .like_user_list { margin:10px 0 0 0; }
+.prog_outline .profile_photo .like_user_list li { float:left; margin:0 3px 0 0; }
+.prog_outline .profile_photo .like_user_list li img { width:48px; height:48px; border:solid 1px #d8d8d8; }
+.prog_outline .profile_photo .btn_more { position:absolute; right:0; top:0; }
+.prog_outline .profile_photo .btn_more a { display:block; width:13px; height:13px; line-height:100px; overflow:hidden; vertical-align:top; background-position:-38px 0}
+
+.tab_type02 .title {display:block; width:92px; height:30px; line-height:28px; border:solid 1px #727a85; text-align:center; color:#fff; font-size:13px; font-weight:bold; background-color:#727a85; }
+.attend .tab_type02 { height:100%; }
+
+/* 방청신청 */
+.prog_attend { padding:17px 0 0 40px; background-color:#fff; height:1006px; }
+.prog_attend:last-child { padding:17px 40px 0 40px; }
+.prog_attend .prog_attend_area { float:left; margin:0 40px 0 0; }
+
+.prog_attend .box { position:relative; clear:both; width:472px; height:392px; padding:18px; }
+.prog_attend .box:after { content:""; height:0; display:block; visibility:hidden; clear:both; }
+.prog_attend .attend h4 { float:left; }
+.prog_attend .attend .notice { width:440px; border-bottom:solid 1px #e6e6e6; padding:35px 20px 18px 0; }
+.prog_attend .attend .notice_report { width:450px; padding:20px 20px 18px 0; }
+.prog_attend .attend .notice em { font-size:13px; color:#ff4445; font-weight:bold; }
+.prog_attend .attend .text_link_b { position:absolute; top:35px; right:20px; }
+
+.prog_attend .prog_attend_area .attend_agree { margin:30px 0 10px; }
+.prog_attend .attend_agree { margin:10px 0 0 0; }
+.prog_attend .attend_agree h5 { font-size:24px; color:#222; }
+.prog_attend .attend_agree .desc { margin:20px 0 30px; border-top:solid 1px #d8dade; border-bottom:solid 1px #d8dade; }
+.prog_attend .attend_agree dl { padding:10px 20px; }
+.prog_attend .attend_agree dt { display:block; padding:0 0 10px 0; color:#404040; font-weight:bold; font-size:14px; }
+.prog_attend .attend_agree dd { color:#7a7c80; font-weight:bold; }
+.prog_attend .attend_agree dl.bg { background-color:#f6f8f9; }
+.prog_attend .attend_agree label { margin:0 0 0 5px; color:#7a7c80; }
+.prog_attend .attend_agree .btn_type_a { float:right; margin:-10px 0 0 0; }
+
+.prog_attend .prog_attend_group li { display:none; padding:18px 0 0 0; }
+.prog_attend .prog_attend_group li.on { display:block; }
+.prog_attend .attend .photo { margin:20px 0 0 0; }
+.prog_attend .attend .photo img { width:472px; height:130px; }
+.prog_attend .attend .tit_group { margin:20px 0 0 0; font-weight:bold; font-size:24px; letter-spacing:-1px; line-height:1.3; }
+.prog_attend .attend .tit_group em { color:#6dabf8; }
+.prog_attend .attend .con_group { margin:15px 0 5px; line-height:22px; letter-spacing:-1px; color:#7a7c80; }
+.prog_attend .attend .info_group li { display:block; padding:8px 0 0 7px; letter-spacing:-1px; color:#7a7c80; background:url('http://image.sbs.co.kr/sbs/tv/program_sub/icon_dot_black.gif') no-repeat 0 13px; }
+.prog_attend .attend .info_group li em { display:inline-block; margin:0 5px 0 0; letter-spacing:0; font-weight:bold; color:#404040; }
+.prog_attend .attend .info_group li a { color:#7a7c80; }
+.prog_attend .list_paging_wrap { position:absolute; right:0; top:-30px; }
+
+.prog_attend .win { height:auto; }
+.prog_attend .win em { font-weight:bold; color:#333; }
+.prog_attend .win select { width:342px; margin:0 5px 0 10px; }
+.prog_attend .win_desc { margin:0 0 0 20px; padding:8px 0 0 7px; color:#959595; background:url('http://image.sbs.co.kr/sbs/tv/program_sub/icon_dot_gray.gif') no-repeat 0 13px; }
+.prog_attend .win_check { position:relative; height:282px; padding:0 18px 18px; margin:25px 0 0 0; }
+.prog_attend .win_check li { display:none; padding:18px 0 0 0; }
+.prog_attend .win_check li.on { display:block; }
+.prog_attend .win_check .list_paging_wrap { top:auto; bottom:18px; right:18px; }
+
+.prog_attend .map .list_paging_wrap { top:18px; right:18px; }
+.prog_attend .map { margin:10px 0 0 0; padding:30px 18px 18px 18px; height:380px; }
+.prog_attend .map dl { padding:0 0 25px 0; }
+.prog_attend .map dl:after { content:""; height:0; display:block; visibility:hidden; clear:both; }
+.prog_attend .map dt { float:left; padding:0 0 0 7px; color:#404040; font-weight:bold; font-size:13px; background:url('http://image.sbs.co.kr/sbs/tv/program_sub/icon_dot_black.gif') no-repeat 0 7px; }
+.prog_attend .map dd.address { float:right; padding:0 0 0 12px; color:#7a7c80; font-size:13px; background:url('http://image.sbs.co.kr/sbs/tv/program_sub/icon_map.gif') no-repeat 0 0; }
+
+/* 제보하기 */
+.prog_attend .report { width:508px; height:428px; padding:0; }
+.prog_attend .report_img { width:472px; height:356px; padding:54px 18px 18px 18px; }
+.prog_attend .report_img p { color:#7a7c80; line-height:1.5; }
+.prog_attend .report .text_area { position:absolute; z-index:1; top:78px; left:30px; width:265px; }
+.prog_attend .report .con_group { margin:15px 0 5px; line-height:22px; letter-spacing:-1px; color:#7a7c80; }
+.prog_attend .report .info_group li { display:block; padding:8px 0 0 7px; color:#7a7c80; background:url('http://image.sbs.co.kr/sbs/tv/program_sub/icon_dot_black.gif') no-repeat 0 13px; }
+.prog_attend .report .info_group li em { display:inline-block; margin:0 5px 0 0; font-weight:bold; color:#404040; }
+
+.prog_attend .report_list { width:472px; height:392px; padding:18px; }
+.prog_attend .report_space { margin:10px 0 0 0; }
+.prog_attend .report h4 { color:#222; font-size:24px; }
+.prog_attend .report ul li { display:none; }
+.prog_attend .report ul li.on { display:block; }
+.prog_attend .report .list_paging_wrap { top:18px; right:18px; }
+
+.prog_attend .agree_area { clear:both; padding:40px 0 0 0; text-align:right; color:#7a7c80; }
+.prog_attend .btns_warp { margin:30px 0 0 0; text-align:center; }
+.prog_attend .btns_warp .btn_type_a input { text-align:center; }
+
+/* 팝업 */
+.dimd { position:absolute; width:100%; height:100%; z-index:998; background-color:#000; filter:alpha(opacity=50); opacity:0.5; }
+.popup_wrap { position:absolute; width:488px; height:468px; z-index:999; background-color:#fff; border:solid 1px #b9b9b9; box-shadow:5px 5px 5px #777; }
+.popup_wrap h5 { padding:18px 0 18px 18px; margin:-1px -1px 0 -1px; background-color:#6dabf8; font-size:16px; color:#fff; }
+.popup_wrap .close { position:absolute; top:15px; right:18px; width:22px; height:22px; overflow:hidden; font:arial 0/0; text-indent:-9999px; background:url('http://image.sbs.co.kr/sbs/tv/program_sub/btn_close_popup.png') no-repeat; }
+.popup_wrap .pop_cont { padding:18px; }
+.popup_wrap .wallpaper { width:488px; overflow:hidden; }
+.popup_wrap .wallpaper li { position:relative; float:left; margin:0 10px 10px 0; cursor:pointer; }
+.popup_wrap .wallpaper li img { width:142px; height:106px; border:solid 1px #d1d5da; }
+.popup_wrap .wallpaper li .size { position:absolute; top:0; left:0; z-index:1; padding:2px 0 0 2px; display:none; }
+.popup_wrap .wallpaper li .size a { display:block; float:left; width:68px; height:30px; padding:20px 0 0 0; margin:1px; color:#fff; font-family:Verdana; font-size:10px; text-align:center; background:url('http://image.sbs.co.kr/sbs/tv/program_sub/bg_wallpaper.png') repeat; }
+.popup_wrap .wallpaper li .size a:hover { background:url('http://image.sbs.co.kr/sbs/tv/program_sub/bg_wallpaper_on.png') repeat; }
+.popup_wrap .list_paging_wrap { right:18px; top:auto; bottom:18px; }
+
+/*공통*/
+.module_wrap .module_starfan{float:left; margin:0 20px 10px 0}
+
+
+/* resize 
+------------------------------------------ */
+/* 높이 < 810px */ 
+#wrap.small .program_visual img.bg_image{margin:-100px 0 0}
+#wrap.small .program_visual.img_type{width:944px}
+#wrap.small .program_visual.img_type img.bg_image{margin:0; width:auto; height:522px}
+#wrap.small .prog_comment,
+#wrap.small .prog_photo_movie,
+#wrap.small .prog_discuss,
+#wrap.small .open_forum,
+#wrap.small .head_cont,
+#wrap.small .prog_event,
+#wrap.small .forum_comment{height:524px}
+#wrap.small .prog_discuss .advertising{display:none}
+#wrap.small .category_area{height:194px}
+
+/* 810px =< 높이 < 1006px */
+#wrap.normal .prog_comment,
+#wrap.normal .prog_photo_movie,
+#wrap.normal .prog_discuss,
+#wrap.normal .open_forum,
+#wrap.normal .head_cont,
+#wrap.normal .prog_event,
+#wrap.normal .forum_comment{height:760px}
+#wrap.normal .program_visual.img_type{width:1351px}
+#wrap.normal .program_visual.img_type img.bg_image{width:auto; height:758px}
+#wrap.normal .category_area{height:194px}
+
+/* 높이 >= 1006px */
+#wrap.big .prog_comment,
+#wrap.big .prog_photo_movie,
+#wrap.big .prog_discuss,
+#wrap.big .open_forum,
+#wrap.big .head_cont,
+#wrap.big .prog_event,
+#wrap.big .forum_comment{height:956px}
+#wrap.big .program_visual.img_type{width:1700px}
+#wrap.big .program_visual.img_type img.bg_image{width:auto; height:954px}
+
+/* 개발입힌후 삭제할 코드 */
+#wrap.small #contents .prog_discuss .twit_list li,
+#wrap.normal #contents .prog_discuss .twit_list li{display:none}
+
+#wrap.small #contents .prog_discuss .twit_list li:first-child,
+#wrap.normal #contents .prog_discuss .twit_list li:first-child{display:block}
+

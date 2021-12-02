@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* ------------------------------------------
+* Filename: radio.css
+* Description: 라디오 메인
+* Author: Fu:z
+------------------------------------------ */
+
+/* Main 
+------------------------------------------ */
+.radio #container > .inner{position:relative; width:100%; font-family:'Nanum Gothic', sans-serif}
+.radio #container > .inner:after{content:''; display:block; clear:both}
+.radio #container > .inner > div{float:left}
+
+.radio #second_head{position:relative}
+.radio .ch1077 .sel_program,
+.radio .ch1035 .sel_program{position:relative; margin:12px auto 0; z-index:2}
+.radio .sel_program .program_box{position:absolute; top:30px; left:0; width:77px; z-index:3; background:url(http://image.sbs.co.kr/sbs/common/bg_sel_program02.png) left bottom}
+.ch1077,
+.ch1035{position:relative}
+.ch1077{padding:290px 0 22px; border-bottom:1px solid #67727e; z-index:2}
+.ch1077 img{margin:0 0 0 18px}
+
+.ch1035{padding-top:22px; z-index:1}
+.ch1035 img{margin:0 0 0 18px}
+
+.bot_box{position:absolute; bottom:0; left:0}
+.bot_box > div{position:relative; width:100%}
+.bot_box .relation{width:96px; padding:18px 16px; border:1px solid #67727b; background:#727b87}
+.bot_box .relation ul{padding:5px 0 0; border-top:1px solid #838b96}
+.bot_box .relation ul li{margin:5px 0 0; padding-left:17px; background:url(http://image.sbs.co.kr/sbs/radio/bul_arr_square.png) no-repeat left center}
+.bot_box .relation ul:first-child{padding:0 0 5px; border-top:0; border-bottom:1px solid #616973}
+.bot_box .relation ul:first-child li{margin:0 0 5px}
+.bot_box .notice{padding:18px 18px 20px}
+.bot_box .notice div{margin-bottom:10px}
+.bot_box .notice div img{display:block; margin-bottom:5px}
+.bot_box .notice div a{padding-left:5px; font-size:11px; color:#3a3f46 !important; background:url(http://image.sbs.co.kr/sbs/radio/bul_dot.png) no-repeat left center}
+
+.btn_rela{display:none; width:90px; height:21px; margin:0 auto; background:url(http://image.sbs.co.kr/sbs/radio/btn_relation_plus.png)}
+
+.ad_area{border-left:1px solid #535b66; border-right:1px solid #fff}
+.ad_pack a{display:block; position:relative; width:300px; border-bottom:1px solid #fff}
+.ad_pack a div{position:absolute; left:20px; bottom:20px; color:#fff}
+.ad_pack a div p{margin-bottom:5px; font-size:14px; font-weight:bold}
+.ad_pack a div p strong{font-size:18px}
+.ad_pack a div p span{margin:0 10px; font-weight:normal; font-size:12px}
+.ad_pack .paging{height:28px; padding:10px 10px 0 0; text-align:right}
+.ad_pack .paging a{display:inline}
+.ad_pack .paging a img{border:1px solid #d0d5db}
+.ad_pack .paging span{margin-right:10px; color:#a3a3a3}
+.ad_pack .paging span strong{font-weight:normal; color:#222}
+.ad_pack .paging span + a img{border-right:0}
+
+.corner{width:100%}
+.corner:after{content:''; display:block; clear:both}
+.corner > div > div{float:left; position:relative}
+.corner > div > div:first-child .img_area > img{left:0}
+
+.power > div{width:361px; height:477px}
+.power > div > *{position:absolute; left:0}
+.power > div > .img_area{top:0}
+.power > div > .timeline{bottom:0}
+
+.img_area{position:relative; width:360px; color:#fff; padding-right:1px; overflow:hidden}
+.img_area > img{position:absolute; right:1px; top:50%; margin-top:-227px}
+.img_area > div{position:absolute}
+.img_area .bora_box{top:35px; left:30px}
+.img_area .bora_box span{padding:5px; font-size:11px; color:#fff; background:url(http://image.sbs.co.kr/sbs/radio/bg_bora.png)}
+.img_area .bora_box a{margin-right:4px; padding:4px; color:#fff; background:#ff8800}
+.img_area .lik{top:30px; right:30px; font-size:13px; font-weight:bold}
+.img_area .lik a{position:relative; top:-1px; margin-right:3px}
+.img_area .cor_tit{bottom:30px; left:30px; font-weight:bold}
+.img_area .cor_tit a{display:block; margin-bottom:5px; font-size:30px; line-height:1.2; color:#fff}
+.img_area .cor_tit p{font-size:15px}
+.img_area .cor_tit p span{margin-right:10px; padding-right:10px; background:url(http://image.sbs.co.kr/sbs/radio/bg_stick.png) no-repeat right center}
+
+.timeline{position:relative; width:360px; height:23px; border-right:1px solid #c5ccd4; z-index:2; background:#c5ccd4}
+.timeline:after{content:''; display:block; clear:both}
+.timeline > div{float:left; position:relative; width:25%; height:23px; background:url(http://image.sbs.co.kr/sbs/radio/bg_gap.png) repeat-y right top}
+.timeline > div:hover{background:#acb4bd}
+.timeline > div.onair{background:#6dabf8}
+.timeline > div.onair > span{font-weight:bold; color:#fff}
+.timeline.tmrrw{background:#fff}
+.power .timeline > div{width:100%}
+
+.pro > *{position:absolute; z-index:3}
+.pro > span{color:#000}
+.pro .start{top:5px; left:5px}
+.pro .end{top:5px; right:5px}
+
+.pop{display:none}
+
+.power .pop{bottom:15px; left:50%; margin-left:-110px}
+.pop > div{position:relative; width:347px}
+.pop > div > div{position:absolute; top:45px; right:34px; width:150px; text-align:center; color:#fff}
+.pop > div > div .time{font-size:14px}
+.pop > div > div p{margin:10px 0; font-size:17px; font-weight:bold; line-height:1.2; letter-spacing:-1px; color:#ffde00}
+.pop > div > div p + span{display:block; line-height:1.5; letter-spacing:-1px; text-align:left}
+.pop > div > a{position:absolute; bottom:28px; right:98px}
+
+.love .pop > div > div{position:absolute; top:55px; right:34px; width:150px; text-align:center; color:#fff}
+.love .pop > div > a{position:absolute; bottom:18px; right:98px}
+.love .pop{top:15px; left:50%; margin-left:-110px}
+.love .gap .pop{margin-left:0}
+
+
+.timeline .gap{position:relative; width:10%; background:url(http://image.sbs.co.kr/sbs/radio/bg_gap.png) repeat-y right top}
+.timeline .gap + .pro{width:324px}
+.timeline .pro + .gap + .gap,
+.timeline .pro + .gap{position:relative; width:10%; background:url(http://image.sbs.co.kr/sbs/radio/bg_gap.png) repeat-y left top}
+
+.gap .pop{position:absolute; left:50%}
+.gap .pop > div{position:relative; width:215px; margin-left:-107px}
+.gap .pop > div span{text-align:center}
+.gap .pop > div div{top:99px; right:0; width:100%}
+.gap .pop > div div p{margin:8px 0 3px}
+.gap .pop > div > a{position:absolute; bottom:25px; right:99px}
+
+.power .gap .pop > div div{top:89px}
+.power .gap .pop > div > a{bottom:40px; right:99px}
+
+.love .timeline{height:22px; border-top:1px solid #abb2ba}
+.love .timeline > div{height:22px}
+
+
+.big .img_area{height:454px}
+.big .ad_pack{height:705px}
+.big .paging{display:none}
+
+.normal .img_area{height:357px}
+.normal .ad_pack{height:508px}
+.normal .power > div{height:380px}
+.normal .ch1077{padding:230px 0 22px}
+.normal .step2{display:none}
+
+.small .img_area{height:239px}
+.small .ad_pack{height:273px}
+.small .power > div{height:262px}
+.small .ch1077{padding:113px 0 22px}
+.small .bot_box .relation{display:none; position:absolute; right:-242px; top:-44px; width:198px; height:67px; padding:20px 20px 20px 28px; border:0; background:url(http://image.sbs.co.kr/sbs/radio/bg_relation.png)}
+.small .bot_box .relation ul{width:100%}
+.small .bot_box .relation ul:after{content:""; display:block; clear:both}
+.small .bot_box .relation ul li{float:left; width:82px}
+.small .btn_rela{display:block}
+.small .step1,
+.small .step2{display:none}
+
+/* Sub 
+------------------------------------------ */
+/* 라디오 선곡표 */
+.radio_contents{position:relative; padding:0 !important}
+.radio_contents:after{content:""; display:block; clear:both}
+.radio_top_head{position:absolute !important; top:0 !important; left:40px; width:510px}
+.radio_top_head:after{content:""; display:block; clear:both}
+.radio_top_head h3{float:left}
+.radio_top_head .admin{float:left; padding:0 17px; line-height:25px; font-weight:bold; background-position:0 -68px}
+.radio_top_head .select_date{float:left}
+.radio_selection:after{content:""; display:block; clear:both}
+.radio_selection li{overflow:hidden} /* ie7 */
+.radio_selection .sel_item{position:relative; float:left; padding:50px 40px 0; width:510px}
+.radio_selection .sel_item.bg{background-color:#fff}
+.radio_selection .sel_item h4, .radio_selection .sel_list h5, .radio_selection .detail_list li{height:50px; line-height:50px}
+.radio_selection .sel_item h4{text-align:center; font-size:18px; color:#fff; background-color:#727b87}
+.radio_selection .sel_list h5{padding-left:19px; font-size:16px; color:#6dabf8; background-color:#f6f8f9}
+.radio_selection .sel_item.bg .sel_list h5{background-color:#eceef1}
+.radio_selection .sel_list > li{display:none}
+.radio_selection .sel_list > li.on{display:block}
+.radio_selection .detail_list li{padding-left:24px; font-weight:bold; font-size:14px; color:#404040; border-bottom:dashed 1px #dde1e4}
+.radio_selection .detail_list li.last{border-bottom:0}
+.radio_selection .sel_item .list_paging_wrap{position:absolute; top:auto; right:40px}
+
+/* resize 
+------------------------------------------ */
+/* 높이 < 810px */ 
+#wrap.small .sel_item{height:524px}
+#wrap.small .radio_selection .sel_item .list_paging_wrap{bottom:131px}
+
+/* 810px =< 높이 < 1006px */
+#wrap.normal .sel_item{height:760px}
+#wrap.normal .radio_selection .sel_item .list_paging_wrap{bottom:115px}
+
+/* 높이 >= 1006px */
+#wrap.big .sel_item{height:956px}
+#wrap.big .radio_selection .sel_item .list_paging_wrap{bottom:109px}

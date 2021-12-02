@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* ------------------------------------------
+* Filename: import.css
+* Description: Import css
+* Author: Fu:z
+------------------------------------------ */
+@import url('../news/common.css');      /* css 초기화 & 공통요소 */
+@import url('../news/layout.css');      /* Layout */
+@import url('../news/main.css');        /* SBS Main */
+@import url('../news/drama.css');       /* Drama */
+@import url('../news/starcol.css');     /* Star Collection */
+@import url('../news/program.css');     /* Program */
+@import url('../news/program02.css');     /* Program (나중에 program.css만 불러올것임) */
+@import url('../news/radio.css');       /* Radio */
+@import url('../news/tvjobs.css');      /* TV Jobs */
+@import url('../news/tvview.css');      /* TV View */
